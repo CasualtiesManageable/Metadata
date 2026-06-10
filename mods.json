@@ -11,7 +11,7 @@
           "source": "https://github.com/CasualtiesManageable/ExamplePlugin"
       },
       "download": {
-        "downlaodUrl": "https://github.com/CasualtiesManageable/ExamplePlugin/releases/download/v1.0.0.0/Plugin.zip"
+        "downloadUrl": "https://github.com/CasualtiesManageable/ExamplePlugin/releases/download/v1.0.0.0/Plugin.zip"
       }
   },
   {
@@ -27,7 +27,7 @@
       "donate": "https://buymeacoffee.com/krokosha666"
     },
     "download": {
-      "downlaodUrl": "https://github.com/Krokosha666/cas-unk-krokosha-multiplayer-coop/releases/download/v3.1.0/KrokMP_3.1.0_release_game7.0.1demo_bepinex5.4.23.5.zip",
+      "downloadUrl": "https://github.com/Krokosha666/cas-unk-krokosha-multiplayer-coop/releases/download/v3.1.0/KrokMP_3.1.0_release_game7.0.1demo_bepinex5.4.23.5.zip",
       "customArchiveMapping": {
         "mod": ""
       }
