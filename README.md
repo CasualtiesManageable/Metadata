@@ -27,18 +27,18 @@ Add your entry to the array in `mods.json`:
 
 ```jsonc
 {
-  "id": "com.yourname.modname",         // Required. Unique reverse-domain ID
-  "name": "Your Mod Name",              // Required. Display name shown in the launcher
-  "version": "1.0.0",                   // Required. Must match your latest release tag
-  "description": "What your mod does.", // Required. Short description (1–2 sentences)
-  "author": "YourName",                 // Required. Your display name or GitHub username
-  "requiredGameVersion": "7.0.1",       // Required. Minimum compatible game version
+  "id": "com.yourname.modname",          // Required. Unique reverse-domain ID
+  "name": "Your Mod Name",               // Required. Display name shown in the launcher
+  "version": "1.0.0",                    // Required. Must match your latest release tag
+  "description": "What your mod does.",  // Required. Short description (1–2 sentences)
+  "author": "YourName",                  // Required. Your display name or GitHub username
+  "requiredGameVersion": "7.0.1",        // Required. Minimum compatible game version
 
   "links": {
-    "icon": "https://...",              // Optional. Direct URL to your mod's icon image
-    "source": "https://github.com/...", // Optional. Link to your source repository
-    "support": "https://discord.gg/...",// Optional. Discord or forum support link
-    "donate": "https://..."             // Optional. Donation link
+    "icon": "https://...",               // Optional. Direct URL to your mod's icon image
+    "source": "https://github.com/...",  // Optional. Link to your source repository
+    "support": "https://discord.gg/...", // Optional. Discord or forum support link
+    "donate": "https://..."              // Optional. Donation link
   },
 
   "download": {
