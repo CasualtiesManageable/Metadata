@@ -15,6 +15,12 @@
     <img src="https://img.shields.io/badge/Ko--fi-%23F16061.svg?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi">
   </a>
 </p>
+<p align="center">
+  Also join Casualties Unknown Modding Community:<br>
+  <a href="https://discord.gg/BRAhfQRsUe">
+    <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
+  </a>
+</p>
 
 ---
 
@@ -49,6 +55,10 @@ Add your entry to the array in `mods.json`:
     "support": "https://discord.gg/...", // Optional. Discord or forum support link
     "donate": "https://..."              // Optional. Donation link
   },
+
+  "dependencies": [                      // Optional. Array of mod IDs that this mod requires
+    "com.otherauthor.requiredmod"
+  ],
 
   "download": {
     "downloadUrl": "https://github.com/.../releases/download/v1.0.0/Plugin.zip",
