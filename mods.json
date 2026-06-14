@@ -12,12 +12,7 @@
       "donate": "https://buymeacoffee.com/krokosha666",
       "nexusMods": "https://www.nexusmods.com/scavprototype/mods/67"
     },
-    "download": {
-      "downloadUrl": "https://github.com/Krokosha666/cas-unk-krokosha-multiplayer-coop/releases/download/v3.1.0/KrokMP_3.1.0_release_game7.0.1demo_bepinex5.4.23.5.zip",
-      "customArchiveMapping": {
-        "mod": ""
-      }
-    }
+    "downloadUrl": "https://github.com/Krokosha666/cas-unk-krokosha-multiplayer-coop"
   },
   {
     "id": "com.05126619z.changeskin-multiplayer",
@@ -33,12 +28,7 @@
     "dependencies": [
       "com.krokosha666.cas-unk-krokosha-multiplayer-coop"
     ],
-    "download": {
-      "downloadUrl": "https://github.com/05126619z/ChangeSkin-Multiplayer/releases/download/v3.1.0/ChangeSkinMP.zip",
-      "customArchiveMapping": {
-        "": "BepInEx\\plugins"
-      }
-    }
+    "downloadUrl": "https://github.com/05126619z/ChangeSkin-Multiplayer"
   },
   {
     "id": "com.jimmyking.qol_unknown",
@@ -48,13 +38,10 @@
     "author": "Jimmyking",
     "requiredGameVersion": "7.0.1",
     "links": {
-      "icon": "https://media.discordapp.net/attachments/1460075459604910334/1461054720515899492/Logo.png?ex=6a2cef7e&is=6a2b9dfe&hm=5895b337d6d827498a5a4360957e27d6642eb6c87498e38afb15840b69947859&=&format=webp&quality=lossless",
-      "source": "https://github.com/jimmyking9999999/QoL-Unknown/",
+      "icon": "https://i.ibb.co/PZssCsJv/550295680-96fe38ed-0df2-4a25-95f6-498e4627938f.png",
       "nexusMods": "https://www.nexusmods.com/scavprototype/mods/7"
     },
-    "download": {
-      "downloadUrl": "https://github.com/jimmyking9999999/QoL-Unknown/releases/download/v1.0.4.5/QoL.Unknown.dll"
-    }
+    "downloadUrl": "https://github.com/jimmyking9999999/QoL-Unknown/"
   },
   {
     "id": "com.jimmyking.morestructures",
@@ -64,16 +51,10 @@
     "author": "Jimmyking",
     "requiredGameVersion": "7.0.1",
     "links": {
-      "icon": "https://media.discordapp.net/attachments/1460075459604910334/1461054739343999229/Logo.png?ex=6a2cef82&is=6a2b9e02&hm=81cc0762178d7776f75ec3247bec5b446e31d4cf4a14c62289928b9f3bb0e02d&=&format=webp&quality=lossless",
-      "source": "https://github.com/jimmyking9999999/CU-Custom-Structures",
+      "icon": "https://i.ibb.co/YBT19CcB/552554491-e5339102-374f-4d4d-904d-f3b21a762686.png",
       "nexusMods": "https://www.nexusmods.com/scavprototype/mods/9"
     },
-    "download": {
-      "downloadUrl": "https://github.com/jimmyking9999999/CU-Custom-Structures/releases/download/v1.2.1/Custom.Structures.zip",
-      "customArchiveMapping": {
-        "": "BepInEx\\plugins"
-      }
-    }
+    "downloadUrl": "https://github.com/jimmyking9999999/CU-Custom-Structures/"
   },
   {
     "id": "org.casualties.manageable.exampleplugin",
@@ -86,8 +67,6 @@
       "icon": "https://raw.githubusercontent.com/CasualtiesManageable/ExamplePlugin/master/.github/assets/icon.jpg",
       "source": "https://github.com/CasualtiesManageable/ExamplePlugin"
     },
-    "download": {
-      "downloadUrl": "https://github.com/CasualtiesManageable/ExamplePlugin/releases/download/v1.0.0.0/Plugin.zip"
-    }
+    "downloadUrl": "https://github.com/CasualtiesManageable/ExamplePlugin"
   }
 ]
