@@ -1,0 +1,32 @@
+name: Sync nexusmods.json
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 13 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Download nexusmods.json
+        run: curl -fsSL "https://raw.githubusercontent.com/jimmyking9999999/Metadata/main/nexusmods.json" -o nexusmods.json
+
+      - name: Commit updated nexusmods.json
+        run: |
+          if git diff --quiet -- nexusmods.json; then
+            echo "nexusmods.json is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add nexusmods.json
+          git commit -m "Sync nexusmods.json"
+          git push
