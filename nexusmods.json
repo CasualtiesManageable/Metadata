@@ -1,5 +1,65 @@
 [
     {
+        "Id": "nexus-360",
+        "Name": "MistalCry's Map",
+        "Version": "1.0.0",
+        "bepinexVersion": "0.1.0",
+        "Description": "[b]中文/English[/b]\n<br />MistalCrysMap 是一个给 Casualties Unknown Demo 使用的轻量地图模组，提供小地图和大地图功能，方便探索、回路、寻找资源和避开危险。\n<br />[size=5]主要功能：[/size]\n<br />[list]\n<br />[*]显示小地图和大地图[/*]\n<br />[*]支持探索迷雾模式[/*]\n<br />[*]显示可交互资源、陷阱、商人、怪物、掉落物和 长老[/*]\n<br />[*]大地图顶部可以单独开关不同类别的标记[/*]\n<br />[*]支持鼠标中键放置导航标记，并显示玩家到标记点的指示线[/*]\n<br />[*]玩家位置带呼吸光圈，更容易在大地图上找到自己[/*]\n<br />[*]可选显示游戏对象自带精灵图，默认关闭[/*]\n<br />[/list][size=4]如果不开精灵图，图标会这样显示：[/size]\n<br />[list]\n<br />[*]可交互的物体和容器显示为较亮的灰蓝色方块。[/*]\n<br />[*]交易者以绿色的 `$` 标记显示。[/*]\n<br />[*]敌人以红色小方块显示，其标记位置会随着移动而变化。[/*]\n<br />[*]荆棘背长老作为独立的boss标记显示，并可在大地图上单独切换。[/*]\n<br />[*]掉落物品以持续的黄色点显示。[/*]\n<br />[/list][size=5]默认操作：[/size]\n<br />[size=4]你可以在设置里的游戏玩法（gameplay），更改默认按钮、是否开启探索模式、小地图的形状和大小[/size]\n<br />[list]\n<br />[*]M：显示或隐藏小地图，打开大地图时用于关闭大地图[/*]\n<br />[*]右键点击小地图：打开大地图[/*]\n<br />[*]滚轮：缩放地图[/*]\n<br />[*]大地图右键拖动：平移地图[/*]\n<br />[*]中键点击地图：放置或更新导航标记[/*]\n<br />[*]Clear Mark：删除导航标记[/*]\n<br />[/list][size=5]安装方法：[/size]\n<br />需要 BepInEx。\n<br />把 MistalCrysMap.dll 放入 BepInEx/plugins 文件夹，然后启动游戏即可。\n<br />设置项可以在游戏 Settings -&gt; Game 中找到。\n<br />\n<br />\n<br />[size=4][b]English Description[/b][/size]\n<br />MistalCrysMap is a lightweight map mod for Casualties Unknown Demo. It adds a minimap and a fullscreen map to make exploration, navigation, resource hunting, and danger awareness easier.\n<br />[size=5]Features:[/size]\n<br />[list]\n<br />[*]Adds a minimap and a fullscreen map[/*]\n<br />[*]Optional exploration fog mode[/*]\n<br />[*]Shows interactable resources, traps, traders, enemies, dropped items, and thornbackelder[/*]\n<br />[*]Fullscreen map category toggles[/*]\n<br />[*]Middle mouse waypoint marker with a guidance line from the player to the marker[/*]\n<br />[*]Breathing halo around the player marker for better visibility[/*]\n<br />[*]Optional sprite icons for map markers, disabled by default[/*]\n<br />[*]Performance optimizations for enemy-heavy layers, earthquakes, and block destruction updates[/*]\n<br />[/list][size=4][b]If the sprite image is not enabled, the icon will be displayed like this:[/b][/size]\n<br />[list]\n<br />[*]- Interactable objects and containers are shown as brighter gray-blue squares.[/*]\n<br />[*]- Traders are shown as green `$` markers.[/*]\n<br />[*]- Crystal enemies and animal enemies are shown as small red squares and their marker position follows movement.[/*]\n<br />[*]- Thornback Elder is shown as its own boss marker and can be toggled separately on the large map.[/*]\n<br />[*]- Dropped items are shown as persistent yellow dots.[/*]\n<br />[/list][size=5]Default Controls:[/size]\n<br />[size=4]You can change the default buttons, whether to enable the exploration mode, the shape and size of the mini-map, etc. in the \"Gameplay\" section of the settings.[/size]\n<br />[list]\n<br />[*]M: Show or hide the minimap, or close the fullscreen map[/*]\n<br />[*]Right click minimap: Open fullscreen map[/*]\n<br />[*]Mouse wheel: Zoom map[/*]\n<br />[*]Right drag on fullscreen map: Pan map[/*]\n<br />[*]Middle click on map: Place or update waypoint marker[/*]\n<br />[*]Clear Mark: Remove waypoint marker[/*]\n<br />[/list][size=5]Installation:[/size]\n<br />Requires BepInEx.\n<br />Put MistalCrysMap.dll into the BepInEx/plugins folder, then start the game.\n<br />Settings can be found under Settings -&gt; GamePlay.",
+        "Author": "MistalCry",
+        "Links": {
+            "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/360/360-1782531052-1291317646.png",
+            "NexusMods": "https://www.nexusmods.com/scavprototype/mods/360"
+        },
+        "DownloadUrl": "nexus://scavprototype/360/983",
+        "NexusGameDomain": "scavprototype",
+        "NexusModId": 360,
+        "SourceName": "Nexus",
+        "dllNames": [
+            "MistalCrysMap.dll"
+        ],
+        "dllVersion": "0.1.0",
+        "dllVersions": {
+            "MistalCrysMap.dll": "0.1.0"
+        },
+        "Statistics": {
+            "Endorsements": 1,
+            "UniqueDownloads": 25,
+            "TotalDownloads": 25,
+            "TotalViews": null
+        },
+        "Images": [
+            "https://staticdelivery.nexusmods.com/mods/8391/images/360/360-1782531052-1291317646.png"
+        ]
+    },
+    {
+        "Id": "nexus-358",
+        "Name": "Potato's Craft Everything MOD",
+        "Version": "v0.1",
+        "bepinexVersion": null,
+        "Description": "[size=4][b]Description[/b][/size]\n<br />[left][size=3][color=#D4D4D8]I've done some no loot runs, which basically means I couldn't get uncraftable items in the game. The whole point of the run was crafting what you needed, and I was sad to see that there wasn't many craftables, so, using CraftingFramework, I was able to add more crafting recipes` to the usually uncraftable items![/color][/size]\n<br />\n<br />Although I've tried my best, I'm not the best at balancing. If you think something is overpriced or underpriced in the game, tell me what you'd like me to change! (I want to keep this as balanced as possible.)\n<br />\n<br />[ ! MOD IS IN A WORK IN PROGRESS ! ]\n<br />\n<br />Currently only adds crafting for:\n<br />Arm Warmers, Automated External Defibrillator, Belly Armor, Carapace, Cardboard Box, Electronic Watch, Fanny Pack, Filter Straw, Grappling Hook, Grav-Bag, Holiday Hat, Jetpack, Latex Gloves, Leg Pouch, Liquid Centrifuge, Manual Defibrillator, Mp3 Player, Safety Glasses, Sleeping Bag, Torn Shirt, Trash Bag.[/left]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#d4d4d8]1. Set up CraftingFramework.\n<br />2. Locate the crafting framework file and click on it.\n<br />3. Drag and drop the contents of this mod into the recipes folder.\n<br />4. Should work :3[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[size=3][color=#D4D4D8]Makes almost all uncraftable items craftable.[/color][/size]\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#d4d4d8]Install CraftingFramework[/color]\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[color=#D4D4D8]XVoltyxX for making the CraftingFramework mod![/color]",
+        "Author": "Sp00kzie",
+        "Links": {
+            "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/358/358-1782503086-483111257.png",
+            "NexusMods": "https://www.nexusmods.com/scavprototype/mods/358"
+        },
+        "DownloadUrl": "nexus://scavprototype/358/981",
+        "NexusGameDomain": "scavprototype",
+        "NexusModId": 358,
+        "SourceName": "Nexus",
+        "dllNames": [],
+        "dllVersion": null,
+        "dllVersions": {},
+        "Statistics": {
+            "Endorsements": 0,
+            "UniqueDownloads": 24,
+            "TotalDownloads": 24,
+            "TotalViews": null
+        },
+        "Images": [
+            "https://staticdelivery.nexusmods.com/mods/8391/images/358/358-1782503086-483111257.png"
+        ]
+    },
+    {
         "Id": "nexus-353",
         "Name": "Pipebombs",
         "Version": "1",
@@ -22,9 +82,9 @@
             "Pipebombs.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 1,
-            "UniqueDownloads": 21,
-            "TotalDownloads": 21,
+            "Endorsements": 2,
+            "UniqueDownloads": 34,
+            "TotalDownloads": 38,
             "TotalViews": null
         },
         "Images": [
@@ -51,8 +111,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 19,
-            "TotalDownloads": 19,
+            "UniqueDownloads": 46,
+            "TotalDownloads": 52,
             "TotalViews": null
         },
         "Images": [
@@ -83,8 +143,8 @@
         },
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 49,
-            "TotalDownloads": 60,
+            "UniqueDownloads": 89,
+            "TotalDownloads": 104,
             "TotalViews": null
         },
         "Images": [
@@ -95,28 +155,28 @@
         "Id": "nexus-347",
         "Name": "Refill Jetpack with Oil",
         "Version": "1",
-        "bepinexVersion": "1.0.0",
-        "Description": "[color=#ff7700][size=4][b]Description[/b][/size][/color]\n<br />Jetpack Refuel adds a new way to maintain your Jetpack.\n<br />Hold CTRL and drag an oil-filled liquid container onto a Jetpack to open a fuel transfer window. Transfer oil into the Jetpack to restore its condition.\n<br />The amount of durability restored depends on how much oil is transferred.\n<br />\n<br />Current balance:\n<br />100 mL of oil = 10% Jetpack condition restored\n<br />\n<br />\n<br />[b][color=#ff7700][size=4]Installation instructions[/size][/color][/b]\n<br />1. Install BepInEx. and Mod\n<br />2. Extract \"mod.dll\" into:\n<br />Casualties Unknown Demo&#92;BepInEx&#92;plugins\n<br />\n<br />3. Launch the game.\n<br />\n<br />[color=#ff7700][size=4][b]Main features[/b][/size][/color]\n<br />[color=#D4D4D8]Refuel Jetpacks using oil. [/color]\n<br />\n<br />[color=#D4D4D8]To refuel a Jetpack:\n<br />• Fill a liquid container with oil.\n<br />• Hold CTRL.\n<br />• Drag the oil container onto the Jetpack. [/color]\n<br />\n<br />[b][color=#ff7700][size=4]Future plans[/size][/color][/b]\n<br />[color=#d4d4d8]- Multiplayer support ( currently, this only works for the host. )[/color]\n<br />\n<br />[color=#ff7700][size=4][b]Requirements[/b][/size][/color]\n<br />[size=4][b][color=#ffffff]• [/color][/b][/size][b][color=#d4d4d8][url=https://github.com/BepInEx/BepInEx/releases/]BepInEx[/url][/color][/b][color=#d4d4d8] For mods![/color]\n<br />",
+        "bepinexVersion": "1.1.0",
+        "Description": "[color=#ff7700][size=4][b]Description[/b][/size][/color]\n<br />Jetpack Refuel adds a new way to maintain your Jetpack.\n<br />Hold CTRL and drag an oil-filled liquid container onto a Jetpack to open a fuel transfer window. Transfer oil into the Jetpack to restore its condition.\n<br />The amount of durability restored depends on how much oil is transferred.\n<br />\n<br />Current balance:\n<br />100 mL of oil = 10% Jetpack condition restored\n<br />\n<br />\n<br />[b][color=#ff7700][size=4]Installation instructions[/size][/color][/b]\n<br />1. Install BepInEx. and Mod\n<br />2. Extract \"mod.dll\" into:\n<br />Casualties Unknown Demo&#92;BepInEx&#92;plugins\n<br />\n<br />3. Launch the game.\n<br />\n<br />[color=#ff7700][size=4][b]Main features[/b][/size][/color]\n<br />[color=#D4D4D8]Refuel Jetpacks using Oil. [/color]\n<br />\n<br />[color=#D4D4D8]To refuel a Jetpack:\n<br />• Fill a liquid container with oil.\n<br />• Hold CTRL.\n<br />• Drag the oil container onto the Jetpack. [/color]\n<br />\n<br />[b][color=#ff7700][size=4][Multiplay][/size][/color]\n<br />if you want to use this mod on the client side in multiplayer, the host must have the mod installed.\n<br />but if only the host installs the mod, clients can still play without any issues, but the mod features won't function for them.[/b]\n<br />\n<br />If you run into any issues with larger groups or find any bugs, please leave a post and let me know! xd \n<br />\n<br />[color=#ff7700][size=4][b]Requirements[/b][/size][/color]\n<br />[size=4][b][color=#ffffff]• [/color][/b][/size][b][color=#d4d4d8][url=https://github.com/BepInEx/BepInEx/releases/]BepInEx[/url][/color][/b][color=#d4d4d8] For mods![/color]\n<br />",
         "Author": "Elysian0166",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/347/347-1782303666-519440307.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/347"
         },
-        "DownloadUrl": "nexus://scavprototype/347/960",
+        "DownloadUrl": "nexus://scavprototype/347/982",
         "NexusGameDomain": "scavprototype",
         "NexusModId": 347,
         "SourceName": "Nexus",
         "dllNames": [
             "Refill_Jetpack_with_Oil.dll"
         ],
-        "dllVersion": "1.0.0",
+        "dllVersion": "1.1.0",
         "dllVersions": {
-            "Refill_Jetpack_with_Oil.dll": "1.0.0"
+            "Refill_Jetpack_with_Oil.dll": "1.1.0"
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 67,
-            "TotalDownloads": 87,
+            "UniqueDownloads": 86,
+            "TotalDownloads": 115,
             "TotalViews": null
         },
         "Images": [
@@ -126,7 +186,7 @@
     {
         "Id": "nexus-345",
         "Name": "Sanguinite Weaponry",
-        "Version": "1.0.0",
+        "Version": "1.0.1",
         "bepinexVersion": null,
         "Description": "[b][size=6]Overview:[/size]\n<br />[/b]\n<br />[size=4]Sanguinite Weaponry aims to add balanced blood-themed weapons/tools that are higher in tier above titanium. they are more durable, more specialized and very slowly restore their durability over time.[/size]\n<br />[size=4]The main component of sanguinite is red blood and titanium.[/size][b][size=4] [/size][/b][size=4]Due to the natural scarcity of red blood a custom crafting component, the \"blood precursor device\" was added to aid in its obtainment, allowing you to craft red blood through a balanced crafting recipie.[/size]\n<br />\n<br />[size=5][b]Important![/b][/size]\n<br />[size=4]Due to the fact that titanium only spawns in layer 5 as of 7.0.0 a mod called \"[url=https://www.nexusmods.com/scavprototype/mods/214]Titanium Restored[/url]\" is recommended to use alongside this mod.[/size]\n<br />\n<br />[size=6][b]Mod Contents:[/b][/size]\n<br />\n<br />[size=4][b]New weapons / tools:[/b][/size]\n<br />[size=4]- sanguinite saber[/size]\n<br />[size=4]- sanguinite claws[/size]\n<br />[size=4]- sanguinite scythe[/size]\n<br />[size=4]- sanguinite warhammer[/size]\n<br />[size=4][b]New utilities:\n<br />[/b]- brimflame lighter (disabled until fixed, sowwy :&lt;)\n<br />[b]Misc items:[/b]\n<br />- sanguinite blob[/size]\n<br />[size=4]- blood precursor device[/size]\n<br />\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />If you mod your game for first time (dont have BepInEx):\n<br />[spoiler]Show\n<br />Go to BepInEx download page\n<br />https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5\n<br />And download BepInEx_win_x64_5.4.23.5\n<br />Open steam, choose browse local file\n<br />Extract BepInEx contents into game folder's root (winhttp.dll should be in same folder as executable)\n<br />Open game once and close\n<br />Now folder BepInEx/plugins should be created[/spoiler]\n<br />If you already have BepInEx isnstalled then extract the contents of the zip. file into these specific folders:\n<br />extract \"SanguiniteWeaponry\" into the BepInEx/plugins folder\n<br />extract \"CraftingFramework\" into the BepInEx/plugins folder\n<br />(if you already have CraftingFramework just move the recipe file into the already existing folder)",
         "Author": "wictorias",
@@ -143,8 +203,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 83,
-            "TotalDownloads": 111,
+            "UniqueDownloads": 94,
+            "TotalDownloads": 133,
             "TotalViews": null
         },
         "Images": [
@@ -175,8 +235,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 169,
-            "TotalDownloads": 271,
+            "UniqueDownloads": 190,
+            "TotalDownloads": 297,
             "TotalViews": null
         },
         "Images": [
@@ -207,8 +267,8 @@
         },
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 16,
-            "TotalDownloads": 36,
+            "UniqueDownloads": 17,
+            "TotalDownloads": 40,
             "TotalViews": null
         },
         "Images": [
@@ -239,8 +299,8 @@
         },
         "Statistics": {
             "Endorsements": 8,
-            "UniqueDownloads": 537,
-            "TotalDownloads": 671,
+            "UniqueDownloads": 590,
+            "TotalDownloads": 746,
             "TotalViews": null
         },
         "Images": [
@@ -271,8 +331,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 180,
-            "TotalDownloads": 224,
+            "UniqueDownloads": 203,
+            "TotalDownloads": 257,
             "TotalViews": null
         },
         "Images": [
@@ -299,8 +359,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 115,
-            "TotalDownloads": 134,
+            "UniqueDownloads": 126,
+            "TotalDownloads": 148,
             "TotalViews": null
         },
         "Images": [
@@ -328,7 +388,7 @@
         "Statistics": {
             "Endorsements": 0,
             "UniqueDownloads": 13,
-            "TotalDownloads": 28,
+            "TotalDownloads": 31,
             "TotalViews": null
         },
         "Images": [
@@ -360,8 +420,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 333,
-            "TotalDownloads": 432,
+            "UniqueDownloads": 377,
+            "TotalDownloads": 490,
             "TotalViews": null
         },
         "Images": [
@@ -392,8 +452,8 @@
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 149,
-            "TotalDownloads": 188,
+            "UniqueDownloads": 165,
+            "TotalDownloads": 211,
             "TotalViews": null
         },
         "Images": [
@@ -425,8 +485,8 @@
         },
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 132,
-            "TotalDownloads": 156,
+            "UniqueDownloads": 148,
+            "TotalDownloads": 177,
             "TotalViews": null
         },
         "Images": [
@@ -453,8 +513,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 36,
-            "TotalDownloads": 46,
+            "UniqueDownloads": 40,
+            "TotalDownloads": 53,
             "TotalViews": null
         },
         "Images": [
@@ -485,8 +545,8 @@
         },
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 55,
-            "TotalDownloads": 78,
+            "UniqueDownloads": 59,
+            "TotalDownloads": 85,
             "TotalViews": null
         },
         "Images": [
@@ -517,8 +577,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 222,
-            "TotalDownloads": 246,
+            "UniqueDownloads": 234,
+            "TotalDownloads": 262,
             "TotalViews": null
         },
         "Images": [
@@ -549,8 +609,8 @@
         },
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 160,
-            "TotalDownloads": 233,
+            "UniqueDownloads": 168,
+            "TotalDownloads": 246,
             "TotalViews": null
         },
         "Images": [
@@ -580,9 +640,9 @@
             "ExpiePettingMod.dll": "1.0.1"
         },
         "Statistics": {
-            "Endorsements": 12,
-            "UniqueDownloads": 588,
-            "TotalDownloads": 721,
+            "Endorsements": 13,
+            "UniqueDownloads": 630,
+            "TotalDownloads": 771,
             "TotalViews": null
         },
         "Images": [
@@ -612,9 +672,9 @@
             "OverTheTopRealism.dll": "1.0.1"
         },
         "Statistics": {
-            "Endorsements": 3,
-            "UniqueDownloads": 192,
-            "TotalDownloads": 247,
+            "Endorsements": 4,
+            "UniqueDownloads": 206,
+            "TotalDownloads": 269,
             "TotalViews": null
         },
         "Images": [
@@ -645,8 +705,8 @@
         },
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 64,
-            "TotalDownloads": 81,
+            "UniqueDownloads": 66,
+            "TotalDownloads": 86,
             "TotalViews": null
         },
         "Images": [
@@ -677,8 +737,8 @@
         },
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 15,
-            "TotalDownloads": 23,
+            "UniqueDownloads": 17,
+            "TotalDownloads": 28,
             "TotalViews": null
         },
         "Images": [
@@ -709,8 +769,8 @@
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 47,
-            "TotalDownloads": 59,
+            "UniqueDownloads": 48,
+            "TotalDownloads": 63,
             "TotalViews": null
         },
         "Images": [
@@ -736,9 +796,9 @@
         "dllVersion": null,
         "dllVersions": {},
         "Statistics": {
-            "Endorsements": 2,
-            "UniqueDownloads": 64,
-            "TotalDownloads": 98,
+            "Endorsements": 3,
+            "UniqueDownloads": 67,
+            "TotalDownloads": 107,
             "TotalViews": null
         },
         "Images": [
@@ -748,15 +808,15 @@
     {
         "Id": "nexus-324",
         "Name": "Gunsaw Genetics",
-        "Version": "1.2.0",
-        "bepinexVersion": "1.1.0",
+        "Version": "1.3.0",
+        "bepinexVersion": "1.3.0",
         "Description": "[size=4][b]Description[/b][/size]\n<br />[color=#d4d4d8]Gunsaw Genetics adds all 14 (+ Albino) species to the game for you to be able to use during gameplay. [/color]\n<br />\n<br />[left][size=6][b][color=#ff0000]NOTE: SPRITES ARE NOT INCLUDED IN THIS MOD. DOWNLOAD THEM FROM HERE:[/color][color=#d4d4d8] [/color][/b] [url=https://skin.cat-bot.de/][b][color=#ff00ff]https://skin.cat-bot.de/[/color][/b][/url][/size][/left]\n<br />\n<br />\n<br />\n<br />\n<br />[center][img]https://i.imgur.com/4fOFweo.png[/img][/center]\n<br />[center]Is this mod balanced? [i]No, not at all.[/i][/center]\n<br />\n<br />\n<br />[b][size=5]Installation instructions:[/size][/b]\n<br />[color=#D4D4D8]Requirements:\n<br />[b]BepInEx must be installed first.\n<br />[/b][/color][b][color=#d4d4d8]Game version: Casualties Unknown demo v7.0[/color][/b]\n<br />\n<br />[color=#d4d4d8][b]\n<br />[size=5]Steps:[/size][/b][/color]\n<br />[color=#d4d4d8][b][size=4]1.[/size][/b] Download the Gunsaw Genetics.zip file.[/color]\n<br />\n<br />[color=#d4d4d8][b][size=4]2.[/size][/b] Extract the contents of the .zip file.[/color]\n<br />\n<br />[color=#d4d4d8][b][size=4]3.[/size][/b] Drag and drop the contents of the Gunsaw Genetics folder directly into your BepInEx plugins folder. [/color]\n<br />[b][color=#d4d4d8]Overwrite if you are using the original Player sprite replacer.[/color][/b]\n<br />\n<br />[b][i][color=#d4d4d8]Do not put the Gunsaw Genetics folder [/color][color=#ff0000]itself[/color][color=#d4d4d8] into your plugins folder.\n<br />[/color][/i][/b][b]\n<br />If you already have CustomSprites installed from a previous version of Gunsaw Genetics (Meaning, separated into Head / Body already) you [color=#ff0000]do not[/color] have to replace it. Doing so will revert your sprites to the placeholder ones.[/b]\n<br />\n<br />\n<br />[i][color=#d4d4d8]This is the correct format:[/color]\n<br />[/i][color=#d4d4d8]BepInEx/plugins/GunsawGenetics.dll[/color]\n<br />[color=#d4d4d8]BepInEx/plugins/body_sprite_replacer.dll[/color]\n<br />[color=#d4d4d8]etc.[/color]\n<br />\n<br />\n<br />[size=4][color=#d4d4d8](Optional but [/color][b][color=#d4d4d8]HIGHLY[/color][/b][color=#d4d4d8] Recommended)[/color][/size]\n<br />[color=#d4d4d8]To add custom skins, navigate to &#92;BepInEx&#92;plugins&#92;CustomSprites and add in the sprites of your choosing. Folders are ordered the same as the species. 1 = Expie, 15 = Albino. [b]Make sure to properly separate Head and Body sprites.[/b][/color]\n<br />\n<br />[color=#d4d4d8]It [/color][i][color=#d4d4d8]might[/color][/i][color=#d4d4d8] work with everything in Body, but separating is the most reliable.[/color]\n<br />[color=#d4d4d8][u]Placeholder sprites are added with the proper names and placements.[/u][/color]\n<br />\n<br />[color=#d4d4d8][b][size=4]4.[/size][/b] Launch the game.[/color]\n<br />\n<br />[size=4][b]Main features:[/b][/size]\n<br />\n<br />[color=#d4d4d8]Each species is given different stats, resistances, passives, actives, and sometimes even items.[/color]\n<br />\n<br />[size=3][color=#d4d4d8]As of v1.1.0, progression has been added to unlocking each species. This is[/color] [b][color=#ff00ff]entirely optional[/color][color=#d4d4d8].[/color][/b][color=#d4d4d8] There is a checkbox on the same menu that can be used to unlock every species. It can be toggled at any time and does [/color][i][color=#d4d4d8]not[/color][/i][color=#d4d4d8] wipe progress.[/color][/size]\n<br />\n<br />[i][color=#d4d4d8]These are definitely not final. This is my first mod outside of Minecraft, so I'm still learning. [/color][/i]\n<br />[i][color=#d4d4d8]Expect new mechanics, abilities, etc. to be added with time.[/color][/i]\n<br />\n<br />\n<br />[left][b][color=#ff7700][size=4]Experiment:[/size][/color][/b][/left]\n<br />[left][color=#d4d4d8]STR = 9, RES = 8, INT = 7.[/color][/left]\n<br />[left][color=#d4d4d8]Unchanged.[/color][/left]\n<br />[left][color=#d4d4d8][i][size=2]The one we all come from?[/size][/i][/color][/left]\n<br />\n<br />[color=#b45f06][size=4][b]Orange: [/b][/size][/color]\n<br />[color=#d4d4d8]STR = 12, RES = 11, INT = 4.[/color]\n<br />[color=#d4d4d8]Starts with limb wraps and a candy bar.[/color]\n<br />[color=#d4d4d8][size=2][i]Brute. Dumb as rock, and about as durable.[/i][/size][/color]\n<br />\n<br />\n<br />[spoiler][color=#d4d4d8][size=2]Reach Layer 2[/size][/color][/spoiler]\n<br />\n<br />[color=#ffffff][size=4][b]Milky: [/b][/size][/color]\n<br />[color=#d4d4d8]STR = 5, RES = 4, INT = 12.[/color]\n<br />[color=#d4d4d8]Starts with combat pen and an electronic watch.[/color]\n<br />[i][color=#d4d4d8][size=2]Well equipped. Not the best company.[/size][/color]\n<br />[/i]\n<br />[spoiler]Seek out the physical records left behind.[/spoiler]\n<br />\n<br />\n<br />[b][color=#38761d][size=4]Leapy: [/size][/color][/b]\n<br />[color=#d4d4d8]STR = 10, RES = 5, INT = 6.[/color]\n<br />[color=#d4d4d8]Dash ability with Left Alt. Hyper regen.[/color]\n<br />[size=2][color=#d4d4d8][i]Incredibly fast. Show-offs.[/i][/color][/size]\n<br />\n<br />[spoiler]Experience catastrophic, simultaneous bipedal fractures.[/spoiler]\n<br />\n<br />\n<br />[b][color=#1155cc][size=4]Chompy: [/size][/color][/b]\n<br />[color=#d4d4d8]STR = 10, RES = 10, INT = 7.[/color]\n<br />[color=#d4d4d8]Water breathing + mobility.[/color]\n<br />\n<br />[spoiler]Starve the brain of oxygen until the absolute brink of oblivion.[/spoiler]\n<br />\n<br />\n<br />[b][color=#6d9eeb][size=4]Roza: [/size][/color][/b]\n<br />[color=#d4d4d8]STR = 9, RES = 9, INT = 8.[/color]\n<br />[color=#d4d4d8]Starts with an icepack and frigiant fruit. Cold resistance.[/color]\n<br />[size=2][color=#d4d4d8][i]Naturally colder than the rest. Not much else.[/i][/color][/size]\n<br />\n<br />[spoiler]Core temperature must reach absolute failure.[/spoiler]\n<br />\n<br />\n<br />[b][color=#9900ff][size=4]Voyager: [/size][/color][/b]\n<br />[color=#d4d4d8]STR = 8, RES = 6, INT = 10.[/color]\n<br />[color=#d4d4d8]Stand still to cloak.[/color]\n<br />[i][color=#d4d4d8][size=2]\"Amateurs... All of them. Hardly even an obstacle.\"[/size][/color][/i]\n<br />\n<br />[spoiler]Traverse an entire layer without shedding a single drop of blood.[/spoiler]\n<br />\n<br />\n<br />[b][color=#a61c00][size=4]Baron: [/size][/color][/b]\n<br />[color=#d4d4d8]STR = 14, RES = 14, INT = 5.[/color]\n<br />[color=#d4d4d8]Absolute tank. No natural healing. Regular medical treatment is still effective.[/color]\n<br />[i][color=#d4d4d8][size=2]\"You're up against the wall, and I am the wall!\"[/size][/color][/i]\n<br />\n<br />[spoiler]Reach Layer 5[/spoiler]\n<br />\n<br />\n<br />[b][color=#ff00ff][size=4]Chik: [/size][/color][/b]\n<br />[color=#d4d4d8]STR = 8, RES = 6, INT = 10.[/color]\n<br />[color=#d4d4d8]Air jumps and slow fall. Hold S to fall normally.[/color]\n<br />[i][color=#d4d4d8][size=2]Look up. Though, you'll probably hear the bastards anyways.[/size][/color][/i]\n<br />\n<br />[spoiler]Execute a hostile target while suspended by jet propulsion.[/spoiler]\n<br />\n<br />\n<br />[b][color=#00ffff][size=4]Crystal: [/size][/color][/b]\n<br />[color=#d4d4d8]STR = 9, RES = 8, INT = 6.[/color]\n<br />[color=#d4d4d8]Shoot tongue out with Left Alt. Acts like a grappling hook. [/color]\n<br />[size=2][color=#d4d4d8][i]Highly useful biology for movement, and... reptilian.[/i][/color][/size]\n<br />\n<br />[spoiler]Reach Layer 3[/spoiler]\n<br />\n<br />\n<br />[b][color=#ff0000][size=4]Velvet: [/size][/color][/b]\n<br />[color=#d4d4d8]STR = 10, RES = 11, INT = 6.[/color]\n<br />[color=#d4d4d8]Starts with an old rag and sleeping pills.[/color]\n<br />[size=2][color=#d4d4d8][i]Sadistic and psychotic. Don't listen to them.[/i][/color][/size]\n<br />\n<br />[spoiler]Reach Layer 4[/spoiler]\n<br />\n<br />\n<br />[b][color=#e06666][size=4]Icke: [/size][/color][/b]\n<br />[color=#d4d4d8]STR = 11, RES = 8, INT = 5.[/color]\n<br />[color=#d4d4d8]Enrage as health decreases.[/color]\n<br />[i][color=#d4d4d8][size=2]It won't save you from death. It will just keep you moving.[/size][/color][/i]\n<br />\n<br />[spoiler]Execute a hostile target while clinging to your own fading life.[/spoiler]\n<br />\n<br />\n<br />[b][color=#ffff00][size=4]Shelly: [/size][/color][/b]\n<br />[color=#d4d4d8]STR = 8, RES = 14, INT = 7.[/color]\n<br />[color=#d4d4d8]Heavy explosion resistance. Immune to fire damage.[/color]\n<br />[i][color=#d4d4d8][size=2]Highly durable exoskeleton. Covers enough surface area to render them mute.[/size][/color][/i]\n<br />\n<br />[spoiler]Stand inside the blast radius and walk out alive.[/spoiler]\n<br />\n<br />\n<br />[color=#f6b26b][size=4][b]Dune: [/b][/size][/color]\n<br />[color=#d4d4d8]STR = 10, RES = 6, INT = 3.[/color]\n<br />[color=#d4d4d8]Water breathing, no emotions, sickness resistance.[/color]\n<br />[size=2][color=#d4d4d8][i]Driven purely by hunger. Even the talkative ones are still thinking about how you'd taste.[/i][/color][/size]\n<br />\n<br />[spoiler]The shifting sands hide old texts. Find what was written.[/spoiler]\n<br />\n<br />\n<br />[b][color=#ffffff][size=4]Albino: [/size][/color][/b]\n<br />[color=#d4d4d8]STR = 7, RES = 6, INT = 6.[/color]\n<br />[color=#d4d4d8]Starts with painkillers, hoodie, and a scarf. Has a Left Alt ability. Be careful...[/color]\n<br />[i][color=#d4d4d8][size=2]Again. We must go again. Further this time.[/size][/color][/i]\n<br />\n<br />[spoiler][i]REACH OUT TO THE OTHERS AND I WILL RETURN AGAIN[/i][/spoiler]\n<br />\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#D4D4D8]Again...\n<br />\n<br />[b]BepInEx must be installed first.[/b] [/color]\n<br />\n<br />[size=4][b]Credits:\n<br />[/b][/size]\n<br />Art assets:\n<br />\n<br />[b][size=4]ThePristineAnt!!!!!!![/size][/b]\n<br />This guy is my goat. I couldn't do even a fraction of this myself.\n<br />(Specifically, as of v1.2.0:\n<br />All custom moodle art.\n<br />Baron WoundView sprites.\n<br />Orange Portrait art.\n<br />Albino Portrait art.)\n<br />\n<br />Sprite Replacement Logic:\n<br />Modified from Player Sprite Replacer by [url=https://www.nexusmods.com/scavprototype/users/43097342]d0gederp[/url]. I wouldn't have been able to do the visual side of this mod without this. Please check out their work:\n<br />\n<br />https://www.nexusmods.com/scavprototype/mods/15?tab=description\n<br />\n<br />Original Game Assets: Orsoniks\n<br />\n<br />---\n<br />\n<br />If you need to contact me directly, you can join my discord.\n<br />(This is for another mod of mine, but I don't really care lol)\n<br />\n<br />[url=https://discord.gg/gFydkw8MyK]https://discord.gg/gFydkw8MyK[/url]\n<br />\n<br />",
         "Author": "Xion",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/324/324-1781826069-795206863.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/324"
         },
-        "DownloadUrl": "nexus://scavprototype/324/927",
+        "DownloadUrl": "nexus://scavprototype/324/988",
         "NexusGameDomain": "scavprototype",
         "NexusModId": 324,
         "SourceName": "Nexus",
@@ -764,15 +824,15 @@
             "body_sprite_replacer.dll",
             "GunsawGenetics.dll"
         ],
-        "dllVersion": "1.1.0",
+        "dllVersion": "1.3.0",
         "dllVersions": {
             "body_sprite_replacer.dll": "1.1.0",
-            "GunsawGenetics.dll": "1.0.0"
+            "GunsawGenetics.dll": "1.3.0"
         },
         "Statistics": {
-            "Endorsements": 29,
-            "UniqueDownloads": 977,
-            "TotalDownloads": 1268,
+            "Endorsements": 33,
+            "UniqueDownloads": 1086,
+            "TotalDownloads": 1425,
             "TotalViews": null
         },
         "Images": [
@@ -803,8 +863,8 @@
         },
         "Statistics": {
             "Endorsements": 4,
-            "UniqueDownloads": 104,
-            "TotalDownloads": 135,
+            "UniqueDownloads": 110,
+            "TotalDownloads": 146,
             "TotalViews": null
         },
         "Images": [
@@ -835,8 +895,8 @@
         },
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 73,
-            "TotalDownloads": 90,
+            "UniqueDownloads": 79,
+            "TotalDownloads": 99,
             "TotalViews": null
         },
         "Images": [
@@ -869,8 +929,8 @@
         },
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 104,
-            "TotalDownloads": 116,
+            "UniqueDownloads": 108,
+            "TotalDownloads": 128,
             "TotalViews": null
         },
         "Images": [
@@ -901,8 +961,8 @@
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 51,
-            "TotalDownloads": 63,
+            "UniqueDownloads": 55,
+            "TotalDownloads": 70,
             "TotalViews": null
         },
         "Images": [
@@ -933,8 +993,8 @@
         },
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 49,
-            "TotalDownloads": 67,
+            "UniqueDownloads": 54,
+            "TotalDownloads": 75,
             "TotalViews": null
         },
         "Images": [
@@ -965,8 +1025,8 @@
         },
         "Statistics": {
             "Endorsements": 5,
-            "UniqueDownloads": 106,
-            "TotalDownloads": 158,
+            "UniqueDownloads": 110,
+            "TotalDownloads": 166,
             "TotalViews": null
         },
         "Images": [
@@ -993,8 +1053,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 41,
-            "TotalDownloads": 55,
+            "UniqueDownloads": 42,
+            "TotalDownloads": 59,
             "TotalViews": null
         },
         "Images": [
@@ -1025,8 +1085,8 @@
         },
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 46,
-            "TotalDownloads": 62,
+            "UniqueDownloads": 48,
+            "TotalDownloads": 67,
             "TotalViews": null
         },
         "Images": [
@@ -1058,7 +1118,7 @@
         "Statistics": {
             "Endorsements": 3,
             "UniqueDownloads": 51,
-            "TotalDownloads": 80,
+            "TotalDownloads": 83,
             "TotalViews": null
         },
         "Images": [
@@ -1089,8 +1149,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 131,
-            "TotalDownloads": 146,
+            "UniqueDownloads": 132,
+            "TotalDownloads": 151,
             "TotalViews": null
         },
         "Images": [
@@ -1121,8 +1181,8 @@
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 127,
-            "TotalDownloads": 220,
+            "UniqueDownloads": 141,
+            "TotalDownloads": 240,
             "TotalViews": null
         },
         "Images": [
@@ -1153,8 +1213,8 @@
         },
         "Statistics": {
             "Endorsements": 5,
-            "UniqueDownloads": 90,
-            "TotalDownloads": 102,
+            "UniqueDownloads": 91,
+            "TotalDownloads": 107,
             "TotalViews": null
         },
         "Images": [
@@ -1187,8 +1247,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 309,
-            "TotalDownloads": 358,
+            "UniqueDownloads": 330,
+            "TotalDownloads": 391,
             "TotalViews": null
         },
         "Images": [
@@ -1220,7 +1280,7 @@
         "Statistics": {
             "Endorsements": 0,
             "UniqueDownloads": 22,
-            "TotalDownloads": 38,
+            "TotalDownloads": 41,
             "TotalViews": null
         },
         "Images": [
@@ -1246,9 +1306,9 @@
         "dllVersion": null,
         "dllVersions": {},
         "Statistics": {
-            "Endorsements": 7,
-            "UniqueDownloads": 362,
-            "TotalDownloads": 419,
+            "Endorsements": 8,
+            "UniqueDownloads": 387,
+            "TotalDownloads": 449,
             "TotalViews": null
         },
         "Images": [
@@ -1279,8 +1339,8 @@
         },
         "Statistics": {
             "Endorsements": 12,
-            "UniqueDownloads": 464,
-            "TotalDownloads": 555,
+            "UniqueDownloads": 490,
+            "TotalDownloads": 589,
             "TotalViews": null
         },
         "Images": [
@@ -1312,8 +1372,8 @@
         },
         "Statistics": {
             "Endorsements": 5,
-            "UniqueDownloads": 125,
-            "TotalDownloads": 188,
+            "UniqueDownloads": 128,
+            "TotalDownloads": 197,
             "TotalViews": null
         },
         "Images": [
@@ -1344,8 +1404,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 190,
-            "TotalDownloads": 308,
+            "UniqueDownloads": 200,
+            "TotalDownloads": 323,
             "TotalViews": null
         },
         "Images": [
@@ -1376,8 +1436,8 @@
         },
         "Statistics": {
             "Endorsements": 5,
-            "UniqueDownloads": 85,
-            "TotalDownloads": 120,
+            "UniqueDownloads": 86,
+            "TotalDownloads": 124,
             "TotalViews": null
         },
         "Images": [
@@ -1404,8 +1464,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 153,
-            "TotalDownloads": 180,
+            "UniqueDownloads": 154,
+            "TotalDownloads": 184,
             "TotalViews": null
         },
         "Images": [
@@ -1436,8 +1496,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 165,
-            "TotalDownloads": 199,
+            "UniqueDownloads": 176,
+            "TotalDownloads": 214,
             "TotalViews": null
         },
         "Images": [
@@ -1468,8 +1528,8 @@
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 46,
-            "TotalDownloads": 64,
+            "UniqueDownloads": 47,
+            "TotalDownloads": 68,
             "TotalViews": null
         },
         "Images": [
@@ -1501,7 +1561,7 @@
         "Statistics": {
             "Endorsements": 0,
             "UniqueDownloads": 20,
-            "TotalDownloads": 28,
+            "TotalDownloads": 31,
             "TotalViews": null
         },
         "Images": [
@@ -1533,7 +1593,7 @@
         "Statistics": {
             "Endorsements": 2,
             "UniqueDownloads": 96,
-            "TotalDownloads": 117,
+            "TotalDownloads": 120,
             "TotalViews": null
         },
         "Images": [
@@ -1564,8 +1624,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 254,
-            "TotalDownloads": 282,
+            "UniqueDownloads": 257,
+            "TotalDownloads": 288,
             "TotalViews": null
         },
         "Images": [
@@ -1592,8 +1652,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 8,
-            "UniqueDownloads": 191,
-            "TotalDownloads": 245,
+            "UniqueDownloads": 192,
+            "TotalDownloads": 249,
             "TotalViews": null
         },
         "Images": [
@@ -1624,8 +1684,8 @@
         },
         "Statistics": {
             "Endorsements": 9,
-            "UniqueDownloads": 512,
-            "TotalDownloads": 574,
+            "UniqueDownloads": 531,
+            "TotalDownloads": 598,
             "TotalViews": null
         },
         "Images": [
@@ -1655,9 +1715,9 @@
             "TitaniumRestored.dll": "0.3"
         },
         "Statistics": {
-            "Endorsements": 9,
-            "UniqueDownloads": 250,
-            "TotalDownloads": 307,
+            "Endorsements": 10,
+            "UniqueDownloads": 257,
+            "TotalDownloads": 319,
             "TotalViews": null
         },
         "Images": [
@@ -1688,8 +1748,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 231,
-            "TotalDownloads": 266,
+            "UniqueDownloads": 233,
+            "TotalDownloads": 272,
             "TotalViews": null
         },
         "Images": [
@@ -1720,8 +1780,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 120,
-            "TotalDownloads": 191,
+            "UniqueDownloads": 124,
+            "TotalDownloads": 208,
             "TotalViews": null
         },
         "Images": [
@@ -1752,8 +1812,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 153,
-            "TotalDownloads": 197,
+            "UniqueDownloads": 157,
+            "TotalDownloads": 205,
             "TotalViews": null
         },
         "Images": [
@@ -1784,8 +1844,8 @@
         },
         "Statistics": {
             "Endorsements": 4,
-            "UniqueDownloads": 61,
-            "TotalDownloads": 96,
+            "UniqueDownloads": 62,
+            "TotalDownloads": 100,
             "TotalViews": null
         },
         "Images": [
@@ -1816,8 +1876,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 135,
-            "TotalDownloads": 180,
+            "UniqueDownloads": 139,
+            "TotalDownloads": 187,
             "TotalViews": null
         },
         "Images": [
@@ -1829,7 +1889,7 @@
         "Name": "Gamma Light Backport (port 6.1 to 7.x)",
         "Version": "1.1.0-v7.0.1",
         "bepinexVersion": "1.1.0",
-        "Description": "[color=#ff7700][size=4][b]Description[/b][/size][/color]\n<br />[color=#D4D4D8]Brings back how old lighting gamma works back in 6.1 as close as I can.[/color]\n<br />If you have [u]issues with the way how brightness is handled in 7.0.1[/u],\n<br />[u]The \"ambient light\" in run settings ruin immersion[/u] and[u] prefer the old gamma lighting in 6.1[/u], this is for you.\n<br />\n<br />[b][color=#ff7700][size=4]Installation:[/size][/color][/b]\n<br />Download Bepinex (if you haven't already):\n<br />[url=https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.5/BepInEx_win_x64_5.4.23.5.zip]https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.5/BepInEx_win_x64_5.4.23.5.zip[/url]\n<br />\n<br />install mod into plugin.\n<br />\n<br />\n<br />[color=#ff7700][size=4][b]Main features[/b][/size][/color]\n<br />[color=#d4d4d8]Reimplements Gamma Lighting back in v6.1 as an accessibility option.\n<br />adds the following:\n<br />\n<br />2 option in the video settings, a gamma brightness slider, and a toggle.\n<br />1 option in controls to bind key and easily toggle on and off the mod. (default is f5 to toggle mod)[/color]\n<br />\n<br />\n<br />[color=#ff7700][size=4][b]Shout outs[/b][/size][/color]\n<br />[color=#d4d4d8]Thanks to moffie for telling me to go screw myself and forcing me to make a mod a possibility for everyone. I like your game, but like, I know it's a demo and it's unfinished, but we're your community words/feedback.[/color]\n<br />\n<br />[s][color=#0000ff]NOTE[/color]: I will eventually turn this into Custom Game Settings and sync multiplayer who also have this mod Option to Align with \"unfair advantage\" from changing the brightness midway of the game.[/s] not planned anytime soon.\n<br />",
+        "Description": "[color=#ff7700][size=4][b]Description[/b][/size][/color]\n<br />[color=#D4D4D8]Brings back how old lighting gamma works back in 6.1 as close as I can.[/color]\n<br />If you have [u]issues with the way how brightness is handled in 7.0.1[/u],\n<br />[u]The \"ambient light\" in run settings ruin immersion[/u] and[u] prefer the old gamma lighting in 6.1[/u], this is for you.\n<br />\n<br />[b][color=#ff7700][size=4]Installation:[/size][/color][/b]\n<br />Download Bepinex (if you haven't already):\n<br />[url=https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.5/BepInEx_win_x64_5.4.23.5.zip]https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.5/BepInEx_win_x64_5.4.23.5.zip[/url]\n<br />\n<br />install mod into plugin.\n<br />\n<br />\n<br />[color=#ff7700][size=4][b]Main features[/b][/size][/color]\n<br />[color=#d4d4d8]Reimplements Gamma Lighting back in v6.1 as an accessibility option.\n<br />adds the following:\n<br />\n<br />2 option in the video settings, a gamma brightness slider, and a toggle.\n<br />1 option in controls to bind key and easily toggle on and off the mod. (default is f5 to toggle mod)[/color]\n<br />\n<br />\n<br />[color=#ff7700][size=4][b]Shout outs[/b][/size][/color]\n<br />[color=#d4d4d8]Thanks to moffie for telling me to go screw myself and forcing me to make a mod for everyone.[/color]\n<br />\n<br />[s][color=#0000ff]NOTE[/color]: I will eventually turn this into Custom Game Settings and sync multiplayer who also have this mod Option to Align with \"unfair advantage\" from changing the brightness midway of the game.[/s] not planned anytime soon.\n<br />",
         "Author": "Lenruii",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/206/206-1781022550-1666538465.png",
@@ -1848,8 +1908,8 @@
         },
         "Statistics": {
             "Endorsements": 4,
-            "UniqueDownloads": 163,
-            "TotalDownloads": 205,
+            "UniqueDownloads": 165,
+            "TotalDownloads": 212,
             "TotalViews": null
         },
         "Images": [
@@ -1880,8 +1940,8 @@
         },
         "Statistics": {
             "Endorsements": 9,
-            "UniqueDownloads": 235,
-            "TotalDownloads": 342,
+            "UniqueDownloads": 245,
+            "TotalDownloads": 357,
             "TotalViews": null
         },
         "Images": [
@@ -1912,8 +1972,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 200,
-            "TotalDownloads": 225,
+            "UniqueDownloads": 201,
+            "TotalDownloads": 229,
             "TotalViews": null
         },
         "Images": [
@@ -1923,29 +1983,29 @@
     {
         "Id": "nexus-202",
         "Name": "ReisotronMoodles",
-        "Version": "v1.0.1.1",
-        "bepinexVersion": "1.0.1.1",
+        "Version": "v1.0.2.0",
+        "bepinexVersion": "1.0.2.0",
         "Description": "[size=4][b]Description:[/b][/size]\n<br />\n<br />[size=3][color=#D4D4D8]Moodle icons made by reisotron.\n<br />Original discord thread: [url=https://discord.com/channels/955738554129063947/1503422808267423896]https://discord.com/channels/955738554129063947/1503422808267423896[/url].\n<br />Note: I have permission from the author to create and publish the mod.[/color][/size]\n<br />[line]\n<br />[size=4][b]How to install:[/b][/size]\n<br />\n<br />[list=1]\n<br />[*][size=3][color=#D4D4D8]Download BepInEx if it is not installed([size=3][color=#D4D4D8][url=https://github.com/BepInEx/BepInEx/releases/latest]https://github.com/BepInEx/BepInEx/releases/latest[/url][/color][/size]).[/color][/size][/*]\n<br />[*][size=3][color=#D4D4D8]Unzip BepInEx to the game folder(Steam -&gt; Library -&gt; Right click on the game -&gt; Manage -&gt; Browse local files).[/color][/size][/*]\n<br />[*][size=3][color=#D4D4D8]Download the mod.[/color][/size][/*]\n<br />[*][size=3][color=#D4D4D8]Unzip the mod into the game folder.[/color][/size][/*]\n<br />[/list][line]\n<br />[size=4][b]Credits:[/b][/size]\n<br />[size=3][color=#D4D4D8]\n<br />Art by A.O.F. merc (@reisotron).\n<br />Code by Жук (@jyk9275).[/color][/size]\n<br />",
         "Author": "jyk9275",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/202/202-1781672516-1478092227.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/202"
         },
-        "DownloadUrl": "nexus://scavprototype/202/751",
+        "DownloadUrl": "nexus://scavprototype/202/987",
         "NexusGameDomain": "scavprototype",
         "NexusModId": 202,
         "SourceName": "Nexus",
         "dllNames": [
             "ReisotronMoodles.dll"
         ],
-        "dllVersion": "1.0.1.1",
+        "dllVersion": "1.0.2.0",
         "dllVersions": {
-            "ReisotronMoodles.dll": "1.0.1.1"
+            "ReisotronMoodles.dll": "1.0.2.0"
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 118,
-            "TotalDownloads": 148,
+            "UniqueDownloads": 121,
+            "TotalDownloads": 156,
             "TotalViews": null
         },
         "Images": [
@@ -1973,7 +2033,7 @@
         "Statistics": {
             "Endorsements": 5,
             "UniqueDownloads": 115,
-            "TotalDownloads": 145,
+            "TotalDownloads": 150,
             "TotalViews": null
         },
         "Images": [
@@ -2004,8 +2064,8 @@
         },
         "Statistics": {
             "Endorsements": 9,
-            "UniqueDownloads": 230,
-            "TotalDownloads": 298,
+            "UniqueDownloads": 232,
+            "TotalDownloads": 303,
             "TotalViews": null
         },
         "Images": [
@@ -2035,9 +2095,9 @@
             "VforWhining.dll": "1.1.0"
         },
         "Statistics": {
-            "Endorsements": 27,
-            "UniqueDownloads": 899,
-            "TotalDownloads": 1071,
+            "Endorsements": 28,
+            "UniqueDownloads": 939,
+            "TotalDownloads": 1122,
             "TotalViews": null
         },
         "Images": [
@@ -2064,8 +2124,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 43,
-            "TotalDownloads": 74,
+            "UniqueDownloads": 44,
+            "TotalDownloads": 78,
             "TotalViews": null
         },
         "Images": [
@@ -2096,8 +2156,8 @@
         },
         "Statistics": {
             "Endorsements": 19,
-            "UniqueDownloads": 504,
-            "TotalDownloads": 595,
+            "UniqueDownloads": 514,
+            "TotalDownloads": 610,
             "TotalViews": null
         },
         "Images": [
@@ -2128,8 +2188,8 @@
         },
         "Statistics": {
             "Endorsements": 18,
-            "UniqueDownloads": 652,
-            "TotalDownloads": 850,
+            "UniqueDownloads": 666,
+            "TotalDownloads": 870,
             "TotalViews": null
         },
         "Images": [
@@ -2156,8 +2216,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 9,
-            "UniqueDownloads": 604,
-            "TotalDownloads": 718,
+            "UniqueDownloads": 625,
+            "TotalDownloads": 744,
             "TotalViews": null
         },
         "Images": [
@@ -2167,29 +2227,29 @@
     {
         "Id": "nexus-192",
         "Name": "Console Chinese",
-        "Version": "1.0.0",
-        "bepinexVersion": "1.1.0",
+        "Version": "1.2.0",
+        "bepinexVersion": "1.2.0",
         "Description": "很多人苦恼于不会打指令，非常幸运的是我4个月前做了个汉化模组，非常倒霉的是我没发布:((((\n<br />\n<br />更新了下 加了更多的功能\n<br />   \n<br />GitHub",
         "Author": "BlackMoss333",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/192/192-1780870909-1739319218.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/192"
         },
-        "DownloadUrl": "nexus://scavprototype/192/617",
+        "DownloadUrl": "nexus://scavprototype/192/980",
         "NexusGameDomain": "scavprototype",
         "NexusModId": 192,
         "SourceName": "Nexus",
         "dllNames": [
             "ConsoleChinese.dll"
         ],
-        "dllVersion": "1.1.0",
+        "dllVersion": "1.2.0",
         "dllVersions": {
-            "ConsoleChinese.dll": "1.1.0"
+            "ConsoleChinese.dll": "1.2.0"
         },
         "Statistics": {
             "Endorsements": 7,
-            "UniqueDownloads": 298,
-            "TotalDownloads": 333,
+            "UniqueDownloads": 309,
+            "TotalDownloads": 364,
             "TotalViews": null
         },
         "Images": [
@@ -2220,8 +2280,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 333,
-            "TotalDownloads": 409,
+            "UniqueDownloads": 341,
+            "TotalDownloads": 421,
             "TotalViews": null
         },
         "Images": [
@@ -2248,8 +2308,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 37,
-            "TotalDownloads": 51,
+            "UniqueDownloads": 38,
+            "TotalDownloads": 55,
             "TotalViews": null
         },
         "Images": [
@@ -2280,8 +2340,8 @@
         },
         "Statistics": {
             "Endorsements": 4,
-            "UniqueDownloads": 177,
-            "TotalDownloads": 201,
+            "UniqueDownloads": 179,
+            "TotalDownloads": 206,
             "TotalViews": null
         },
         "Images": [
@@ -2312,8 +2372,8 @@
         },
         "Statistics": {
             "Endorsements": 5,
-            "UniqueDownloads": 69,
-            "TotalDownloads": 142,
+            "UniqueDownloads": 71,
+            "TotalDownloads": 147,
             "TotalViews": null
         },
         "Images": [
@@ -2346,8 +2406,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 252,
-            "TotalDownloads": 293,
+            "UniqueDownloads": 257,
+            "TotalDownloads": 303,
             "TotalViews": null
         },
         "Images": [
@@ -2378,8 +2438,8 @@
         },
         "Statistics": {
             "Endorsements": 16,
-            "UniqueDownloads": 744,
-            "TotalDownloads": 1006,
+            "UniqueDownloads": 758,
+            "TotalDownloads": 1035,
             "TotalViews": null
         },
         "Images": [
@@ -2406,8 +2466,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 85,
-            "TotalDownloads": 115,
+            "UniqueDownloads": 86,
+            "TotalDownloads": 119,
             "TotalViews": null
         },
         "Images": [
@@ -2438,8 +2498,8 @@
         },
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 103,
-            "TotalDownloads": 154,
+            "UniqueDownloads": 104,
+            "TotalDownloads": 159,
             "TotalViews": null
         },
         "Images": [
@@ -2470,8 +2530,8 @@
         },
         "Statistics": {
             "Endorsements": 22,
-            "UniqueDownloads": 598,
-            "TotalDownloads": 982,
+            "UniqueDownloads": 621,
+            "TotalDownloads": 1010,
             "TotalViews": null
         },
         "Images": [
@@ -2502,8 +2562,8 @@
         },
         "Statistics": {
             "Endorsements": 22,
-            "UniqueDownloads": 504,
-            "TotalDownloads": 893,
+            "UniqueDownloads": 529,
+            "TotalDownloads": 937,
             "TotalViews": null
         },
         "Images": [
@@ -2534,8 +2594,8 @@
         },
         "Statistics": {
             "Endorsements": 11,
-            "UniqueDownloads": 572,
-            "TotalDownloads": 755,
+            "UniqueDownloads": 579,
+            "TotalDownloads": 772,
             "TotalViews": null
         },
         "Images": [
@@ -2566,8 +2626,8 @@
         },
         "Statistics": {
             "Endorsements": 17,
-            "UniqueDownloads": 377,
-            "TotalDownloads": 559,
+            "UniqueDownloads": 383,
+            "TotalDownloads": 568,
             "TotalViews": null
         },
         "Images": [
@@ -2579,7 +2639,7 @@
         "Name": "More dialog and text (352 New DIalogs btw grammar fix upd)",
         "Version": "0.7.04",
         "bepinexVersion": null,
-        "Description": "[b][size=5]WIP. Will add more later (Give me ideas)[/size][/b]\n<br />[b][size=3](I[/size][/b][b][size=3]dk how to add dialog for things that arent in the game. Like dialog for being happy or dialog for last stand, so i would appriciate some help if anyone knows how to code.)[/size][/b]\n<br />[b]\n<br />[size=4]For people who play multiplayer and wonder if it will work:[/size][/b]\n<br />The mod will work if the host has it, cause the lang file is not client sided.\n<br /> \n<br />[b][size=5]Ever wanted for them to say more stuff then they already do?[/size][/b]\n<br />[b][size=5]Well this mod if for you, and lucky you i also take suggestions.[/size][/b]\n<br />[b][size=5]You can be part of this by commenting what lines you would like to be added on top of the current ones. Something [color=#ff0000]serious[/color][color=#ffffff] something a bit [/color][color=#3d85c6]silly[/color][color=#ffffff], it aint off the table.[/color][/size][/b]\n<br />\n<br />[b][color=#ffffff]I make my attempts to be creative, but some comunity help (or whatever) would be nice, since all of this so far has been human made.[/color][/b]\n<br />\n<br />[b][size=5]Number of lines added so far: 352[/size][/b]\n<br />[size=2]Trying to aim for about 500 or so for now before beginning with the item desc and stuff like that.[/size]\n<br />\n<br />[size=5][b]Number of lines gathered: 385[/b][/size]\n<br />[size=5][b]Next upd will have 400 lines[/b][/size]\n<br />[size=4]This shows how far the next upd is[/size]\n<br />\n<br />[size=4][b]Description[/b][/size]\n<br />[color=#d4d4d8]This mod was made for fun, and was mostly about adding more dialogs.[/color]\n<br />[color=#d4d4d8]Additionally, there might be small changes to descriptions or other things text related in the game.[/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#ffff00]If you don't know how to open the files up from the steam download:[/color]\n<br />[color=#e69138]1. Locate the game itself in the library[/color]\n<br />[color=#e69138]2. Find the gear icon (It should say \"Manage\" when hovering your cursor over it. It is next to the \"info\" and \"heart\" icon.)[/color]\n<br />[color=#e69138]Once clicking on it, you will have to hover over the \"Manage\" option and then click \"Browse local files\"[/color]\n<br />[color=#e69138]3. Now you should be in file explorer (or whatever you have opend up). Then you should open \"CasualtiesUnknown_Data\", then \"Lang\"[/color]\n<br />[color=#6aa84f]Now you have found the language file location and all you have is to replace it with the one of the mod.[/color]\n<br />[color=#ffffff](Note: You will have to make a seperate folder to keep the old language file in if you want to keep it. But you can just anyways \"check file integrity\" on steam and it should revert to the old version (diddent get rid of the other mods when i accidentally did that))[/color]\n<br />\n<br />[size=4][b]Note for people[/b][/size]\n<br />I'm making this mostly for fun/am bored, so don't expect too much from me.  My grammer isn't the best and wont mind if people help me out fixing it. \n<br />\n<br />[b][size=4]Dialog (Additions):[/size][/b]\n<br />https://docs.google.com/document/d/1k1oj_F4U-sj9_NkP_04ROjOe_D3zENU-j-0Wsbqf3Pk/edit?usp=sharing\n<br />[b][size=4](Srry yall, website started lagging too much, so if yall wanna see then you gotta use the link)[/size][/b]\n<br />\n<br />[b][size=4]Text (modifications):[/size][/b]\n<br />[size=3]https://docs.google.com/document/d/15iCliCSXxtlV1xFU3sU3scEb3bCG1u3EUf8QFOadoVs/edit?usp=sharing[/size]\n<br />[size=3]Not so much getting done on this one cause im focusing more on dialogs at the moment, maybe around when version 1 is finished.[/size]\n<br />\n<br />[size=2]If anyone wants to tell me smth or suggest ideas for dialogs and text or smth like that without putting it in the comments (posts). Then my Discord is seebby90, you can dm me n stuff, i don't mind.[/size]",
+        "Description": "[b][size=5]WIP. Will add more later (Give me ideas)[/size][/b]\n<br />[b][size=3](I[/size][/b][b][size=3]dk how to add dialog for things that arent in the game. Like dialog for being happy or dialog for last stand, so i would appriciate some help if anyone knows how to code.)[/size][/b]\n<br />[b]\n<br />[size=4]For people who play multiplayer and wonder if it will work:[/size][/b]\n<br />The mod will work if the host has it, cause the lang file is not client sided.\n<br /> \n<br />[b][size=5]Ever wanted for them to say more stuff then they already do?[/size][/b]\n<br />[b][size=5]Well this mod if for you, and lucky you i also take suggestions.[/size][/b]\n<br />[b][size=5]You can be part of this by commenting what lines you would like to be added on top of the current ones. Something [color=#ff0000]serious[/color][color=#ffffff] something a bit [/color][color=#3d85c6]silly[/color][color=#ffffff], it aint off the table.[/color][/size][/b]\n<br />\n<br />[b][color=#ffffff]I make my attempts to be creative, but some comunity help (or whatever) would be nice, since all of this so far has been human made.[/color][/b]\n<br />\n<br />[b][size=5]Number of lines added so far: 352[/size][/b]\n<br />[size=2]Trying to aim for about 500 or so for now before beginning with the item desc and stuff like that.[/size]\n<br />\n<br />[size=5][b]Number of lines gathered: 386[/b][/size]\n<br />[size=5][b]Next upd will have 400 lines[/b][/size]\n<br />[size=4]This shows how far the next upd is[/size]\n<br />\n<br />[size=4][b]Description[/b][/size]\n<br />[color=#d4d4d8]This mod was made for fun, and was mostly about adding more dialogs.[/color]\n<br />[color=#d4d4d8]Additionally, there might be small changes to descriptions or other things text related in the game.[/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#ffff00]If you don't know how to open the files up from the steam download:[/color]\n<br />[color=#e69138]1. Locate the game itself in the library[/color]\n<br />[color=#e69138]2. Find the gear icon (It should say \"Manage\" when hovering your cursor over it. It is next to the \"info\" and \"heart\" icon.)[/color]\n<br />[color=#e69138]Once clicking on it, you will have to hover over the \"Manage\" option and then click \"Browse local files\"[/color]\n<br />[color=#e69138]3. Now you should be in file explorer (or whatever you have opend up). Then you should open \"CasualtiesUnknown_Data\", then \"Lang\"[/color]\n<br />[color=#6aa84f]Now you have found the language file location and all you have is to replace it with the one of the mod.[/color]\n<br />[color=#ffffff](Note: You will have to make a seperate folder to keep the old language file in if you want to keep it. But you can just anyways \"check file integrity\" on steam and it should revert to the old version (diddent get rid of the other mods when i accidentally did that))[/color]\n<br />\n<br />[size=4][b]Note for people[/b][/size]\n<br />I'm making this mostly for fun/am bored, so don't expect too much from me.  My grammer isn't the best and wont mind if people help me out fixing it. \n<br />\n<br />[b][size=4]Dialog (Additions):[/size][/b]\n<br />https://docs.google.com/document/d/1k1oj_F4U-sj9_NkP_04ROjOe_D3zENU-j-0Wsbqf3Pk/edit?usp=sharing\n<br />[b][size=4](Srry yall, website started lagging too much, so if yall wanna see then you gotta use the link)[/size][/b]\n<br />\n<br />[b][size=4]Text (modifications):[/size][/b]\n<br />[size=3]https://docs.google.com/document/d/15iCliCSXxtlV1xFU3sU3scEb3bCG1u3EUf8QFOadoVs/edit?usp=sharing[/size]\n<br />[size=3]Not so much getting done on this one cause im focusing more on dialogs at the moment, maybe around when version 1 is finished.[/size]\n<br />\n<br />[size=2]If anyone wants to tell me smth or suggest ideas for dialogs and text or smth like that without putting it in the comments (posts). Then my Discord is seebby90, you can dm me n stuff, i don't mind.[/size]",
         "Author": "seebby900",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/161/161-1780589331-1135661131.png",
@@ -2594,8 +2654,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 17,
-            "UniqueDownloads": 308,
-            "TotalDownloads": 461,
+            "UniqueDownloads": 315,
+            "TotalDownloads": 472,
             "TotalViews": null
         },
         "Images": [
@@ -2625,9 +2685,9 @@
             "No Self-Destruct on Quit.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 37,
-            "UniqueDownloads": 1134,
-            "TotalDownloads": 1285,
+            "Endorsements": 39,
+            "UniqueDownloads": 1167,
+            "TotalDownloads": 1326,
             "TotalViews": null
         },
         "Images": [
@@ -2659,9 +2719,9 @@
             "ElectricTitaniumTools.dll": "1.0.2"
         },
         "Statistics": {
-            "Endorsements": 10,
-            "UniqueDownloads": 239,
-            "TotalDownloads": 417,
+            "Endorsements": 11,
+            "UniqueDownloads": 240,
+            "TotalDownloads": 422,
             "TotalViews": null
         },
         "Images": [
@@ -2692,8 +2752,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 85,
-            "TotalDownloads": 106,
+            "UniqueDownloads": 86,
+            "TotalDownloads": 110,
             "TotalViews": null
         },
         "Images": [
@@ -2723,9 +2783,9 @@
             "ICEnecoCustomItemAPI.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 26,
-            "UniqueDownloads": 597,
-            "TotalDownloads": 1188,
+            "Endorsements": 27,
+            "UniqueDownloads": 616,
+            "TotalDownloads": 1223,
             "TotalViews": null
         },
         "Images": [
@@ -2755,9 +2815,9 @@
             "PlayerCustomizer.dll": "1.9.0"
         },
         "Statistics": {
-            "Endorsements": 19,
-            "UniqueDownloads": 921,
-            "TotalDownloads": 1292,
+            "Endorsements": 21,
+            "UniqueDownloads": 957,
+            "TotalDownloads": 1344,
             "TotalViews": null
         },
         "Images": [
@@ -2789,7 +2849,7 @@
         "Statistics": {
             "Endorsements": 7,
             "UniqueDownloads": 137,
-            "TotalDownloads": 282,
+            "TotalDownloads": 285,
             "TotalViews": null
         },
         "Images": [
@@ -2820,8 +2880,8 @@
         },
         "Statistics": {
             "Endorsements": 16,
-            "UniqueDownloads": 364,
-            "TotalDownloads": 640,
+            "UniqueDownloads": 367,
+            "TotalDownloads": 647,
             "TotalViews": null
         },
         "Images": [
@@ -2852,8 +2912,8 @@
         },
         "Statistics": {
             "Endorsements": 12,
-            "UniqueDownloads": 284,
-            "TotalDownloads": 386,
+            "UniqueDownloads": 289,
+            "TotalDownloads": 394,
             "TotalViews": null
         },
         "Images": [
@@ -2884,8 +2944,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 130,
-            "TotalDownloads": 164,
+            "UniqueDownloads": 132,
+            "TotalDownloads": 170,
             "TotalViews": null
         },
         "Images": [
@@ -2912,8 +2972,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 11,
-            "UniqueDownloads": 221,
-            "TotalDownloads": 250,
+            "UniqueDownloads": 227,
+            "TotalDownloads": 259,
             "TotalViews": null
         },
         "Images": [
@@ -2944,8 +3004,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 78,
-            "TotalDownloads": 108,
+            "UniqueDownloads": 79,
+            "TotalDownloads": 113,
             "TotalViews": null
         },
         "Images": [
@@ -2988,8 +3048,8 @@
         },
         "Statistics": {
             "Endorsements": 7,
-            "UniqueDownloads": 890,
-            "TotalDownloads": 1225,
+            "UniqueDownloads": 915,
+            "TotalDownloads": 1255,
             "TotalViews": null
         },
         "Images": [
@@ -3016,8 +3076,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 91,
-            "TotalDownloads": 107,
+            "UniqueDownloads": 92,
+            "TotalDownloads": 111,
             "TotalViews": null
         },
         "Images": [
@@ -3044,8 +3104,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 5,
-            "UniqueDownloads": 131,
-            "TotalDownloads": 165,
+            "UniqueDownloads": 134,
+            "TotalDownloads": 171,
             "TotalViews": null
         },
         "Images": [
@@ -3076,8 +3136,8 @@
         },
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 50,
-            "TotalDownloads": 62,
+            "UniqueDownloads": 51,
+            "TotalDownloads": 66,
             "TotalViews": null
         },
         "Images": [
@@ -3108,8 +3168,8 @@
         },
         "Statistics": {
             "Endorsements": 13,
-            "UniqueDownloads": 472,
-            "TotalDownloads": 874,
+            "UniqueDownloads": 506,
+            "TotalDownloads": 928,
             "TotalViews": null
         },
         "Images": [
@@ -3140,8 +3200,8 @@
         },
         "Statistics": {
             "Endorsements": 5,
-            "UniqueDownloads": 118,
-            "TotalDownloads": 162,
+            "UniqueDownloads": 120,
+            "TotalDownloads": 169,
             "TotalViews": null
         },
         "Images": [
@@ -3172,8 +3232,8 @@
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 141,
-            "TotalDownloads": 164,
+            "UniqueDownloads": 142,
+            "TotalDownloads": 168,
             "TotalViews": null
         },
         "Images": [
@@ -3185,7 +3245,7 @@
         "Name": "New Firearms",
         "Version": "1.5.2",
         "bepinexVersion": "1.5.2",
-        "Description": "New firearms reworks all gun-related things in Casualties Unknown\n<br />\n<br />[size=4][b]Key features[/b][/size]\n<br />[size=3]- Fire mode selector, some full-auto guns can be put into semi-auto mode to not waste ammunition[/size]\n<br />[size=3]- Different magazine types, m1911 mag, small magazine, smg magazine, etc.[/size]\n<br />[size=3]- Different ammunition types: 12gauge birdshot, buckshot, slugshot; 9mm round, hollow and venomus[/size]\n<br />[size=1]You can also choose what ammo fill magazine with when spawning by adding $ at a end of id[/size]\n<br />[size=3]- Magazine feed guns, tube feed guns, barrel feed guns (with display of all chambers!)[/size]\n<br />[size=3]- Custom UI sprites for guns, custom sounds too[/size]\n<br />[size=3]- Balancing rework: guns significly buffed to make them more useful[/size]\n<br />[size=3]- Shooting right over/under enemy stuns them[/size]\n<br />[size=3]- SLiders for configurabile damage/jaming/casings[/size]\n<br />[size=3]- Multiplayer compatability![/size]\n<br />[size=3]- Support for custom gun packs by .json editing![/size]\n<br />\n<br />[size=1]TODO: Update media page[/size]\n<br />\n<br />All guns:\n<br />[spoiler]Makeshift pistol:\n<br />   Early-game gun, can be easily crafted, and most lightweight. With a tradeoff of dealing least damage of all, being able to hold no more then 2 rounds at a time, and having bad durability\n<br />M1911:\n<br />   9mm semi-auto handgun, fairly lightweight and durabile. Can only hold 8 rounds in specialized magazine, craftable tho recipes will take a while to learn (18 int)\n<br />Glock 17 (pistol):\n<br />   Very durabile, holds 17 rounds in small magazine and good damage/accuracy. Not craftable\n<br />Glock 18:\n<br />   Upgrade of glock 17 (16 int). Same in everything, except option for full-auto\n<br />\n<br />UZI:\n<br />   Reuses assets from SMG in gunsaw\n<br />   Custom rack/unrack sounds and buttons\n<br />   Craftable (19 int), moderate damage of 9mm\n<br />   Lightweight (1u), uses small magazines or SMG magazines\n<br />   Not very durabile, have high recoil, inaccurate\n<br />   High RPM and only full-auto\n<br />MP5:\n<br />  Reuses assets from Mini-SMG in gunsaw\n<br />  1.25u, highest damage of 9mm\n<br />  Uses small magazines or SMG magazines\n<br />  Most relaible of 9mm, accurate, select-fire\n<br />Vector:\n<br />[size=1]  TODO i prob would repaint it[/size]\n<br />  Reuses assets from Prototype in gunsaw\n<br />  Heavy (1.5u), highest damage of 9mm\n<br />  Uses only SMG magazines\n<br />  Very accurate and have almost no recoil\n<br />  Low RPM and select-fire\n<br />P90:\n<br />  Reuses assets from PDW in gunsaw\n<br />  1.25u, highest damage of 9mm\n<br />  Uses P90 magazines (that are not craftable...)\n<br />  Low recoil, select-fire\n<br />\n<br />Sawed off:\n<br />  Reuses assets from Sawedoff in gunsaw\n<br />  Lightweight (1u), lowest damage of 12gauge\n<br />Double barrel:\n<br />Pump-action shotgun\n<br />Bolt-action rifle[/spoiler]\n<br />[color=#00ff00][b]MP Status: C[/b][b]ompatible[/b][/color]\n<br />Required on both parties\n<br />Even more, gun jamming is no longer dysnching and removing mag now makes you auto pick up\n<br />\n<br />Other mods that do anything with firearms (including rusiber's new firearms loader and my old new firearms) are [b]Incompatible[/b]\n<br />[b][size=4]\n<br />Installation instructions[/size][/b]\n<br />If you mod your game for first time (dont have BepInEx):\n<br />[spoiler]Go to BepInEx download page\n<br />https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5\n<br />And download BepInEx_win_x64_5.4.23.5\n<br />Open steam, choose browse local file\n<br />Extract BepInEx contents into game folder's root (winhttp.dll should be in same folder as executable)\n<br />Open game once and close\n<br />Now folder BepInEx/plugins should be created\n<br />\n<br />Additional instruction for Linux users:\n<br />  - Add  `WINEDLLOVERRIDES=\"winhttp=n,b\"  %command%` into launch arguments[/spoiler]\n<br />\n<br />Download and extract RshLib into BepInEx/plugins(if you haven't before)\n<br />  You can verify that RshLib loaded by seeing \"This is a modded beta build\" on top\n<br />Download `NewFirearms` and extract into BepInEx/plugins\n<br />\n<br />[size=4][b]Known bugs[/b][/size]\n<br />\n<br />[size=2]Dismembered by a gun causes no yellow flesh to be dropped[/size]\n<br />[size=2]In multiplayer, killing trader from a gun, makes host to apply mood penality?[/size]\n<br />[size=2]Do not try to load save without this mod with this mod, and vica verse[/size]\n<br />[size=2]Switching your main hand might mess up with aim (but this bug is present in vanila too!)[/size]\n<br />[size=2]Tube feed option behave differently from what you'd expect IRL[/size]\n<br />[size=2]After loading a save gun might have wrong sprite, this is only visual[/size]\n<br />[size=2]Yet again, other firearms-releated mods not supported[/size]\n<br />\n<br />[b][size=4]Future plans[/size][/b]\n<br /> - More standalone guns (and crosbow!)(add more assets to already existing, and add rifles and special)\n<br /> - Tube feed with shift (like if you have tube-feed shotgun full of buckshots, and then instert a birdshot pump slider, a birdshot now will be in chamber)\n<br /> - Revolver feed (idk, the reloading it is bad)\n<br /> - Maybe battery powered (chemcoilgun, railgun, laser)\n<br /> - Maybe minigame (i saw that concept https://youtu.be/eKnXDqIYSiE might implement)\n<br /> - Maybe firearm handling course\n<br /> - Maybe attachments\n<br />\n<br />Documentation for creating new gun pack have moved into NewFirearms/doc.txt\n<br />Please report any bugs you find\n<br />\n<br />[b][size=4]Shout outs[/size][/b]\n<br />",
+        "Description": "New firearms reworks all gun-related things in Casualties Unknown\n<br />\n<br />[size=4][b]Key features[/b][/size]\n<br />[size=3]- Fire mode selector, some full-auto guns can be put into semi-auto mode to not waste ammunition[/size]\n<br />[size=3]- Different magazine types, m1911 mag, small magazine, smg magazine, etc.[/size]\n<br />[size=3]- Different ammunition types: 12gauge birdshot, buckshot, slugshot; 9mm round, hollow and venomus[/size]\n<br />[size=1]You can also choose what ammo fill magazine with when spawning by adding $ at a end of id[/size]\n<br />[size=3]- Magazine feed guns, tube feed guns, barrel feed guns (with display of all chambers!)[/size]\n<br />[size=3]- Custom UI sprites for guns, custom sounds too[/size]\n<br />[size=3]- Balancing rework: guns significly buffed to make them more useful[/size]\n<br />[size=3]- Shooting right over/under enemy stuns them[/size]\n<br />[size=3]- SLiders for configurabile damage/jaming/casings[/size]\n<br />[size=3]- Multiplayer compatability![/size]\n<br />[size=3]- Support for custom gun packs by .json editing![/size]\n<br />\n<br />[size=1]TODO: Update media page[/size]\n<br />\n<br />All guns:\n<br />[spoiler]Makeshift pistol:\n<br />   Early-game gun, can be easily crafted, and most lightweight. With a tradeoff of dealing least damage of all, being able to hold no more then 2 rounds at a time, and having bad durability\n<br />M1911:\n<br />   9mm semi-auto handgun, fairly lightweight and durabile. Can only hold 8 rounds in specialized magazine, craftable tho recipes will take a while to learn (18 int)\n<br />Glock 17 (pistol):\n<br />   Very durabile, holds 17 rounds in small magazine and good damage/accuracy. Not craftable\n<br />Glock 18:\n<br />   Upgrade of glock 17 (16 int). Same in everything, except option for full-auto\n<br />\n<br />UZI:\n<br />   Reuses assets from SMG in gunsaw\n<br />   Custom rack/unrack sounds and buttons\n<br />   Craftable (19 int), moderate damage of 9mm\n<br />   Lightweight (1u), uses small magazines or SMG magazines\n<br />   Not very durabile, have high recoil, inaccurate\n<br />   High RPM and only full-auto\n<br />MP5:\n<br />  Reuses assets from Mini-SMG in gunsaw\n<br />  1.25u, highest damage of 9mm\n<br />  Uses small magazines or SMG magazines\n<br />  Most relaible of 9mm, accurate, select-fire\n<br />Vector:\n<br />[size=1]  TODO i prob would repaint it[/size]\n<br />  Reuses assets from Prototype in gunsaw\n<br />  Heavy (1.5u), highest damage of 9mm\n<br />  Uses only SMG magazines\n<br />  Very accurate and have almost no recoil\n<br />  Low RPM and select-fire\n<br />P90:\n<br />  Reuses assets from PDW in gunsaw\n<br />  1.25u, highest damage of 9mm\n<br />  Uses P90 magazines (that are not craftable...)\n<br />  Low recoil, select-fire\n<br />\n<br />Sawed off:\n<br />  Reuses assets from Sawedoff in gunsaw\n<br />  Lightweight (1u), lowest damage of 12gauge\n<br />Double barrel:\n<br />Pump-action shotgun\n<br />Bolt-action rifle[/spoiler]\n<br />[color=#00ff00][b]MP Status: C[/b][b]ompatible[/b][/color]\n<br />Required on both parties\n<br />Even more, gun jamming is no longer dysnching and removing mag now makes you auto pick up\n<br />\n<br />Other mods that do anything with firearms (including rusiber's new firearms loader and my old new firearms) are [b]Incompatible[/b]\n<br />[b][size=4]\n<br />Installation instructions[/size][/b]\n<br />If you mod your game for first time (dont have BepInEx):\n<br />[spoiler]Go to BepInEx download page\n<br />https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5\n<br />And download BepInEx_win_x64_5.4.23.5\n<br />Open steam, choose browse local file\n<br />Extract BepInEx contents into game folder's root (winhttp.dll should be in same folder as executable)\n<br />Open game once and close\n<br />Now folder BepInEx/plugins should be created\n<br />\n<br />Additional instruction for Linux users:\n<br />  - Add  `WINEDLLOVERRIDES=\"winhttp=n,b\"  %command%` into launch arguments[/spoiler]\n<br />\n<br />Download and extract RshLib into BepInEx/plugins(if you haven't before)\n<br />  You can verify that RshLib loaded by seeing \"This is a modded beta build\" on top\n<br />Download `NewFirearms` and extract into BepInEx/plugins\n<br />\n<br />[size=4][b]Known bugs[/b][/size]\n<br />[size=4]Saving while having a gun without MP mod .dll causes an entire game to crash![/size]\n<br />[size=2]Dismembered by a gun causes no yellow flesh to be dropped[/size]\n<br />[size=2]In multiplayer, killing trader from a gun, makes host to apply mood penality?[/size]\n<br />[size=2]Do not try to load save without this mod with this mod, and vica verse[/size]\n<br />[size=2]Switching your main hand might mess up with aim (but this bug is present in vanila too!)[/size]\n<br />[size=2]Tube feed option behave differently from what you'd expect IRL[/size]\n<br />[size=2]After loading a save gun might have wrong sprite, this is only visual[/size]\n<br />[size=2]Yet again, other firearms-releated mods not supported[/size]\n<br />\n<br />[b][size=4]Future plans[/size][/b]\n<br /> - More standalone guns (and crosbow!)(add more assets to already existing, and add rifles and special)\n<br /> - Tube feed with shift (like if you have tube-feed shotgun full of buckshots, and then instert a birdshot pump slider, a birdshot now will be in chamber)\n<br /> - Revolver feed (idk, the reloading it is bad)\n<br /> - Maybe battery powered (chemcoilgun, railgun, laser)\n<br /> - Maybe minigame (i saw that concept https://youtu.be/eKnXDqIYSiE might implement)\n<br /> - Maybe firearm handling course\n<br /> - Maybe attachments\n<br />\n<br />Documentation for creating new gun pack have moved into NewFirearms/doc.txt\n<br />Please report any bugs you find\n<br />\n<br />[b][size=4]Shout outs[/size][/b]\n<br />",
         "Author": "RushellXYZ",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/122/122-1779962803-1133798693.png",
@@ -3203,9 +3263,9 @@
             "NewFirearms.dll": "1.5.2"
         },
         "Statistics": {
-            "Endorsements": 21,
-            "UniqueDownloads": 760,
-            "TotalDownloads": 1376,
+            "Endorsements": 23,
+            "UniqueDownloads": 798,
+            "TotalDownloads": 1437,
             "TotalViews": null
         },
         "Images": [
@@ -3236,8 +3296,8 @@
         },
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 41,
-            "TotalDownloads": 55,
+            "UniqueDownloads": 42,
+            "TotalDownloads": 59,
             "TotalViews": null
         },
         "Images": [
@@ -3267,9 +3327,9 @@
             "LastStandTheme.dll": "1.1.0"
         },
         "Statistics": {
-            "Endorsements": 16,
-            "UniqueDownloads": 441,
-            "TotalDownloads": 559,
+            "Endorsements": 17,
+            "UniqueDownloads": 448,
+            "TotalDownloads": 571,
             "TotalViews": null
         },
         "Images": [
@@ -3300,9 +3360,9 @@
             "ChangeSkinMP.dll": "3.2.0"
         },
         "Statistics": {
-            "Endorsements": 34,
-            "UniqueDownloads": 2434,
-            "TotalDownloads": 3307,
+            "Endorsements": 36,
+            "UniqueDownloads": 2530,
+            "TotalDownloads": 3456,
             "TotalViews": null
         },
         "Images": [
@@ -3333,8 +3393,8 @@
         },
         "Statistics": {
             "Endorsements": 23,
-            "UniqueDownloads": 730,
-            "TotalDownloads": 1035,
+            "UniqueDownloads": 741,
+            "TotalDownloads": 1050,
             "TotalViews": null
         },
         "Images": [
@@ -3366,7 +3426,7 @@
         "Statistics": {
             "Endorsements": 7,
             "UniqueDownloads": 221,
-            "TotalDownloads": 336,
+            "TotalDownloads": 340,
             "TotalViews": null
         },
         "Images": [
@@ -3396,9 +3456,9 @@
             "NoEarthquake.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 7,
-            "UniqueDownloads": 189,
-            "TotalDownloads": 273,
+            "Endorsements": 8,
+            "UniqueDownloads": 191,
+            "TotalDownloads": 278,
             "TotalViews": null
         },
         "Images": [
@@ -3429,8 +3489,8 @@
         },
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 28,
-            "TotalDownloads": 38,
+            "UniqueDownloads": 29,
+            "TotalDownloads": 42,
             "TotalViews": null
         },
         "Images": [
@@ -3461,8 +3521,8 @@
         },
         "Statistics": {
             "Endorsements": 11,
-            "UniqueDownloads": 140,
-            "TotalDownloads": 182,
+            "UniqueDownloads": 141,
+            "TotalDownloads": 186,
             "TotalViews": null
         },
         "Images": [
@@ -3493,8 +3553,8 @@
         },
         "Statistics": {
             "Endorsements": 15,
-            "UniqueDownloads": 403,
-            "TotalDownloads": 466,
+            "UniqueDownloads": 408,
+            "TotalDownloads": 475,
             "TotalViews": null
         },
         "Images": [
@@ -3524,9 +3584,9 @@
             "CraftingBottleRework.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 3,
+            "Endorsements": 4,
             "UniqueDownloads": 74,
-            "TotalDownloads": 94,
+            "TotalDownloads": 97,
             "TotalViews": null
         },
         "Images": [
@@ -3553,8 +3613,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 35,
-            "TotalDownloads": 48,
+            "UniqueDownloads": 36,
+            "TotalDownloads": 53,
             "TotalViews": null
         },
         "Images": [
@@ -3586,7 +3646,7 @@
         "Statistics": {
             "Endorsements": 1,
             "UniqueDownloads": 94,
-            "TotalDownloads": 112,
+            "TotalDownloads": 116,
             "TotalViews": null
         },
         "Images": [
@@ -3614,7 +3674,7 @@
         "Statistics": {
             "Endorsements": 3,
             "UniqueDownloads": 78,
-            "TotalDownloads": 107,
+            "TotalDownloads": 110,
             "TotalViews": null
         },
         "Images": [
@@ -3645,8 +3705,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 331,
-            "TotalDownloads": 424,
+            "UniqueDownloads": 339,
+            "TotalDownloads": 436,
             "TotalViews": null
         },
         "Images": [
@@ -3677,8 +3737,8 @@
         },
         "Statistics": {
             "Endorsements": 21,
-            "UniqueDownloads": 723,
-            "TotalDownloads": 1047,
+            "UniqueDownloads": 739,
+            "TotalDownloads": 1070,
             "TotalViews": null
         },
         "Images": [
@@ -3729,8 +3789,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 65,
-            "TotalDownloads": 95,
+            "UniqueDownloads": 66,
+            "TotalDownloads": 99,
             "TotalViews": null
         },
         "Images": [
@@ -3761,8 +3821,8 @@
         },
         "Statistics": {
             "Endorsements": 13,
-            "UniqueDownloads": 379,
-            "TotalDownloads": 496,
+            "UniqueDownloads": 383,
+            "TotalDownloads": 505,
             "TotalViews": null
         },
         "Images": [
@@ -3792,9 +3852,9 @@
             "MyScavMod.dll": "10.0.0"
         },
         "Statistics": {
-            "Endorsements": 5,
-            "UniqueDownloads": 209,
-            "TotalDownloads": 245,
+            "Endorsements": 6,
+            "UniqueDownloads": 211,
+            "TotalDownloads": 250,
             "TotalViews": null
         },
         "Images": [
@@ -3825,8 +3885,8 @@
         },
         "Statistics": {
             "Endorsements": 13,
-            "UniqueDownloads": 260,
-            "TotalDownloads": 334,
+            "UniqueDownloads": 263,
+            "TotalDownloads": 340,
             "TotalViews": null
         },
         "Images": [
@@ -3857,8 +3917,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 372,
-            "TotalDownloads": 456,
+            "UniqueDownloads": 375,
+            "TotalDownloads": 463,
             "TotalViews": null
         },
         "Images": [
@@ -3890,7 +3950,7 @@
         "Statistics": {
             "Endorsements": 4,
             "UniqueDownloads": 208,
-            "TotalDownloads": 268,
+            "TotalDownloads": 272,
             "TotalViews": null
         },
         "Images": [
@@ -3918,7 +3978,7 @@
         "Statistics": {
             "Endorsements": 1,
             "UniqueDownloads": 85,
-            "TotalDownloads": 108,
+            "TotalDownloads": 111,
             "TotalViews": null
         },
         "Images": [
@@ -3949,8 +4009,8 @@
         },
         "Statistics": {
             "Endorsements": 22,
-            "UniqueDownloads": 690,
-            "TotalDownloads": 812,
+            "UniqueDownloads": 695,
+            "TotalDownloads": 821,
             "TotalViews": null
         },
         "Images": [
@@ -3981,8 +4041,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 352,
-            "TotalDownloads": 438,
+            "UniqueDownloads": 354,
+            "TotalDownloads": 443,
             "TotalViews": null
         },
         "Images": [
@@ -4012,9 +4072,9 @@
             "ScavLib API.dll": "0.7.3"
         },
         "Statistics": {
-            "Endorsements": 28,
-            "UniqueDownloads": 633,
-            "TotalDownloads": 1088,
+            "Endorsements": 29,
+            "UniqueDownloads": 638,
+            "TotalDownloads": 1098,
             "TotalViews": null
         },
         "Images": [
@@ -4044,9 +4104,9 @@
             "CuSaveManager.dll": "1.1.6"
         },
         "Statistics": {
-            "Endorsements": 30,
-            "UniqueDownloads": 1080,
-            "TotalDownloads": 2138,
+            "Endorsements": 31,
+            "UniqueDownloads": 1098,
+            "TotalDownloads": 2164,
             "TotalViews": null
         },
         "Images": [
@@ -4073,8 +4133,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 9,
-            "UniqueDownloads": 265,
-            "TotalDownloads": 369,
+            "UniqueDownloads": 272,
+            "TotalDownloads": 380,
             "TotalViews": null
         },
         "Images": [
@@ -4101,8 +4161,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 9,
-            "UniqueDownloads": 525,
-            "TotalDownloads": 671,
+            "UniqueDownloads": 535,
+            "TotalDownloads": 686,
             "TotalViews": null
         },
         "Images": [
@@ -4133,8 +4193,8 @@
         },
         "Statistics": {
             "Endorsements": 11,
-            "UniqueDownloads": 245,
-            "TotalDownloads": 297,
+            "UniqueDownloads": 248,
+            "TotalDownloads": 304,
             "TotalViews": null
         },
         "Images": [
@@ -4164,9 +4224,9 @@
             "CasualtiesUnknownLight.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 15,
-            "UniqueDownloads": 302,
-            "TotalDownloads": 363,
+            "Endorsements": 16,
+            "UniqueDownloads": 304,
+            "TotalDownloads": 370,
             "TotalViews": null
         },
         "Images": [
@@ -4197,8 +4257,8 @@
         },
         "Statistics": {
             "Endorsements": 36,
-            "UniqueDownloads": 974,
-            "TotalDownloads": 1114,
+            "UniqueDownloads": 988,
+            "TotalDownloads": 1134,
             "TotalViews": null
         },
         "Images": [
@@ -4228,9 +4288,9 @@
             "CasualtiesUnknownAlwaysLastStand.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 12,
-            "UniqueDownloads": 260,
-            "TotalDownloads": 307,
+            "Endorsements": 13,
+            "UniqueDownloads": 262,
+            "TotalDownloads": 312,
             "TotalViews": null
         },
         "Images": [
@@ -4260,9 +4320,9 @@
             "ShrapnelVariants.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 55,
-            "UniqueDownloads": 1966,
-            "TotalDownloads": 2361,
+            "Endorsements": 57,
+            "UniqueDownloads": 2005,
+            "TotalDownloads": 2411,
             "TotalViews": null
         },
         "Images": [
@@ -4292,9 +4352,9 @@
             "MultiplayerSpriteReplacer.dll": "1.2.0"
         },
         "Statistics": {
-            "Endorsements": 128,
-            "UniqueDownloads": 7851,
-            "TotalDownloads": 11794,
+            "Endorsements": 130,
+            "UniqueDownloads": 8115,
+            "TotalDownloads": 12195,
             "TotalViews": null
         },
         "Images": [
@@ -4324,9 +4384,9 @@
             "SellFromBags.dll": "1.0.1"
         },
         "Statistics": {
-            "Endorsements": 39,
-            "UniqueDownloads": 1335,
-            "TotalDownloads": 1582,
+            "Endorsements": 40,
+            "UniqueDownloads": 1359,
+            "TotalDownloads": 1615,
             "TotalViews": null
         },
         "Images": [
@@ -4356,9 +4416,9 @@
             "ItemSpawner.build.dll": "1.0.1"
         },
         "Statistics": {
-            "Endorsements": 25,
-            "UniqueDownloads": 1029,
-            "TotalDownloads": 1219,
+            "Endorsements": 26,
+            "UniqueDownloads": 1043,
+            "TotalDownloads": 1238,
             "TotalViews": null
         },
         "Images": [
@@ -4388,9 +4448,9 @@
             "cu.kinatera.gravbagbeeper.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 10,
-            "UniqueDownloads": 366,
-            "TotalDownloads": 435,
+            "Endorsements": 11,
+            "UniqueDownloads": 370,
+            "TotalDownloads": 443,
             "TotalViews": null
         },
         "Images": [
@@ -4420,9 +4480,9 @@
             "ICEnecoCustomItemAPI.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 32,
-            "UniqueDownloads": 723,
-            "TotalDownloads": 1745,
+            "Endorsements": 33,
+            "UniqueDownloads": 731,
+            "TotalDownloads": 1762,
             "TotalViews": null
         },
         "Images": [
@@ -4452,9 +4512,9 @@
             "CatPatch.dll": "1.0.1"
         },
         "Statistics": {
-            "Endorsements": 136,
-            "UniqueDownloads": 5684,
-            "TotalDownloads": 9714,
+            "Endorsements": 140,
+            "UniqueDownloads": 5788,
+            "TotalDownloads": 9881,
             "TotalViews": null
         },
         "Images": [
@@ -4481,8 +4541,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 12,
-            "UniqueDownloads": 329,
-            "TotalDownloads": 438,
+            "UniqueDownloads": 338,
+            "TotalDownloads": 454,
             "TotalViews": null
         },
         "Images": [
@@ -4557,8 +4617,8 @@
         },
         "Statistics": {
             "Endorsements": 12,
-            "UniqueDownloads": 236,
-            "TotalDownloads": 345,
+            "UniqueDownloads": 239,
+            "TotalDownloads": 351,
             "TotalViews": null
         },
         "Images": [
@@ -4589,8 +4649,8 @@
         },
         "Statistics": {
             "Endorsements": 5,
-            "UniqueDownloads": 235,
-            "TotalDownloads": 285,
+            "UniqueDownloads": 236,
+            "TotalDownloads": 289,
             "TotalViews": null
         },
         "Images": [
@@ -4617,8 +4677,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 37,
-            "UniqueDownloads": 1323,
-            "TotalDownloads": 1944,
+            "UniqueDownloads": 1365,
+            "TotalDownloads": 1999,
             "TotalViews": null
         },
         "Images": [
@@ -4649,8 +4709,8 @@
         },
         "Statistics": {
             "Endorsements": 17,
-            "UniqueDownloads": 391,
-            "TotalDownloads": 552,
+            "UniqueDownloads": 395,
+            "TotalDownloads": 560,
             "TotalViews": null
         },
         "Images": [
@@ -4681,8 +4741,8 @@
         },
         "Statistics": {
             "Endorsements": 29,
-            "UniqueDownloads": 846,
-            "TotalDownloads": 1100,
+            "UniqueDownloads": 863,
+            "TotalDownloads": 1126,
             "TotalViews": null
         },
         "Images": [
@@ -4709,8 +4769,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 38,
-            "UniqueDownloads": 840,
-            "TotalDownloads": 1461,
+            "UniqueDownloads": 860,
+            "TotalDownloads": 1496,
             "TotalViews": null
         },
         "Images": [
@@ -4741,8 +4801,8 @@
         },
         "Statistics": {
             "Endorsements": 21,
-            "UniqueDownloads": 607,
-            "TotalDownloads": 833,
+            "UniqueDownloads": 617,
+            "TotalDownloads": 848,
             "TotalViews": null
         },
         "Images": [
@@ -4773,8 +4833,8 @@
         },
         "Statistics": {
             "Endorsements": 16,
-            "UniqueDownloads": 675,
-            "TotalDownloads": 796,
+            "UniqueDownloads": 678,
+            "TotalDownloads": 803,
             "TotalViews": null
         },
         "Images": [
@@ -4805,8 +4865,8 @@
         },
         "Statistics": {
             "Endorsements": 10,
-            "UniqueDownloads": 1205,
-            "TotalDownloads": 1772,
+            "UniqueDownloads": 1225,
+            "TotalDownloads": 1800,
             "TotalViews": null
         },
         "Images": [
@@ -4836,9 +4896,9 @@
             "Cigs.dll": "1.0.1"
         },
         "Statistics": {
-            "Endorsements": 17,
-            "UniqueDownloads": 431,
-            "TotalDownloads": 548,
+            "Endorsements": 19,
+            "UniqueDownloads": 439,
+            "TotalDownloads": 559,
             "TotalViews": null
         },
         "Images": [
@@ -4864,9 +4924,9 @@
         "dllVersion": null,
         "dllVersions": {},
         "Statistics": {
-            "Endorsements": 5,
+            "Endorsements": 6,
             "UniqueDownloads": 206,
-            "TotalDownloads": 267,
+            "TotalDownloads": 270,
             "TotalViews": null
         },
         "Images": [
@@ -4898,7 +4958,7 @@
         "Statistics": {
             "Endorsements": 3,
             "UniqueDownloads": 38,
-            "TotalDownloads": 60,
+            "TotalDownloads": 64,
             "TotalViews": null
         },
         "Images": [
@@ -4929,8 +4989,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 87,
-            "TotalDownloads": 113,
+            "UniqueDownloads": 88,
+            "TotalDownloads": 117,
             "TotalViews": null
         },
         "Images": [
@@ -4960,9 +5020,9 @@
             "RemiyamuremodLayerUnlock.dll": "2.1.0"
         },
         "Statistics": {
-            "Endorsements": 48,
-            "UniqueDownloads": 1376,
-            "TotalDownloads": 2247,
+            "Endorsements": 49,
+            "UniqueDownloads": 1424,
+            "TotalDownloads": 2359,
             "TotalViews": null
         },
         "Images": [
@@ -4993,8 +5053,8 @@
         },
         "Statistics": {
             "Endorsements": 14,
-            "UniqueDownloads": 307,
-            "TotalDownloads": 433,
+            "UniqueDownloads": 309,
+            "TotalDownloads": 439,
             "TotalViews": null
         },
         "Images": [
@@ -5025,8 +5085,8 @@
         },
         "Statistics": {
             "Endorsements": 22,
-            "UniqueDownloads": 875,
-            "TotalDownloads": 1395,
+            "UniqueDownloads": 885,
+            "TotalDownloads": 1412,
             "TotalViews": null
         },
         "Images": [
@@ -5036,7 +5096,7 @@
     {
         "Id": "nexus-43",
         "Name": "New Clothing",
-        "Version": "1.6.1",
+        "Version": "1.6.2",
         "bepinexVersion": null,
         "Description": "[size=4][b]Description[/b][/size]\n<br />Adds 10 new clothing items in game\n<br />They can be founded in any color! Also modifies armwarmers and holiday hat to have random color as well\n<br />They also can be repainted in traders\n<br />[b][color=#00ff00]MP Status: Compatabile[/color][/b]\n<br />There are commands for it:\n<br />`nc_reloadregistry`: Unregisters all NewClothing items, and then registers all items from NewClothing/ folder. Can be done while in game, althoght, it will destroy all old items, howevar, if you are client host will quickly send packet to recreate localy misisng items\n<br />`nc_downloadfromhost`: Deletes local NewClothing folder and downloads it from host, afterwards, runs nc_reloadregistry\n<br />In other words: if you join server, with, lets say killer clothing, but you dont have it installed, you can run this command to load and register them.\n<br />\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8]If you mod your game for first time (dont have BepInEx):[/color]\n<br />[spoiler][color=#D4D4D8]Go to BepInEx download page\n<br />https://github.com/BepInEx/BepInEx/releases/tag/v\n<br />And download BepInEx_win_x64_5.4.23.5\n<br />Open steam, choose browse local file\n<br />Extract BepInEx contents into game folder's root (winhttp.dll should be in same folder as executable)\n<br />Open game once and close\n<br />Now folder BepInEx/plugins should be created\n<br />\n<br />Additional instruction for Linux users:\n<br /> - Add  `WINEDLLOVERRIDES=\"winhttp=n,b\"  %command%` into launch arguments[/color][/spoiler]\n<br />[color=#D4D4D8]Download and extract into BepInEx/plugins RshLib.3.0.0 (if you haven't before)[/color]\n<br />[color=#D4D4D8]  You can verify that RshLib loaded by seeing \"This is a modded beta build\" in top[/color]\n<br />[color=#D4D4D8]Download `NewClothing` and extract into BepInEx/plugins[/color]\n<br />It's also recomended to download [url=https://www.nexusmods.com/scavprototype/mods/194]Wearable Array[/url] too, it prevents wearables from going-off screen\n<br />\n<br />\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />Adds:\n<br /> - Shirt (different from torn shirt)\n<br /> - T-Shirt\n<br /> - Crop shirt\n<br /> - Crop t-shirt\n<br /> - Thigh highs\n<br /> - Jeans (have a little pocket store things)\n<br /> - Shorts (have a little pocket store things)\n<br /> - Socks\n<br /> - Boots\n<br /> - Long shirt\n<br />\n<br />You can spawn them in any color, just add $&lt;HEX CODE OF COLOR&gt; In the end\n<br />Like this: spawn armwarmers$F09000\n<br />\n<br />You also can add your own clothing by .json edits!\n<br />Doc:\n<br />[spoiler]{\n<br />    \"baseItem\": \"string\", // Advanced only, enter only vanilla items here, remove if you're unsure on what you are doing\n<br />    \"notWearable\": false, // i guess we are doing items now\n<br />    \"notPaintable\": false, // Allows usage of FF00FF\n<br />    \"limbs\": [ \"string\", ], // All limbs beside \"desiredWearLimb\" affected by clothing\n<br />    \"fullname\": \"string\", // Displayed name\n<br />    \"description\": \"string\", // Displayed description\n<br />    \"category\": \"string\", // \"utility\" droppable as utility item, \"custom\" only traders, \"unobtainable\" only console commands\n<br />    \"decayMinutes\": 0.0, // Set to 0 to not decay\n<br />    \"scaleWeight\": false,\n<br />    \"weight\": 0.0,\n<br />    \"desiredWearLimb\": \"string\", // Main limb it worn on, dismembrent bans wearing. If not wearable only defines file name\n<br />    \"wearSlotId\": \"string\", // Player cant put on 2 wearables with same slot id\n<br />    \"wearableIsolation\": 0.0, // Isolation from temperatures provided by wearable, multiply by 100 to get in %. Doesn't affected by \"limbs\"\n<br />    \"wearableArmor\": 0.0, // Armor provided to \"desiredWearLimb\" and \"limbs\", multiply by 100 to get in %\n<br />    \"wearableHitDurabilityLossMultiplier\": 0.0, // Multiplier of damage wearable takes\n<br />    \"wearableVisualOffset\": 0, // Lower values makes wearable be visually putted below ones with highers value\n<br />    \"rippableAmount\": 0, // Defines rippable quantity\n<br />    \"value\": 0,\n<br />    \"recognition\": 0,\n<br />    \"decayInfo\": 6, // 6 by default\n<br />    \"isBulletproof\": false, // Used by New Firearms 1.5.0+. No effect if no new firearms\n<br />\n<br />    \"container\": false, // Conflicts with \"bottle\"\n<br />    \"maxWeight\": 0.0,\n<br />    \"maxWeightPerItem\": 0.0,\n<br />    \"encumberanceMult\": 0.0, // Weight of items in container multiplier by this value\n<br />    \"itemsVisible\": false,\n<br />    \"tagRestriction\": [ \"string\", ], // Leave empty/null to not have restrictions\n<br />\n<br />    \"weightReduction\": false, // Requires \"container\"\n<br />    \"weightReductionSelf\": -0.0, // If operational, this value will get ADDED on top of current enumberance\n<br />\n<br />    \"maxBatterySize\": 0, // not 0 makes clothing battery powered, 1 - small, 2 - medium, 3 - large\n<br />\n<br />    \"explodeAtZero\": false, // Explode similar to gravbag when condition reaches below 0.5% and (if battery powered then also have battery)\n<br />\n<br />    \"bottle\": false, // Confilicts with \"container\",\n<br />    \"liquidCapacity\": 0.0,\n<br />    \"defaultLiquid\": \"string\",\n<br />    \"autoFill\": \"string\",\n<br />    \"fillmentSpritesPath\": \"string\",\n<br />    \"drinkAmount\" 0.0, // mL to drink on use if notWearable\n<br />\n<br />    \"autoZoomBehaviour\": false,\n<br />    \"climbingClawsBehaviour\": false, // doesnt drain condioton on walljumps\n<br />    \"headlampBehaviour\": false,\n<br />    \"scubaGearBehaviour\": false,\n<br />}[/spoiler]\n<br />\n<br />\n<br />\n<br />[color=#D4D4D8][size=4][b]Shout out[/b][/size][/color]\n<br />Killer Tamashi",
         "Author": "RushellXYZ",
@@ -5044,7 +5104,7 @@
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/43/43-1777981839-1948096663.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/43"
         },
-        "DownloadUrl": "nexus://scavprototype/43/968",
+        "DownloadUrl": "nexus://scavprototype/43/985",
         "NexusGameDomain": "scavprototype",
         "NexusModId": 43,
         "SourceName": "Nexus",
@@ -5055,8 +5115,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 51,
-            "UniqueDownloads": 1377,
-            "TotalDownloads": 2276,
+            "UniqueDownloads": 1409,
+            "TotalDownloads": 2358,
             "TotalViews": null
         },
         "Images": [
@@ -5086,9 +5146,9 @@
             "VoySoundSwap.dll": "1.0.3"
         },
         "Statistics": {
-            "Endorsements": 24,
-            "UniqueDownloads": 581,
-            "TotalDownloads": 673,
+            "Endorsements": 25,
+            "UniqueDownloads": 597,
+            "TotalDownloads": 696,
             "TotalViews": null
         },
         "Images": [
@@ -5119,8 +5179,8 @@
         },
         "Statistics": {
             "Endorsements": 12,
-            "UniqueDownloads": 228,
-            "TotalDownloads": 288,
+            "UniqueDownloads": 230,
+            "TotalDownloads": 293,
             "TotalViews": null
         },
         "Images": [
@@ -5150,9 +5210,9 @@
             "prosthetics.dll": "0.8.1"
         },
         "Statistics": {
-            "Endorsements": 121,
-            "UniqueDownloads": 3446,
-            "TotalDownloads": 9632,
+            "Endorsements": 123,
+            "UniqueDownloads": 3516,
+            "TotalDownloads": 9829,
             "TotalViews": null
         },
         "Images": [
@@ -5183,8 +5243,8 @@
         },
         "Statistics": {
             "Endorsements": 29,
-            "UniqueDownloads": 756,
-            "TotalDownloads": 915,
+            "UniqueDownloads": 767,
+            "TotalDownloads": 930,
             "TotalViews": null
         },
         "Images": [
@@ -5215,8 +5275,8 @@
         },
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 36,
-            "TotalDownloads": 54,
+            "UniqueDownloads": 37,
+            "TotalDownloads": 58,
             "TotalViews": null
         },
         "Images": [
@@ -5304,8 +5364,8 @@
         },
         "Statistics": {
             "Endorsements": 8,
-            "UniqueDownloads": 106,
-            "TotalDownloads": 135,
+            "UniqueDownloads": 107,
+            "TotalDownloads": 139,
             "TotalViews": null
         },
         "Images": [
@@ -5336,8 +5396,8 @@
         },
         "Statistics": {
             "Endorsements": 24,
-            "UniqueDownloads": 683,
-            "TotalDownloads": 922,
+            "UniqueDownloads": 694,
+            "TotalDownloads": 938,
             "TotalViews": null
         },
         "Images": [
@@ -5367,9 +5427,9 @@
             "RshLib.dll": "3.0.2"
         },
         "Statistics": {
-            "Endorsements": 138,
-            "UniqueDownloads": 4265,
-            "TotalDownloads": 7454,
+            "Endorsements": 140,
+            "UniqueDownloads": 4350,
+            "TotalDownloads": 7596,
             "TotalViews": null
         },
         "Images": [
@@ -5456,9 +5516,9 @@
             "HugAnimation.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 36,
-            "UniqueDownloads": 935,
-            "TotalDownloads": 1100,
+            "Endorsements": 37,
+            "UniqueDownloads": 945,
+            "TotalDownloads": 1113,
             "TotalViews": null
         },
         "Images": [
@@ -5489,8 +5549,8 @@
         },
         "Statistics": {
             "Endorsements": 21,
-            "UniqueDownloads": 482,
-            "TotalDownloads": 611,
+            "UniqueDownloads": 485,
+            "TotalDownloads": 617,
             "TotalViews": null
         },
         "Images": [
@@ -5522,7 +5582,7 @@
         "Statistics": {
             "Endorsements": 3,
             "UniqueDownloads": 28,
-            "TotalDownloads": 40,
+            "TotalDownloads": 44,
             "TotalViews": null
         },
         "Images": [
@@ -5554,7 +5614,7 @@
         "Statistics": {
             "Endorsements": 6,
             "UniqueDownloads": 58,
-            "TotalDownloads": 74,
+            "TotalDownloads": 77,
             "TotalViews": null
         },
         "Images": [
@@ -5736,8 +5796,8 @@
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 63,
-            "TotalDownloads": 76,
+            "UniqueDownloads": 64,
+            "TotalDownloads": 80,
             "TotalViews": null
         },
         "Images": [
@@ -5767,9 +5827,9 @@
             "TimeLimitUnknown.dll": "2026.4.5"
         },
         "Statistics": {
-            "Endorsements": 7,
-            "UniqueDownloads": 176,
-            "TotalDownloads": 204,
+            "Endorsements": 8,
+            "UniqueDownloads": 179,
+            "TotalDownloads": 210,
             "TotalViews": null
         },
         "Images": [
@@ -5801,7 +5861,7 @@
         "Statistics": {
             "Endorsements": 1,
             "UniqueDownloads": 52,
-            "TotalDownloads": 75,
+            "TotalDownloads": 78,
             "TotalViews": null
         },
         "Images": [
@@ -5832,8 +5892,8 @@
         },
         "Statistics": {
             "Endorsements": 7,
-            "UniqueDownloads": 165,
-            "TotalDownloads": 232,
+            "UniqueDownloads": 167,
+            "TotalDownloads": 237,
             "TotalViews": null
         },
         "Images": [
@@ -5863,9 +5923,9 @@
             "FixSeeCorpse.dll": "1.8.3"
         },
         "Statistics": {
-            "Endorsements": 36,
-            "UniqueDownloads": 735,
-            "TotalDownloads": 871,
+            "Endorsements": 37,
+            "UniqueDownloads": 745,
+            "TotalDownloads": 885,
             "TotalViews": null
         },
         "Images": [
@@ -5896,8 +5956,8 @@
         },
         "Statistics": {
             "Endorsements": 8,
-            "UniqueDownloads": 201,
-            "TotalDownloads": 287,
+            "UniqueDownloads": 204,
+            "TotalDownloads": 294,
             "TotalViews": null
         },
         "Images": [
@@ -5927,9 +5987,9 @@
             "ScavShrapnelMod.dll": "1.0"
         },
         "Statistics": {
-            "Endorsements": 29,
-            "UniqueDownloads": 669,
-            "TotalDownloads": 904,
+            "Endorsements": 30,
+            "UniqueDownloads": 673,
+            "TotalDownloads": 914,
             "TotalViews": null
         },
         "Images": [
@@ -5959,9 +6019,9 @@
             "body_sprite_replacer.dll": "1.1.0"
         },
         "Statistics": {
-            "Endorsements": 53,
-            "UniqueDownloads": 2260,
-            "TotalDownloads": 2799,
+            "Endorsements": 54,
+            "UniqueDownloads": 2304,
+            "TotalDownloads": 2864,
             "TotalViews": null
         },
         "Images": [
@@ -5991,9 +6051,9 @@
             "LazyShooting.dll": "1.1.0"
         },
         "Statistics": {
-            "Endorsements": 12,
-            "UniqueDownloads": 179,
-            "TotalDownloads": 253,
+            "Endorsements": 13,
+            "UniqueDownloads": 182,
+            "TotalDownloads": 259,
             "TotalViews": null
         },
         "Images": [
@@ -6024,8 +6084,8 @@
         },
         "Statistics": {
             "Endorsements": 4,
-            "UniqueDownloads": 108,
-            "TotalDownloads": 169,
+            "UniqueDownloads": 110,
+            "TotalDownloads": 174,
             "TotalViews": null
         },
         "Images": [
@@ -6053,7 +6113,7 @@
         "Statistics": {
             "Endorsements": 0,
             "UniqueDownloads": 10,
-            "TotalDownloads": 20,
+            "TotalDownloads": 23,
             "TotalViews": null
         },
         "Images": [
@@ -6083,9 +6143,9 @@
             "MossLib.dll": "1.1.1"
         },
         "Statistics": {
-            "Endorsements": 11,
-            "UniqueDownloads": 418,
-            "TotalDownloads": 536,
+            "Endorsements": 12,
+            "UniqueDownloads": 423,
+            "TotalDownloads": 546,
             "TotalViews": null
         },
         "Images": [
@@ -6116,8 +6176,8 @@
         },
         "Statistics": {
             "Endorsements": 34,
-            "UniqueDownloads": 904,
-            "TotalDownloads": 1293,
+            "UniqueDownloads": 930,
+            "TotalDownloads": 1326,
             "TotalViews": null
         },
         "Images": [
@@ -6149,7 +6209,7 @@
         "Statistics": {
             "Endorsements": 0,
             "UniqueDownloads": 87,
-            "TotalDownloads": 119,
+            "TotalDownloads": 122,
             "TotalViews": null
         },
         "Images": [
@@ -6179,9 +6239,9 @@
             "QoL Unknown.dll": "1.0.4.8"
         },
         "Statistics": {
-            "Endorsements": 210,
-            "UniqueDownloads": 7706,
-            "TotalDownloads": 12855,
+            "Endorsements": 211,
+            "UniqueDownloads": 7830,
+            "TotalDownloads": 13374,
             "TotalViews": null
         },
         "Images": [
@@ -6212,8 +6272,8 @@
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 15,
-            "TotalDownloads": 27,
+            "UniqueDownloads": 16,
+            "TotalDownloads": 31,
             "TotalViews": null
         },
         "Images": [
@@ -6244,8 +6304,8 @@
         },
         "Statistics": {
             "Endorsements": 12,
-            "UniqueDownloads": 379,
-            "TotalDownloads": 432,
+            "UniqueDownloads": 380,
+            "TotalDownloads": 436,
             "TotalViews": null
         },
         "Images": [
@@ -6275,9 +6335,9 @@
             "CU_Skip_Lore_Mod.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 11,
+            "Endorsements": 12,
             "UniqueDownloads": 408,
-            "TotalDownloads": 461,
+            "TotalDownloads": 464,
             "TotalViews": null
         },
         "Images": [
@@ -6307,9 +6367,9 @@
             "CU_ItemSpawner_Mod.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 33,
-            "UniqueDownloads": 1515,
-            "TotalDownloads": 1785,
+            "Endorsements": 34,
+            "UniqueDownloads": 1525,
+            "TotalDownloads": 1799,
             "TotalViews": null
         },
         "Images": [
