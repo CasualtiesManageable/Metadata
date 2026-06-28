@@ -1,30 +1,188 @@
 [
     {
+        "Id": "nexus-367",
+        "Name": "Yellower Expie",
+        "Version": "1",
+        "bepinexVersion": null,
+        "Description": "[size=4]because the default pink was annoying me[/size]\n<br />\n<br />[b][size=4]Instructions[/size][/b]\n<br />[size=4]download [url=https://www.nexusmods.com/scavprototype/mods/139]player sprite customiser[/url][/size]\n<br />[size=4]drag the included files to the \"CustomSprites\" folder[/size]\n<br />[size=4]yup[/size]\n<br />\n<br />\n<br />",
+        "Author": "MetroJelly",
+        "Links": {
+            "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/367/367-1782614855-1268981465.png",
+            "NexusMods": "https://www.nexusmods.com/scavprototype/mods/367"
+        },
+        "DownloadUrl": "nexus://scavprototype/367/1008",
+        "NexusGameDomain": "scavprototype",
+        "NexusModId": 367,
+        "SourceName": "Nexus",
+        "dllNames": [],
+        "dllVersion": null,
+        "dllVersions": {},
+        "Statistics": {
+            "Endorsements": 0,
+            "UniqueDownloads": 5,
+            "TotalDownloads": 7,
+            "TotalViews": null
+        },
+        "Images": [
+            "https://staticdelivery.nexusmods.com/mods/8391/images/367/367-1782614855-1268981465.png"
+        ]
+    },
+    {
+        "Id": "nexus-366",
+        "Name": "Lefty Expies",
+        "Version": "1.0.2",
+        "bepinexVersion": "1.0.2",
+        "Description": "Make your Expies lefties! This mod makes it so that the player's Experiment is left-hand dominant -- this means they will default to the left arm, it will be stronger than their right arm, and even the inventory has been modified to display the left hand as the main hand!\n<br />\n<br />I haven't tested this mod with multiplayer, use at your own risk.\n<br />\n<br />Currently only explicitly supports English, but the changes are so simple, as soon as I figure out how to ship custom localization files, explicit support for other languages will soon follow. Probably.\n<br />\n<br />[size=5][b]Requires BepInEx and CUCoreLib![/b][/size]\n<br />\n<br />[b]If the mod does not work:[/b]\n<br />1.  Open the BepInEx config at\n<br />[code]C:&#92;Program Files (x86)&#92;Steam&#92;steamapps&#92;common&#92;Casualties Unknown Demo&#92;BepInEx&#92;config&#92;BepInEx.cfg[/code]2. Change HideManagerGameObject to true:[img]https://files.catbox.moe/y9wzou.png[/img]\n<br />\n<br />Future ideas:\n<br />[list]\n<br />[*]Random chance to be right-handed, left-handed, or ambidextrous (configurable)[/*]\n<br />[*]Explicit multiplayer mod support[/*]\n<br />[/list]",
+        "Author": "IAmLeftie",
+        "Links": {
+            "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/366/366-1782582137-1051220565.png",
+            "NexusMods": "https://www.nexusmods.com/scavprototype/mods/366"
+        },
+        "DownloadUrl": "nexus://scavprototype/366/1007",
+        "NexusGameDomain": "scavprototype",
+        "NexusModId": 366,
+        "SourceName": "Nexus",
+        "dllNames": [
+            "LeftyExpie.dll"
+        ],
+        "dllVersion": "1.0.2",
+        "dllVersions": {
+            "LeftyExpie.dll": "1.0.2"
+        },
+        "Statistics": {
+            "Endorsements": 0,
+            "UniqueDownloads": 6,
+            "TotalDownloads": 10,
+            "TotalViews": null
+        },
+        "Images": [
+            "https://staticdelivery.nexusmods.com/mods/8391/images/366/366-1782582137-1051220565.png"
+        ]
+    },
+    {
+        "Id": "nexus-364",
+        "Name": "VProfiler",
+        "Version": "1.0.0",
+        "bepinexVersion": "1.0.0",
+        "Description": "\n<br />\n<br />\n<br />VProfiler is a lightweight in-game performance monitoring mod for tracking runtime performance and diagnosing bottlenecks. It displays FPS, minimum FPS, maximum FPS, average FPS, 1% low FPS, GC memory, CPU/GPU frame time, network latency, bandwidth, packet counts, and Unity component-level CPU usage directly on screen.\n<br />The mod includes a real-time FPS graph using fixed-time sampling to keep latency low while avoiding abnormal V-shaped artifacts at the right edge of the chart. It is useful for debugging stutters, investigating performance issues, monitoring multiplayer network status, and comparing performance across different settings.\n<br />\n<br />Main features:\n<br />[list]\n<br />[*]Real-time FPS, Min, Max, Avg, and 1% Low display[/*]\n<br />[*]FPS history graph[/*]\n<br />[*]GC memory and collection count tracking[/*]\n<br />[*]Unity main-thread CPU and GPU frame time display[/*]\n<br />[*]Unity component CPU usage breakdown[/*]\n<br />[*]Network ping, upload/download bandwidth, and packet statistics (Available when KrokMP is installed)[/*]\n<br />[*]Game system performance sampling and sorted display[/*]\n<br />[*]Hotkeys for toggling profiler panels[/*]\n<br />[/list]\n<br />Hotkeys:\n<br />[list]\n<br />[*]F6: Toggle FPS, GC, and network info[/*]\n<br />[*]F7: Toggle CPU, GPU, and Unity component analysis[/*]\n<br />[*]F8: Toggle game system performance analysis[/*]\n<br />[/list]Please install BepInEx to use this mod correctly. Optional: KrokMP\n<br />\n<br />VProfiler 是一个轻量级游戏内性能监控模组，用于实时查看游戏运行状态和性能瓶颈。它可以在画面上显示 FPS、最低帧、最高帧、平均帧、1% Low、GC 内存、CPU/GPU 帧耗时、网络延迟、带宽、收发包数量，以及 Unity 组件级 CPU 占用情况。\n<br />模组内置实时 FPS 图表，使用固定时间采样来减少延迟，并避免图表右侧出现异常 V 形波动。适合调试卡顿、排查性能问题、观察多人联机网络状态，或对比不同设置下的性能表现。\n<br />\n<br />主要功能：\n<br />[list]\n<br />[*]实时 FPS、Min、Max、Avg、1% Low 显示[/*]\n<br />[*]FPS 历史曲线图[/*]\n<br />[*]GC 内存与 GC 次数统计[/*]\n<br />[*]Unity 主线程 CPU / GPU 帧耗时显示[/*]\n<br />[*]Unity 组件 CPU 占用分析[/*]\n<br />[*]网络 Ping、上下行带宽、收发包统计 （KrokMP安装后可用）[/*]\n<br />[*]游戏系统性能采样与排序显示[/*]\n<br />[*]快捷键开关不同监控面板[/*]\n<br />[/list]快捷键：\n<br />[list]\n<br />[*]F6：显示/隐藏 FPS、GC、网络信息[/*]\n<br />[*]F7：显示/隐藏 CPU、GPU、Unity 组件分析[/*]\n<br />[*]F8：显示/隐藏游戏系统性能分析[/*]\n<br />[/list]请安装BepInEx以使用此mod，可选：KrokMP",
+        "Author": "VtLoader",
+        "Links": {
+            "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/364/364-1782575950-570693250.png",
+            "NexusMods": "https://www.nexusmods.com/scavprototype/mods/364"
+        },
+        "DownloadUrl": "nexus://scavprototype/364/1000",
+        "NexusGameDomain": "scavprototype",
+        "NexusModId": 364,
+        "SourceName": "Nexus",
+        "dllNames": [
+            "VProfiler.dll"
+        ],
+        "dllVersion": "1.0.0",
+        "dllVersions": {
+            "VProfiler.dll": "1.0.0"
+        },
+        "Statistics": {
+            "Endorsements": 0,
+            "UniqueDownloads": 11,
+            "TotalDownloads": 13,
+            "TotalViews": null
+        },
+        "Images": [
+            "https://staticdelivery.nexusmods.com/mods/8391/images/364/364-1782575950-570693250.png"
+        ]
+    },
+    {
+        "Id": "nexus-363",
+        "Name": "gouxi's funnyshit",
+        "Version": "2",
+        "bepinexVersion": "1.0.1",
+        "Description": "# gouxi's funnyshit – 狗曦的乐色堆\n<br />\n<br />&gt; 一些来自 G0ux1 的奇怪点子，希望你们能享受。所有物品均已在游戏中配置自然刷新，部分内容还在完善中，后续会持续更新。\n<br />\n<br />---\n<br />\n<br />## 📦 模组内容概览\n<br />\n<br />本模组为《Scav Prototype》添加了大量全新物品、液体和机制，涵盖装备、食物、医疗、工具、武器、实用道具以及多种特殊液体。所有内容均围绕“Gouxi-Tech”宇宙风格设计，带有恶搞、黑色幽默和一定程度的成人向内容。\n<br />\n<br />### 🎒 装备类\n<br />- **尾包** – 可穿戴容器，增加负重上限，减少负重惩罚。\n<br />- **郊狼?!** – 可穿戴设备，可稳定心率，也能当作 AED 使用（需对胸部部使用）。\n<br />- **亚空间背包** – 超大容量背包，内置护盾，但电池耗尽时有湮灭风险。\n<br />\n<br />### 🍖 食物类\n<br />- **生鱼** – 来自异维度的生鱼，吃了会拉肚子。\n<br />- **熟牛排** – 口感奇怪的完美煎牛排，能恢复大量饱食度和快乐值。\n<br />\n<br />### 💊 医疗类\n<br />- **金苹果** – 大幅恢复内外伤，增加快乐值。\n<br />- **神经阻断中和剂** – 解除“记忆阻断”后遗症，使用后会强制高质量睡眠并重置智力。\n<br />\n<br />### ⚒️ 工具/武器（三阶升级）\n<br />- **石制工具**（镐、剑、斧、锄、铲）– 基础采集与战斗。\n<br />- **铁制工具** – 更高耐久和伤害。\n<br />- **钻石制工具** – 顶级属性，附带截肢功能（对感染肢体使用可触发截肢小游戏）。\n<br />\n<br />- **打火石** – 生火工具。\n<br />- **钓竿** – 抛出后回收可拉拽玩家并概率钓到鱼（经验修补）。\n<br />\n<br />### 🧩 实用/杂项\n<br />- **脑机超频** – 提升移速、跳跃力，但损伤脑部。\n<br />- **系列玩偶（狗曦、黑白狼、槐梦、邪修、影狐、狐狸等）** – 可互动，产生各种效果（如增加快乐、降低体力、收集奇怪液体等）。\n<br />- **火焰弹** – 投掷后爆炸，带音效。\n<br />- **经验瓶** – 砸碎后获得大量经验并解锁随机配方。\n<br />- **核弹（两种）** – 一枚直接引爆，另一枚需完成拆弹小游戏（密码 `114514` 触发彩蛋奖励）。\n<br />- **芯片移除/植入器** – 控制“芯片”状态，影响脑部属性和能力。\n<br />- **吃吃爆** – 随机生成食物或爆炸（25%概率）。\n<br />- **EXP摸摸卷** – 对头部使用可增加快乐、减轻疼痛。\n<br />- **莹石粉、金锭、铁锭、钻石、木棍** – 合成材料。\n<br />- **俄罗斯轮盘赌** – 对头部使用，六分之一概率完全恢复，否则即死（带耐久消耗）。\n<br />\n<br />### 🧪 液体容器\n<br />- **铁桶** – 可装任何液体并饮用。\n<br />- **药水瓶子** – 默认装填“瞬间治疗II”药水。\n<br />- **迷你桶注射器** – 超大容量注射器，对肢体使用会触发注射小游戏，效果强力但伴随严重副作用（大出血、骨折、脑损伤等）。\n<br />\n<br />### 🌊 特殊液体（可饮用/注射）\n<br />- **血清素** – 注射后调节情绪，过量会产生抑郁。\n<br />- **瞬间治疗II** – 口服或外用/注射，快速恢复皮肤、肌肉、减少感染。\n<br />- **牛奶?（疑似）** – 饮用恢复饥渴但增加疾病，注射会感染。\n<br />- **橙汁汽水？** – 好喝但会引起不适。\n<br />- **昏睡红茶** – 饮用后极度快乐，短暂延迟后强制睡眠（带剧烈疼痛）。\n<br />\n<br />---\n<br />\n<br />## 🔧 特殊机制\n<br />\n<br />- **截肢系统**：使用剑/斧类武器对感染严重的肢体（非腿部）可触发截肢小游戏。\n<br />- **核弹拆弹小游戏**：输入正确密码（正常随机生成）可延迟引爆，输入彩蛋密码 `114514` 则直接获得奖励。\n<br />- **郊狼 AED 功能**：对胸部使用可启动心脏复苏小游戏。\n<br />- **血清素动态平衡**：注射量影响快乐值和负面效果，过量会重置。\n<br />- **俄罗斯轮盘赌**：动态概率（随使用次数降低生存率），耐久消耗为 1/6。\n<br />\n<br />---\n<br />\n<br />## ⚠️ 注意事项\n<br />\n<br />- **兼容性**：本模组基于 `CUCoreLib` 开发，**与 RSHLib 存在冲突**（这是 CCL 与 RSHLib 的底层问题，无法修复）。\n<br />- **多人联机**：仅提供最基础的支持，部分功能（如小游戏）可能无法在联机环境下正常工作。\n<br />- **成人内容**：模组包含极端暴力、自残、性暗示、有害物质等元素，请确保您已年满 18 岁并开启成人内容过滤。\n<br />- **自然刷新**：所有物品均已配置 `SpawnFrequency`，会在游戏世界中正常刷新。\n<br />\n<br />---\n<br />\n<br />## 🚧 未来计划\n<br />\n<br />- 补全剩余未实装内容。\n<br />- 优化联机兼容性（尽力而为）。\n<br />- 增加更多“Gouxi-Tech”系列道具和事件。\n<br />\n<br />---\n<br />\n<br />## 🙏 致谢\n<br />\n<br />感谢所有测试者和 `CUCoreLib` 的作者。祝您玩得开心，也希望您不要因为模组内容而讨厌狗曦（笑）。\n<br />\n<br />\n<br /># gouxi's funnyshit\n<br />\n<br />&gt; A collection of weird ideas from G0ux1 – hope you enjoy them. All items are set to spawn naturally in-game. Some features are still WIP and will be updated later.\n<br />\n<br />---\n<br />\n<br />## 📦 Mod Overview\n<br />\n<br />This mod adds a large variety of new items, liquids, and mechanics to *Scav Prototype*, covering equipment, food, medicine, tools, weapons, utilities, and special liquids. Everything is themed around the \"Gouxi-Tech\" universe – full of parody, dark humor, and adult-oriented content.\n<br />\n<br />### 🎒 Equipment\n<br />- **Tail Pouch** – wearable container, increases carry capacity and reduces encumbrance.\n<br />- **Coyote?! (DG Lab)** – device that stabilizes heart rate and can act as an AED (use on chest).\n<br />- **Subspace Bag** – massive backpack with shielding, but risks annihilation when battery depletes.\n<br />\n<br />### 🍖 Food\n<br />- **Raw Fish** – from another dimension, may cause sickness.\n<br />- **Cooked Steak** – perfectly cooked steak with odd texture, restores hunger and happiness.\n<br />\n<br />### 💊 Medical\n<br />- **Golden Apple** – heals internal/external injuries and boosts happiness.\n<br />- **Nerve Block Neutralizer** – removes \"mindwipe\" aftereffects, forces high-quality sleep and resets INT.\n<br />\n<br />### ⚒️ Tools/Weapons (3 tiers)\n<br />- **Stone tools** (pickaxe, sword, axe, hoe, shovel) – basic harvesting and combat.\n<br />- **Iron tools** – higher durability and damage.\n<br />- **Diamond tools** – top-tier stats, with amputation capability (use on infected non-leg limbs to trigger minigame).\n<br />\n<br />- **Flint &amp; Steel** – fire starter.\n<br />- **Fishing Rod** – cast and reel to pull yourself toward target and maybe catch a fish (mending).\n<br />\n<br />### 🧩 Utilities / Misc\n<br />- **Brain Overclock** – boosts speed/jump but damages brain.\n<br />- **Doll series** (Gouxi, Black-White Wolf, Huaimeng, Xieuxiu, Shadow Fox, Huli, etc.) – interactive, each with unique effects (happiness, stamina drain, liquid collection, etc.).\n<br />- **Fireball** – throwable explosive with audio cue.\n<br />- **Experience Bottle** – smash for large XP and unlock a random recipe.\n<br />- **Nuke (two versions)** – one explodes directly, the other requires a defuse minigame (easter egg code `114514` triggers reward).\n<br />- **Chip Remover/Implanter** – toggles \"chipped\" state, affecting brain stats and abilities.\n<br />- **Eat-Explode Box** – randomly gives food or explodes (25% chance).\n<br />- **EXP Pet Ticket** – use on head for happiness and pain relief.\n<br />- **Glowstone Dust, Gold Ingot, Iron Ingot, Diamond, Wooden Stick** – crafting materials.\n<br />- **Russian Roulette** – use on head; 1/6 chance of full heal, otherwise instant death (durability consumption).\n<br />\n<br />### 🧪 Liquid Containers\n<br />- **Iron Bucket** – holds any liquid for drinking.\n<br />- **Empty Bottle** – pre-filled with \"Instant Healing II\".\n<br />- **Mini Barrel Syringe** – huge-capacity injector, triggers an injection minigame; powerful but with severe side effects (heavy bleeding, fractures, brain damage).\n<br />\n<br />### 🌊 Special Liquids (drinkable/injectable)\n<br />- **Serotonin** – inject to regulate mood, overdose causes depression.\n<br />- **Instant Healing II** – oral or topical/injection, restores skin, muscle, reduces infection.\n<br />- **\"Milk\" (cum)** – restores hunger/thirst but increases sickness; injection causes infection.\n<br />- **Orange Soda** – tasty but causes discomfort.\n<br />- **Sleeping Red Tea** – euphoric, then forces sleep after a short delay (with intense pain).\n<br />\n<br />---\n<br />\n<br />## 🔧 Special Mechanics\n<br />\n<br />- **Amputation System**: Use swords/axes on severely infected non-leg limbs to trigger amputation minigame.\n<br />- **Nuke Defuse Minigame**: Enter correct code (randomly generated) to delay explosion; enter easter egg `114514` to get rewards.\n<br />- **Coyote AED Function**: Use on chest to start a CPR minigame.\n<br />- **Serotonin Homeostasis**: Injection amount affects happiness and negative effects; overdose resets.\n<br />- **Russian Roulette**: Dynamic probability (survival chance decreases with use), consumes 1/6 durability per shot.\n<br />\n<br />---\n<br />\n<br />## ⚠️ Important Notes\n<br />\n<br />- **Compatibility**: This mod is built on `CUCoreLib` and **conflicts with RSHLib** (underlying issue between CCL and RSHLib, cannot be fixed).\n<br />- **Multiplayer**: Only basic support – some features (like minigames) may not work properly in multiplayer.\n<br />- **Adult Content**: Contains extreme violence, self-harm, sexual themes, harmful substances – you must be 18+ and enable adult content filtering.\n<br />- **Natural Spawning**: All items have `SpawnFrequency` set and will appear in the game world normally.\n<br />\n<br />---\n<br />\n<br />## 🚧 Future Plans\n<br />\n<br />- Complete remaining unimplemented features.\n<br />- Improve multiplayer compatibility (as much as possible).\n<br />- Add more \"Gouxi-Tech\" themed items and events.\n<br />\n<br />---\n<br />\n<br />## 🙏 Credits\n<br />\n<br />Thanks to all testers and the author of `CUCoreLib`. Have fun, and please don't hate Gouxi because of this mod (laughs).",
+        "Author": "G0ux1",
+        "Links": {
+            "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/363/363-1782569252-846108014.png",
+            "NexusMods": "https://www.nexusmods.com/scavprototype/mods/363"
+        },
+        "DownloadUrl": "nexus://scavprototype/363/1011",
+        "NexusGameDomain": "scavprototype",
+        "NexusModId": 363,
+        "SourceName": "Nexus",
+        "dllNames": [
+            "CUCoreLib.dll",
+            "狗曦的狗屎玩意.dll"
+        ],
+        "dllVersion": "1.0.1",
+        "dllVersions": {
+            "CUCoreLib.dll": "1.0.1",
+            "狗曦的狗屎玩意.dll": "1.0.1"
+        },
+        "Statistics": {
+            "Endorsements": 0,
+            "UniqueDownloads": 7,
+            "TotalDownloads": 8,
+            "TotalViews": null
+        },
+        "Images": [
+            "https://staticdelivery.nexusmods.com/mods/8391/images/363/363-1782569252-846108014.png"
+        ]
+    },
+    {
+        "Id": "nexus-362",
+        "Name": "Bark",
+        "Version": "1.0.0",
+        "bepinexVersion": "1.0.0",
+        "Description": "[url=https://github.com/CNCUMC/Bark][size=5]Bark[/size][/url] | [url=https://github.com/jimmyking9999999/CUCoreLib]CUCoreLib[/url]\n<br />\n<br />[i]A mod utility library for [url=https://store.steampowered.com/app/3624440/Casualties_Unknown_Demo/]Casualties Unknown[/url], built on top of [url=https://github.com/jimmyking9999999/CUCoreLib]CUCoreLib[/url].[/i]\n<br />\n<br />[i]Evolved from [url=https://github.com/Explosive-Hydra/Moss-Lib]Moss Lib[/url].[/i]\n<br />\n<br />[line]\n<br />\n<br />[size=4][b]Table of Contents[/b][/size]\n<br />\n<br />Overview\n<br />\n<br />Installation\n<br />\n<br />Quick Start\n<br />\n<br />Localization\n<br />\n<br />Setting Options (BetterOptions)\n<br />\n<br />Tools Reference\n<br />\n<br />Constants Reference\n<br />\n<br />[line]\n<br />\n<br />[size=5]Overview[/size]\n<br />\n<br />[b]Bark[/b] is a BepInEx plugin utility library for [b]Casualties Unknown[/b], extending [url=https://github.com/jimmyking9999999/CUCoreLib]CUCoreLib[/url] (CCL) with enhanced localization, settings, and game utility tools.\n<br />\n<br />[b]Module list:[/b]\n<br />\n<br />BetterLocale – Localization system built on CCL's LocaleRegistry\n<br />\n<br />BetterOptions – CCL settings registration wrapper (Float/Int/Bool/Dropdown/Keybind)\n<br />\n<br />ModLangGenBase – Language generator base class\n<br />\n<br />GameInstances – Unified game instance access (Body, World, Console)\n<br />\n<br />PlayerUtil – Player manipulation: TP, vitals, drugs, recovery, raw writes\n<br />\n<br />SkillUtil – Skill level/XP manipulation\n<br />\n<br />LimbUtil – Limb operations: healing, damage, status checks\n<br />\n<br />WorldUtil – World manipulation: blocks, items\n<br />\n<br />InventoryUtil – Inventory operations\n<br />\n<br />ItemUtil – Item utilities: FindNearby, Repair, SetCondition\n<br />\n<br />InputUtil – Input handling: mouse position, click waiting\n<br />\n<br />LogUtil – Console logging + validation helpers\n<br />\n<br />ConfigUtil – BepInEx config helpers\n<br />\n<br />TextUtil – Rich text formatting: color, alpha, bold, italic, size\n<br />\n<br />ToolsUtil – Argument validation, float/int parsing\n<br />\n<br />Blocks – Strongly-typed block definitions\n<br />\n<br />Items – Strongly-typed item definitions\n<br />\n<br />Backgrounds – Background ID string constants\n<br />\n<br />Keys – Key action constants\n<br />\n<br />Slots – Inventory slot definitions\n<br />\n<br />[line]\n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />Install [url=https://github.com/BepInEx/BepInEx]BepInEx 5.x[/url] for Casualties Unknown.\n<br />\n<br />Install [url=https://github.com/jimmyking9999999/CUCoreLib]CUCoreLib[/url] — place [i]CUCoreLib.dll[/i] into [i]BepInEx/plugins/CUCoreLib/[/i].\n<br />\n<br />Download the latest [i]Bark.dll[/i] from the [url=https://github.com/CNCUMC/Bark/releases]Releases[/url] page.\n<br />\n<br />Place [i]Bark.dll[/i] into your [i]BepInEx/plugins/[/i] folder.\n<br />\n<br />[quote][b]For mod developers:[/b] Reference [i]Bark.dll[/i] in your project, and add [i][BepInDependency(\"org.cucnmc.bark\")][/i] to your plugin class.[/quote]\n<br />[line]\n<br />\n<br />[size=5]Quick Start[/size]\n<br />\n<br />[size=4]1. Add Dependencies[/size]\n<br />[code]\n<br />[BepInPlugin(Guid, Name, Version)]\n<br />[BepInDependency(\"net.cucorelib\")] // CCL is required\n<br />[BepInDependency(\"org.cucnmc.bark\")] // Bark extends CCL\n<br />public class MyPlugin : BaseUnityPlugin\n<br />{\n<br />// ...\n<br />}[/code]\n<br />[size=4]2. Localization[/size]\n<br />Bark provides [i]BetterLocale[/i] on top of CCL's [i]LocaleRegistry[/i]:\n<br />[code]\n<br />using Bark.BetterCCL;\n<br />\n<br />// Get localized text (CCL → Bark defaults → key fallback)\n<br />string text = BetterLocale.GetOther(\"bark.feature.enabled\");\n<br />\n<br />// Define fallback translations via language generators:\n<br />// EnLangGenerator.cs\n<br />Other(\"bark.feature.enabled\", \"Enable Feature\");\n<br />\n<br />// ZhCnLangGenerator.cs\n<br />Other(\"bark.feature.enabled\", \"启用功能\");[/code]See [url=Example/Lang/]Example/Lang/[/url] for sample generators.\n<br />\n<br />[size=4]3. Register a Setting[/size]\n<br />[code]\n<br />using Bark.BetterCCL;\n<br />\n<br />BetterOptions.Bool(\"bark\", \"feature_enabled\", Setting.SettingCategory.Game, true);\n<br />\n<br />// With custom category tab\n<br />BetterOptions.Bool(\"bark\", \"advanced_mode\", \"Bark\", false);[/code]\n<br />[line]\n<br />\n<br />[size=5]Localization[/size]\n<br />\n<br />[size=4]Generators ([i]ModLangGenBase[/i])[/size]\n<br />[code]\n<br />public class EnLangGenerator : ModLangGenBase\n<br />{\n<br />protected override string LanguageCode =&gt; \"EN\";\n<br />protected override void BuildLocaleData()\n<br />{\n<br />Other(\"bark.tooltip.heat\", \"Hot enough to warp.\");\n<br />Option(\"bark.game.test\", \"Test Mode\", \"Turns on the test mode\");\n<br />}\n<br />}[/code]\n<br />[b]Methods and categories:[/b]\n<br />\n<br />Item(key, value) → item\n<br />\n<br />Building(key, value) → building\n<br />\n<br />Moodle(key, value) → moodle\n<br />\n<br />Other(key, value) → other\n<br />\n<br />Option(key, label, description) → option (settings labels)\n<br />\n<br />[size=4]BetterLocale API[/size]\n<br />\n<br />[b]Get (retrieve localized text)[/b]\n<br />\n<br />GetItem(key, args?) → item\n<br />\n<br />GetBuilding(key, args?) → building\n<br />\n<br />GetMoodle(key, args?) → moodle\n<br />\n<br />GetOther(key, args?) → other\n<br />\n<br />GetLog(key, args?) → log\n<br />\n<br />GetCommand(key, args?) → command\n<br />\n<br />GetOption(key, args?) → option\n<br />\n<br />GetLiquid(key, args?) → liquid\n<br />\n<br />GetTitle(key, args?) → title\n<br />\n<br />[b]Has (check if translation exists)[/b]\n<br />\n<br />HasKey(category, key) → any category\n<br />\n<br />HasKeyItem(key) → item\n<br />\n<br />HasKeyBuilding(key) → building\n<br />\n<br />HasKeyMoodle(key) → moodle\n<br />\n<br />HasKeyOther(key) → other\n<br />\n<br />HasKeyLog(key) → log\n<br />\n<br />HasKeyCommand(key) → command\n<br />\n<br />HasKeyOption(key) → option\n<br />\n<br />HasKeyLiquid(key) → liquid\n<br />\n<br />HasKeyTitle(key) → title\n<br />\n<br />[b]Other methods:[/b]\n<br />\n<br />SetDefault(lang, cat, key, val) – Register fallback value\n<br />\n<br />Flush() – Write all defaults to CCL locale directory\n<br />\n<br />ToRichText(md) – Convert [b]Markdown[/b] to Unity Rich Text\n<br />\n<br />StripMarkdown(md) – Strip markdown to plain text\n<br />\n<br />[line]\n<br />\n<br />[size=5]Setting Options (BetterOptions)[/size]\n<br />[code]\n<br />BetterOptions.Bool(\"ns\", \"key\", Setting.SettingCategory.Game, true);\n<br />BetterOptions.Int(\"ns\", \"level\", Setting.SettingCategory.Game, 5, 1, 10);\n<br />BetterOptions.Float(\"ns\", \"volume\", Setting.SettingCategory.Audio, 0.8f, 0f, 1f);\n<br />BetterOptions.Dropdown(\"ns\", \"mode\", Setting.SettingCategory.Game, 0, choices);\n<br />BetterOptions.Keybind(\"ns\", \"hotkey\", Setting.SettingCategory.Input, KeyCode.F5);\n<br />\n<br />// Custom category tab\n<br />BetterOptions.Bool(\"ns\", \"key\", \"My Mod Tab\", false);[/code]\n<br />[line]\n<br />\n<br />[size=5]Tools Reference[/size]\n<br />\n<br />[size=4]LogUtil[/size]\n<br />\n<br />Info(text, logger) – Log to console + BepInEx\n<br />\n<br />Error(text, logger) – Log error\n<br />\n<br />Warning(text, logger) – Log warning\n<br />\n<br />CheckWorld(logger?) – Throw if no world loaded\n<br />\n<br />CheckBody(logger?) – Throw if player body is null\n<br />\n<br />CheckArgumentCount(args, min, logger?) – Validate argument count\n<br />\n<br />CheckNotNullOrEmpty(val, name, logger?) – Validate string not empty\n<br />\n<br />CheckParseFloat(s, logger?) – Parse float or throw\n<br />\n<br />CheckParseInt(s, logger?) – Parse int or throw\n<br />\n<br />PrintList(header, items, logger) – Print formatted list to console\n<br />\n<br />PrintNumberedList(header, items, logger) – Print numbered list\n<br />\n<br />[size=4]PlayerUtil[/size]\n<br />\n<br />Tp(x, y) – Teleport player\n<br />\n<br />PickItem(id, slot, force?) – Add item to inventory slot\n<br />\n<br />IsAlive() / IsConscious() – State checks\n<br />\n<br />GetBloodOxygen() / GetHeartRate() – Vital signs\n<br />\n<br />HealAll() – Fully heal player\n<br />\n<br />SetHunger(val) / SetThirst(val) – Raw writes\n<br />\n<br />Thresholds.* – Constant threshold values\n<br />\n<br />[size=4]WorldUtil[/size]\n<br />\n<br />PlaceBlock(x, y, id) – Place a block\n<br />\n<br />FillBlocks(sx, sy, ex, ey, id) – Fill area with blocks\n<br />\n<br />PlaceItem(x, y, id) – Spawn an item\n<br />\n<br />CheckForWorld() – Throw if no world\n<br />\n<br />[size=4]SkillUtil[/size]\n<br />\n<br />GetLevel(skill) – Get skill level\n<br />\n<br />GetExperience(skill) – Get XP amount\n<br />\n<br />SetLevelRaw(skill, level) – Set level directly\n<br />\n<br />AddExperience(skill, xp) – Add experience\n<br />\n<br />XpMultiplier – Get/set XP multiplier\n<br />\n<br />[size=4]LimbUtil[/size]\n<br />\n<br />GetLimb(index/slot/name) – Get limb by index or name\n<br />\n<br />HasBrokenBone() / HasInfection() – Status checks\n<br />\n<br />HealLimb(limb) – Full limb heal\n<br />\n<br />SetSkinHealthRaw(limb, value) – Raw writes\n<br />\n<br />[size=4]InventoryUtil[/size]\n<br />\n<br />HasItem(id) – Check if holding item\n<br />\n<br />GetItem(slot) – Get item by slot\n<br />\n<br />GetAllItems() – Get all items\n<br />\n<br />GetAllItemInfos() – Get all ItemInfo\n<br />\n<br />FindById(id, out item) – Find item by ID\n<br />\n<br />[size=4]ItemUtil[/size]\n<br />\n<br />FindNearby(center, radius) – Find items in circular area\n<br />\n<br />FindClosest(center, maxRadius) – Find nearest item\n<br />\n<br />Repair(item) – Repair to full condition\n<br />\n<br />SetCondition(item, val) – Set durability (0~1)\n<br />\n<br />[size=4]InputUtil[/size]\n<br />\n<br />WaitForLeftClick() – Coroutine: wait for click\n<br />\n<br />WaitForRightClick() – Coroutine: wait for click\n<br />\n<br />[line]\n<br />\n<br />[size=5]Constants Reference[/size]\n<br />\n<br />[size=4]Blocks[/size]\n<br />[code]\n<br />ushort blockId = Blocks.SteelTile; // implicit conversion\n<br />Blocks block = Blocks.FromId(6);[/code]\n<br />[size=4]Items[/size]\n<br />[code]\n<br />string itemId = Items.Medkit; // implicit conversion\n<br />Items item = Items.FromId(\"medkit\");[/code]\n<br />[size=4]Backgrounds / Keys / Slots[/size]\n<br />[code]\n<br />string bgId = Backgrounds.Rock;\n<br />KeyCode key = Keys.Jump;\n<br />int slotId = Slots.MainHand;[/code]",
+        "Author": "CNCUMC",
+        "Links": {
+            "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/362/362-1782568561-1293002179.png",
+            "NexusMods": "https://www.nexusmods.com/scavprototype/mods/362"
+        },
+        "DownloadUrl": "nexus://scavprototype/362/990",
+        "NexusGameDomain": "scavprototype",
+        "NexusModId": 362,
+        "SourceName": "Nexus",
+        "dllNames": [
+            "Bark.dll"
+        ],
+        "dllVersion": "1.0.0",
+        "dllVersions": {
+            "Bark.dll": "1.0.0"
+        },
+        "Statistics": {
+            "Endorsements": 0,
+            "UniqueDownloads": 4,
+            "TotalDownloads": 4,
+            "TotalViews": null
+        },
+        "Images": [
+            "https://staticdelivery.nexusmods.com/mods/8391/images/362/362-1782568561-1293002179.png"
+        ]
+    },
+    {
         "Id": "nexus-360",
         "Name": "MistalCry's Map",
-        "Version": "1.0.0",
-        "bepinexVersion": "0.1.0",
-        "Description": "[b]中文/English[/b]\n<br />MistalCrysMap 是一个给 Casualties Unknown Demo 使用的轻量地图模组，提供小地图和大地图功能，方便探索、回路、寻找资源和避开危险。\n<br />[size=5]主要功能：[/size]\n<br />[list]\n<br />[*]显示小地图和大地图[/*]\n<br />[*]支持探索迷雾模式[/*]\n<br />[*]显示可交互资源、陷阱、商人、怪物、掉落物和 长老[/*]\n<br />[*]大地图顶部可以单独开关不同类别的标记[/*]\n<br />[*]支持鼠标中键放置导航标记，并显示玩家到标记点的指示线[/*]\n<br />[*]玩家位置带呼吸光圈，更容易在大地图上找到自己[/*]\n<br />[*]可选显示游戏对象自带精灵图，默认关闭[/*]\n<br />[/list][size=4]如果不开精灵图，图标会这样显示：[/size]\n<br />[list]\n<br />[*]可交互的物体和容器显示为较亮的灰蓝色方块。[/*]\n<br />[*]交易者以绿色的 `$` 标记显示。[/*]\n<br />[*]敌人以红色小方块显示，其标记位置会随着移动而变化。[/*]\n<br />[*]荆棘背长老作为独立的boss标记显示，并可在大地图上单独切换。[/*]\n<br />[*]掉落物品以持续的黄色点显示。[/*]\n<br />[/list][size=5]默认操作：[/size]\n<br />[size=4]你可以在设置里的游戏玩法（gameplay），更改默认按钮、是否开启探索模式、小地图的形状和大小[/size]\n<br />[list]\n<br />[*]M：显示或隐藏小地图，打开大地图时用于关闭大地图[/*]\n<br />[*]右键点击小地图：打开大地图[/*]\n<br />[*]滚轮：缩放地图[/*]\n<br />[*]大地图右键拖动：平移地图[/*]\n<br />[*]中键点击地图：放置或更新导航标记[/*]\n<br />[*]Clear Mark：删除导航标记[/*]\n<br />[/list][size=5]安装方法：[/size]\n<br />需要 BepInEx。\n<br />把 MistalCrysMap.dll 放入 BepInEx/plugins 文件夹，然后启动游戏即可。\n<br />设置项可以在游戏 Settings -&gt; Game 中找到。\n<br />\n<br />\n<br />[size=4][b]English Description[/b][/size]\n<br />MistalCrysMap is a lightweight map mod for Casualties Unknown Demo. It adds a minimap and a fullscreen map to make exploration, navigation, resource hunting, and danger awareness easier.\n<br />[size=5]Features:[/size]\n<br />[list]\n<br />[*]Adds a minimap and a fullscreen map[/*]\n<br />[*]Optional exploration fog mode[/*]\n<br />[*]Shows interactable resources, traps, traders, enemies, dropped items, and thornbackelder[/*]\n<br />[*]Fullscreen map category toggles[/*]\n<br />[*]Middle mouse waypoint marker with a guidance line from the player to the marker[/*]\n<br />[*]Breathing halo around the player marker for better visibility[/*]\n<br />[*]Optional sprite icons for map markers, disabled by default[/*]\n<br />[*]Performance optimizations for enemy-heavy layers, earthquakes, and block destruction updates[/*]\n<br />[/list][size=4][b]If the sprite image is not enabled, the icon will be displayed like this:[/b][/size]\n<br />[list]\n<br />[*]- Interactable objects and containers are shown as brighter gray-blue squares.[/*]\n<br />[*]- Traders are shown as green `$` markers.[/*]\n<br />[*]- Crystal enemies and animal enemies are shown as small red squares and their marker position follows movement.[/*]\n<br />[*]- Thornback Elder is shown as its own boss marker and can be toggled separately on the large map.[/*]\n<br />[*]- Dropped items are shown as persistent yellow dots.[/*]\n<br />[/list][size=5]Default Controls:[/size]\n<br />[size=4]You can change the default buttons, whether to enable the exploration mode, the shape and size of the mini-map, etc. in the \"Gameplay\" section of the settings.[/size]\n<br />[list]\n<br />[*]M: Show or hide the minimap, or close the fullscreen map[/*]\n<br />[*]Right click minimap: Open fullscreen map[/*]\n<br />[*]Mouse wheel: Zoom map[/*]\n<br />[*]Right drag on fullscreen map: Pan map[/*]\n<br />[*]Middle click on map: Place or update waypoint marker[/*]\n<br />[*]Clear Mark: Remove waypoint marker[/*]\n<br />[/list][size=5]Installation:[/size]\n<br />Requires BepInEx.\n<br />Put MistalCrysMap.dll into the BepInEx/plugins folder, then start the game.\n<br />Settings can be found under Settings -&gt; GamePlay.",
+        "Version": "1.0.1",
+        "bepinexVersion": "1.0.1",
+        "Description": "[b]中文/English[/b]\n<br />MistalCrysMap 是一个给 Casualties Unknown Demo 使用的轻量地图模组，提供小地图和大地图功能，方便探索、回路、寻找资源和避开危险。\n<br />\n<br />[size=5]主要功能：[/size]\n<br />[list]\n<br />[*]显示小地图和大地图[/*]\n<br />[*]支持探索迷雾模式[/*]\n<br />[*]显示可交互资源、陷阱、商人、怪物、掉落物和 长老[/*]\n<br />[*]大地图顶部可以单独开关不同类别的标记[/*]\n<br />[*]支持鼠标中键放置导航标记，并显示玩家到标记点的指示线[/*]\n<br />[*]玩家位置带呼吸光圈，更容易在大地图上找到自己[/*]\n<br />[*]可选显示游戏对象自带精灵图，默认关闭[/*]\n<br />[*]大地图新增Center按钮，可直接把视角居中到玩家当前位置。（也可以按键盘home键）[/*]\n<br />[/list][size=4]如果不开精灵图，图标会这样显示：[/size]\n<br />[list]\n<br />[*]可交互的物体和容器显示为较亮的灰蓝色方块。[/*]\n<br />[*]交易者以绿色的 `$` 标记显示。[/*]\n<br />[*]敌人以红色小方块显示，其标记位置会随着移动而变化。[/*]\n<br />[*]荆棘背长老作为独立的boss标记显示，并可在大地图上单独切换。[/*]\n<br />[*]掉落物品以持续的黄色点显示。[/*]\n<br />[/list][size=5]默认操作：[/size]\n<br />[size=4]你可以在设置里的游戏玩法（gameplay），更改默认按钮、是否开启探索模式、小地图的形状和大小[/size]\n<br />[list]\n<br />[*]M：显示或隐藏小地图，打开大地图时用于关闭大地图[/*]\n<br />[*]右键点击小地图：打开大地图[/*]\n<br />[*]滚轮：缩放地图[/*]\n<br />[*]大地图右键拖动：平移地图[/*]\n<br />[*]中键点击地图：放置或更新导航标记[/*]\n<br />[*]Clear Mark：删除导航标记[/*]\n<br />[/list][size=5]安装方法：[/size]\n<br />需要 BepInEx。\n<br />把 MistalCrysMap.dll 放入 BepInEx/plugins 文件夹，然后启动游戏即可。\n<br />设置项可以在游戏 Settings -&gt; Game 中找到。\n<br />\n<br />\n<br />[size=4][b]English Description[/b][/size]\n<br />MistalCrysMap is a lightweight map mod for Casualties Unknown Demo. It adds a minimap and a fullscreen map to make exploration, navigation, resource hunting, and danger awareness easier.\n<br />[size=5]Features:[/size]\n<br />[list]\n<br />[*]Adds a minimap and a fullscreen map[/*]\n<br />[*]Optional exploration fog mode[/*]\n<br />[*]Shows interactable resources, traps, traders, enemies, dropped items, and thornbackelder[/*]\n<br />[*]Fullscreen map category toggles[/*]\n<br />[*]Middle mouse waypoint marker with a guidance line from the player to the marker[/*]\n<br />[*]Breathing halo around the player marker for better visibility[/*]\n<br />[*]Optional sprite icons for map markers, disabled by default[/*]\n<br />[*]Performance optimizations for enemy-heavy layers, earthquakes, and block destruction updates[/*]\n<br />[*]The main map has added a \"Center\" button, which enables you to directly center the view at the player's current location. (You can also press the home key on the keyboard) [/*]\n<br />[/list][size=4][b]If the sprite image is not enabled, the icon will be displayed like this:[/b][/size]\n<br />[list]\n<br />[*]- Interactable objects and containers are shown as brighter gray-blue squares.[/*]\n<br />[*]- Traders are shown as green `$` markers.[/*]\n<br />[*]- Crystal enemies and animal enemies are shown as small red squares and their marker position follows movement.[/*]\n<br />[*]- Thornback Elder is shown as its own boss marker and can be toggled separately on the large map.[/*]\n<br />[*]- Dropped items are shown as persistent yellow dots.[/*]\n<br />[/list][size=5]Default Controls:[/size]\n<br />[size=4]You can change the default buttons, whether to enable the exploration mode, the shape and size of the mini-map, etc. in the \"Gameplay\" section of the settings.[/size]\n<br />[list]\n<br />[*]M: Show or hide the minimap, or close the fullscreen map[/*]\n<br />[*]Right click minimap: Open fullscreen map[/*]\n<br />[*]Mouse wheel: Zoom map[/*]\n<br />[*]Right drag on fullscreen map: Pan map[/*]\n<br />[*]Middle click on map: Place or update waypoint marker[/*]\n<br />[*]Clear Mark: Remove waypoint marker[/*]\n<br />[/list][size=5]Installation:[/size]\n<br />Requires BepInEx.\n<br />Put MistalCrysMap.dll into the BepInEx/plugins folder, then start the game.\n<br />Settings can be found under Settings -&gt; GamePlay.",
         "Author": "MistalCry",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/360/360-1782531052-1291317646.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/360"
         },
-        "DownloadUrl": "nexus://scavprototype/360/983",
+        "DownloadUrl": "nexus://scavprototype/360/1010",
         "NexusGameDomain": "scavprototype",
         "NexusModId": 360,
         "SourceName": "Nexus",
         "dllNames": [
             "MistalCrysMap.dll"
         ],
-        "dllVersion": "0.1.0",
+        "dllVersion": "1.0.1",
         "dllVersions": {
-            "MistalCrysMap.dll": "0.1.0"
+            "MistalCrysMap.dll": "1.0.1"
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 25,
-            "TotalDownloads": 25,
+            "UniqueDownloads": 49,
+            "TotalDownloads": 52,
             "TotalViews": null
         },
         "Images": [
@@ -51,8 +209,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 24,
-            "TotalDownloads": 24,
+            "UniqueDownloads": 46,
+            "TotalDownloads": 49,
             "TotalViews": null
         },
         "Images": [
@@ -83,8 +241,8 @@
         },
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 34,
-            "TotalDownloads": 38,
+            "UniqueDownloads": 35,
+            "TotalDownloads": 40,
             "TotalViews": null
         },
         "Images": [
@@ -111,12 +269,40 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 46,
-            "TotalDownloads": 52,
+            "UniqueDownloads": 60,
+            "TotalDownloads": 75,
             "TotalViews": null
         },
         "Images": [
             "https://staticdelivery.nexusmods.com/mods/8391/images/352/352-1782410047-548320615.png"
+        ]
+    },
+    {
+        "Id": "nexus-351",
+        "Name": "Orang Armor",
+        "Version": "1.0.0",
+        "bepinexVersion": null,
+        "Description": "[size=4][b]Description[/b][/size]\n<br />7 New wearables that protects you from bullets (turret shots, or pvp mp ONLY with [url=https://www.nexusmods.com/scavprototype/mods/122]new firearms[/url])\n<br /> - Bulletproof vest\n<br /> - Bulletproof helmet\n<br /> - Shoulder plates\n<br /> - Forearm plates\n<br /> - Gloves\n<br /> - Thigh plates\n<br /> - Limb armor\n<br />They moderatly heavy, and gives normal protection and isolation too beside of bulletproof thing\n<br />Bulletproof vest overlaps with shirt\n<br />Forearm plates overlap with armwarmers\n<br />Limb armor overlaps with kneepads\n<br />[b][color=#00ff00]MP Status: Supported![/color][/b]\n<br />With new `nc_downloadfromhost` command, client can even not have it (but still must have a new clothing)\n<br />\n<br />[size=4][b]Installation[/b][/size]\n<br />Follow the [url=https://www.nexusmods.com/scavprototype/mods/43]NewClothing[/url] installation instructions if you haven'y install it before\n<br />Then unpack contents into NewCloting/ folder\n<br />Doesn't matter if with or without subfolder as it would them either way\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />gay lil furry twink drew the armor textures",
+        "Author": "RushellXYZ - Freckles",
+        "Links": {
+            "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/351/351-1782575541-1925819519.png",
+            "NexusMods": "https://www.nexusmods.com/scavprototype/mods/351"
+        },
+        "DownloadUrl": "nexus://scavprototype/351/999",
+        "NexusGameDomain": "scavprototype",
+        "NexusModId": 351,
+        "SourceName": "Nexus",
+        "dllNames": [],
+        "dllVersion": null,
+        "dllVersions": {},
+        "Statistics": {
+            "Endorsements": 0,
+            "UniqueDownloads": 26,
+            "TotalDownloads": 26,
+            "TotalViews": null
+        },
+        "Images": [
+            "https://staticdelivery.nexusmods.com/mods/8391/images/351/351-1782575541-1925819519.png"
         ]
     },
     {
@@ -143,8 +329,8 @@
         },
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 89,
-            "TotalDownloads": 104,
+            "UniqueDownloads": 118,
+            "TotalDownloads": 136,
             "TotalViews": null
         },
         "Images": [
@@ -175,8 +361,8 @@
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 86,
-            "TotalDownloads": 115,
+            "UniqueDownloads": 106,
+            "TotalDownloads": 149,
             "TotalViews": null
         },
         "Images": [
@@ -186,15 +372,15 @@
     {
         "Id": "nexus-345",
         "Name": "Sanguinite Weaponry",
-        "Version": "1.0.1",
+        "Version": "1.0.2",
         "bepinexVersion": null,
-        "Description": "[b][size=6]Overview:[/size]\n<br />[/b]\n<br />[size=4]Sanguinite Weaponry aims to add balanced blood-themed weapons/tools that are higher in tier above titanium. they are more durable, more specialized and very slowly restore their durability over time.[/size]\n<br />[size=4]The main component of sanguinite is red blood and titanium.[/size][b][size=4] [/size][/b][size=4]Due to the natural scarcity of red blood a custom crafting component, the \"blood precursor device\" was added to aid in its obtainment, allowing you to craft red blood through a balanced crafting recipie.[/size]\n<br />\n<br />[size=5][b]Important![/b][/size]\n<br />[size=4]Due to the fact that titanium only spawns in layer 5 as of 7.0.0 a mod called \"[url=https://www.nexusmods.com/scavprototype/mods/214]Titanium Restored[/url]\" is recommended to use alongside this mod.[/size]\n<br />\n<br />[size=6][b]Mod Contents:[/b][/size]\n<br />\n<br />[size=4][b]New weapons / tools:[/b][/size]\n<br />[size=4]- sanguinite saber[/size]\n<br />[size=4]- sanguinite claws[/size]\n<br />[size=4]- sanguinite scythe[/size]\n<br />[size=4]- sanguinite warhammer[/size]\n<br />[size=4][b]New utilities:\n<br />[/b]- brimflame lighter (disabled until fixed, sowwy :&lt;)\n<br />[b]Misc items:[/b]\n<br />- sanguinite blob[/size]\n<br />[size=4]- blood precursor device[/size]\n<br />\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />If you mod your game for first time (dont have BepInEx):\n<br />[spoiler]Show\n<br />Go to BepInEx download page\n<br />https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5\n<br />And download BepInEx_win_x64_5.4.23.5\n<br />Open steam, choose browse local file\n<br />Extract BepInEx contents into game folder's root (winhttp.dll should be in same folder as executable)\n<br />Open game once and close\n<br />Now folder BepInEx/plugins should be created[/spoiler]\n<br />If you already have BepInEx isnstalled then extract the contents of the zip. file into these specific folders:\n<br />extract \"SanguiniteWeaponry\" into the BepInEx/plugins folder\n<br />extract \"CraftingFramework\" into the BepInEx/plugins folder\n<br />(if you already have CraftingFramework just move the recipe file into the already existing folder)",
+        "Description": "[b][size=6]Overview:[/size]\n<br />[/b]\n<br />[size=4]Sanguinite Weaponry aims to add balanced blood-themed weapons/tools that are higher in tier above titanium. they are more durable, more specialized and very slowly restore their durability over time.[/size]\n<br />[size=4]The main component of sanguinite is red blood and titanium.[/size][b][size=4] [/size][/b][size=4]Due to the natural scarcity of red blood a custom crafting component, the \"blood precursor device\" was added to aid in its obtainment, allowing you to craft red blood through a balanced crafting recipie.\n<br />+ different random weapons/tools and items I felt like making and adding :3[/size]\n<br />\n<br />[size=5][b]Important![/b][/size]\n<br />[size=4]Due to the fact that titanium only spawns in layer 5 as of 7.0.0 a mod called \"[url=https://www.nexusmods.com/scavprototype/mods/214]Titanium Restored[/url]\" is recommended to use alongside this mod.[/size]\n<br />\n<br />[size=6][b]Mod Contents:[/b][/size]\n<br />\n<br />[size=4][b]New weapons / tools:[/b][/size]\n<br />[size=4]- sanguinite saber[/size]\n<br />[size=4]- sanguinite claws[/size]\n<br />[size=4]- sanguinite scythe[/size]\n<br />[size=4]- sanguinite warhammer\n<br />- the artery\n<br />- titanium pocket knife[/size]\n<br />[size=4]- cutting-edge technology[/size]\n<br />[size=4][b]New utilities:\n<br />[/b]- brimflame lighter (disabled until fixed, sowwy :&lt;)\n<br />[b]Misc items:[/b]\n<br />- sanguinite blob[/size]\n<br />[size=4]- blood precursor device[/size]\n<br />\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />If you mod your game for first time (dont have BepInEx):\n<br />[spoiler]Show\n<br />Go to BepInEx download page\n<br />https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5\n<br />And download BepInEx_win_x64_5.4.23.5\n<br />Open steam, choose browse local file\n<br />Extract BepInEx contents into game folder's root (winhttp.dll should be in same folder as executable)\n<br />Open game once and close\n<br />Now folder BepInEx/plugins should be created[/spoiler]\n<br />If you already have BepInEx isnstalled then extract the contents of the zip. file into these specific folders:\n<br />extract \"SanguiniteWeaponry\" into the BepInEx/plugins folder\n<br />extract \"CraftingFramework\" into the BepInEx/plugins folder\n<br />(if you already have CraftingFramework just move the recipe file into the already existing folder)",
         "Author": "wictorias",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/345/345-1782126793-1058793770.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/345"
         },
-        "DownloadUrl": "nexus://scavprototype/345/979",
+        "DownloadUrl": "nexus://scavprototype/345/989",
         "NexusGameDomain": "scavprototype",
         "NexusModId": 345,
         "SourceName": "Nexus",
@@ -203,8 +389,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 94,
-            "TotalDownloads": 133,
+            "UniqueDownloads": 103,
+            "TotalDownloads": 153,
             "TotalViews": null
         },
         "Images": [
@@ -234,9 +420,9 @@
             "CraftingLogic.dll": "1.0.4"
         },
         "Statistics": {
-            "Endorsements": 3,
-            "UniqueDownloads": 190,
-            "TotalDownloads": 297,
+            "Endorsements": 4,
+            "UniqueDownloads": 201,
+            "TotalDownloads": 311,
             "TotalViews": null
         },
         "Images": [
@@ -267,8 +453,8 @@
         },
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 17,
-            "TotalDownloads": 40,
+            "UniqueDownloads": 19,
+            "TotalDownloads": 43,
             "TotalViews": null
         },
         "Images": [
@@ -299,8 +485,8 @@
         },
         "Statistics": {
             "Endorsements": 8,
-            "UniqueDownloads": 590,
-            "TotalDownloads": 746,
+            "UniqueDownloads": 635,
+            "TotalDownloads": 802,
             "TotalViews": null
         },
         "Images": [
@@ -330,9 +516,9 @@
             "CUCoreLib.dll": "1.0.1"
         },
         "Statistics": {
-            "Endorsements": 6,
-            "UniqueDownloads": 203,
-            "TotalDownloads": 257,
+            "Endorsements": 7,
+            "UniqueDownloads": 217,
+            "TotalDownloads": 276,
             "TotalViews": null
         },
         "Images": [
@@ -359,8 +545,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 126,
-            "TotalDownloads": 148,
+            "UniqueDownloads": 128,
+            "TotalDownloads": 151,
             "TotalViews": null
         },
         "Images": [
@@ -388,7 +574,7 @@
         "Statistics": {
             "Endorsements": 0,
             "UniqueDownloads": 13,
-            "TotalDownloads": 31,
+            "TotalDownloads": 32,
             "TotalViews": null
         },
         "Images": [
@@ -419,9 +605,9 @@
             "ScavSetLib.dll": "1.0.1"
         },
         "Statistics": {
-            "Endorsements": 3,
-            "UniqueDownloads": 377,
-            "TotalDownloads": 490,
+            "Endorsements": 4,
+            "UniqueDownloads": 418,
+            "TotalDownloads": 541,
             "TotalViews": null
         },
         "Images": [
@@ -452,8 +638,8 @@
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 165,
-            "TotalDownloads": 211,
+            "UniqueDownloads": 173,
+            "TotalDownloads": 224,
             "TotalViews": null
         },
         "Images": [
@@ -485,8 +671,8 @@
         },
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 148,
-            "TotalDownloads": 177,
+            "UniqueDownloads": 153,
+            "TotalDownloads": 183,
             "TotalViews": null
         },
         "Images": [
@@ -513,8 +699,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 40,
-            "TotalDownloads": 53,
+            "UniqueDownloads": 42,
+            "TotalDownloads": 56,
             "TotalViews": null
         },
         "Images": [
@@ -545,8 +731,8 @@
         },
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 59,
-            "TotalDownloads": 85,
+            "UniqueDownloads": 62,
+            "TotalDownloads": 89,
             "TotalViews": null
         },
         "Images": [
@@ -556,29 +742,29 @@
     {
         "Id": "nexus-333",
         "Name": "Mod Settings",
-        "Version": "1.0.0",
-        "bepinexVersion": "1.0.0",
+        "Version": "1.0.2.1",
+        "bepinexVersion": "1.0.2.1",
         "Description": "[size=4][b]Description[/b][/size]\n<br />This mod allows other mods to add settings pages to the games setting menu.\n<br />Source code and examples for modders are available on [url=https://github.com/Danimineiro/CU_ModSettings]Github[/url].\n<br />[line]\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />1. Ensure you have [b]BepInEx 5[/b] installed for Casualties Unknown.\n<br />2. Download the latest release.\n<br />3. Extract the folder within the the zip file into the game directory under [b]BepInEx/plugins/[/b].\n<br />4. Launch the game. Within the games settings menu, you should be able to find a new tab called \"Mod Settings\".\n<br />[line]\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]BepInEx[/color][/*]\n<br />[/list][line]\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[url=https://www.nexusmods.com/profile/BalaurBohemianBroken]BalaurBohemianBroken[/url] made me make this and I think that's cool.\n<br />",
         "Author": "Danimineiro",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/333/333-1781826773-1119722687.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/333"
         },
-        "DownloadUrl": "nexus://scavprototype/333/862",
+        "DownloadUrl": "nexus://scavprototype/333/1006",
         "NexusGameDomain": "scavprototype",
         "NexusModId": 333,
         "SourceName": "Nexus",
         "dllNames": [
             "CU_ModSettings.dll"
         ],
-        "dllVersion": "1.0.0",
+        "dllVersion": "1.0.2.1",
         "dllVersions": {
-            "CU_ModSettings.dll": "1.0.0"
+            "CU_ModSettings.dll": "1.0.2.1"
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 234,
-            "TotalDownloads": 262,
+            "UniqueDownloads": 245,
+            "TotalDownloads": 281,
             "TotalViews": null
         },
         "Images": [
@@ -608,9 +794,9 @@
             "LateJoinFix.dll": "3.0.8"
         },
         "Statistics": {
-            "Endorsements": 2,
-            "UniqueDownloads": 168,
-            "TotalDownloads": 246,
+            "Endorsements": 3,
+            "UniqueDownloads": 180,
+            "TotalDownloads": 263,
             "TotalViews": null
         },
         "Images": [
@@ -640,9 +826,9 @@
             "ExpiePettingMod.dll": "1.0.1"
         },
         "Statistics": {
-            "Endorsements": 13,
-            "UniqueDownloads": 630,
-            "TotalDownloads": 771,
+            "Endorsements": 15,
+            "UniqueDownloads": 670,
+            "TotalDownloads": 819,
             "TotalViews": null
         },
         "Images": [
@@ -673,8 +859,8 @@
         },
         "Statistics": {
             "Endorsements": 4,
-            "UniqueDownloads": 206,
-            "TotalDownloads": 269,
+            "UniqueDownloads": 213,
+            "TotalDownloads": 277,
             "TotalViews": null
         },
         "Images": [
@@ -684,29 +870,29 @@
     {
         "Id": "nexus-329",
         "Name": "Thunder",
-        "Version": "1.1.0",
-        "bepinexVersion": "1.1.0",
+        "Version": "1.2.0",
+        "bepinexVersion": "1.2.0",
         "Description": "[size=4][b]Description[/b][/size]\n<br />[size=3]⚡ Thunder is an in-game performance profiler for Casualties Unknown, built on BepInEx + Harmony. It samples frame time, GC activity, world state, and the per-Update cost of every loaded BepInEx plugin, then exposes everything through a single in-game console command: [b]thunder[/b]. You can read the numbers live in the console, or run [b]thunder upload[/b] to capture a window and POST a JSON snapshot to a Thunder web viewer for sharing with mod authors and bug reporters.[/size]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />\n<br />1. Install [url=https://github.com/BepInEx/BepInEx/releases]BepInEx 5.x[/url] for the game (drop it next to [b]CasualtiesUnknown.exe[/b] and run the game once so it generates the [b]BepInEx[/b] folder).\n<br />2. Download the latest Thunder release.\n<br />3. Extract [b]Thunder.dll[/b] into:\n<br />[b]&lt;GameDir&gt;&#92;BepInEx&#92;plugins&#92;Thunder.dll[/b]\n<br />4. Launch the game. You should see \"[b][Thunder] ready. Try thunder or thunder help.\"[/b] in the game console.\n<br />5. Open the in-game console and type [b]thunder help[/b] to verify it's registered.\n<br />\n<br />Optional config (auto-generated on first launch at [b]BepInEx&#92;config&#92;com.kanisuko.thunder.cfg[/b]):\n<br />[list]\n<br />[*][size=3][b]Upload.Endpoint[/b] — where snapshots are POSTed (default points at the public Thunder viewer).[/size][/*]\n<br />[*][size=3][b]Upload.Token[/b] — optional [b]X-Thunder-Token[/b] header for private endpoints.[/size][/*]\n<br />[*][size=3][b]Upload.AutoCopyUrl[/b] / [b]Upload.AutoOpenBrowser[/b] — UX after upload.[/size][/*]\n<br />[*][size=3][b]Profiler.ProfileOtherMods[/b] — patch every other plugin's Update/LateUpdate/FixedUpdate to attribute frame cost per mod GUID. Tiny per-call overhead; turn off if you suspect interference.[/size][/*]\n<br />[/list][size=4][b]Main features[/b][/size]\n<br />[list]\n<br />[*][size=3][b]Live frame stats[/b] — avg / best / worst FPS, frame time, 1% low, and a rolling 120-frame history.[/size][/*]\n<br />[*][size=3][b]GC &amp; memory view[/b] — managed heap size, per-frame g0/g1/g2 deltas, cumulative GC counts, Mono heap, Unity allocator, system RAM/VRAM.[/size][/*]\n<br />[*][size=3][b]System timings (55+ Sections)[/b] — deep-dive profiling across 55+ subsystems. Includes 35+ specific PlayerCamera sub-methods (Handle*), 9 WorldGeneration sub-methods, Moodles (Update vs events), Fluid simulation, Body updates, and dynamically tracked visible Chunk entity ticks.[/size][/*]\n<br />[*][size=3][b]Per-mod profiler[/b] — automatically times Update / LateUpdate / FixedUpdate of every loaded BepInEx plugin and lists the top offenders by avg ms, with friendly plugin names.[/size][/*]\n<br />[*][size=3][b]World snapshot[/b] — live entity count, dynamically accurate visible chunks, real-time spider count (decrements on kill), current biome layer, and player position.[/size][/*]\n<br />[*][size=3][b]One-shot upload[/b] — [b]thunder upload [seconds][/b] clears history, captures a clean window (≤ 600 s), builds a self-contained JSON snapshot (meta + frame history + sections + mods), POSTs it, and optionally copies the result URL and opens it in your browser.[/size][/*]\n<br />[*][size=3][b]Console UX[/b] — color-coded output (green/yellow/red thresholds), ASCII bars, autofill for sub-commands, and a [b]thunder debug[/b] self-check for diagnosing the sampler itself.[/size][/*]\n<br />[/list][size=4][b]Console commands[/b][/size]\n<br />[list]\n<br />[*][size=3][b]thunder help[/b] — list all sub-commands.[/size][/*]\n<br />[*][size=3][b]thunder fps[/b] — FPS, frame time, 1% low.[/size][/*]\n<br />[*][size=3][b]thunder frame[/b] — detailed frame stats (avg/min/max + timeScale).[/size][/*]\n<br />[*][size=3][b]thunder health[/b] — quick overview (FPS + GC + world counts).[/size][/*]\n<br />[*][size=3][b]thunder profiler[/b] — per-system and per-mod avg/max ms + calls/frame.[/size][/*]\n<br />[*][size=3][b]thunder gc[/b] — managed heap and GC deltas.[/size][/*]\n<br />[*][size=3][b]thunder mem[/b] — Unity heap, Mono heap, allocator info.[/size][/*]\n<br />[*][size=3][b]thunder world[/b] — entities, chunks, spiders, layer, player pos.[/size][/*]\n<br />[*][size=3][b]thunder reset[/b] — clear sample history.[/size][/*]\n<br />[*][size=3][b]thunder upload [sec][/b] — capture for [sec] seconds, then upload a snapshot.[/size][/*]\n<br />[*][size=3][b]thunder debug[/b] — sampler self-check.[/size][/*]\n<br />[/list][size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][size=3][b]Casualties Unknown[/b] (tested against the current Demo build).[/size][/*]\n<br />[*][size=3][b]BepInEx 5.x[/b] (ships with HarmonyX / 0Harmony, which Thunder uses for all patches).[/size][/*]\n<br />[*][size=3]No other mods required. Thunder is a pure observer — it never modifies game behavior, only times it.[/size][/*]\n<br />[/list][size=4][b]Changelog (v1.1.0)[/b][/size]\n<br />[list]\n<br />[*][size=3][b]Refined Profiling[/b]: Granularity expanded from 10 to 55+ sections. Split PlayerCamera into 35+ specific Handle* methods, World into 9 sub-methods, and MoodleManager into 3 sub-methods.[/size][/*]\n<br />[*][size=3][b]Fixed Chunk Rendering Cost[/b]: Patched visible-only chunks instead of evaluating all loaded chunks. (revealed that disabled chunks in the base game were taking 10x more CPU cost!).[/size][/*]\n<br />[*][size=3][b]Fixed Spider Counts[/b]: Spider counter now properly decrements when a spider is killed.[/size][/*]\n<br />[*][size=3][b]Larger Payload Limit[/b]: Increased default server upload limits (MAX_BODY_BYTES) to 4MB to safely handle the expanded data footprint (self-hosters should update .env accordingly).[/size][/*]\n<br />[/list]",
         "Author": "QinShenYu and Kanisuko",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/329/329-1781804013-1288802471.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/329"
         },
-        "DownloadUrl": "nexus://scavprototype/329/877",
+        "DownloadUrl": "nexus://scavprototype/329/1014",
         "NexusGameDomain": "scavprototype",
         "NexusModId": 329,
         "SourceName": "Nexus",
         "dllNames": [
             "Thunder.dll"
         ],
-        "dllVersion": "1.1.0",
+        "dllVersion": "1.2.0",
         "dllVersions": {
-            "Thunder.dll": "1.1.0"
+            "Thunder.dll": "1.2.0"
         },
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 66,
-            "TotalDownloads": 86,
+            "UniqueDownloads": 70,
+            "TotalDownloads": 92,
             "TotalViews": null
         },
         "Images": [
@@ -737,8 +923,8 @@
         },
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 17,
-            "TotalDownloads": 28,
+            "UniqueDownloads": 18,
+            "TotalDownloads": 30,
             "TotalViews": null
         },
         "Images": [
@@ -770,7 +956,7 @@
         "Statistics": {
             "Endorsements": 1,
             "UniqueDownloads": 48,
-            "TotalDownloads": 63,
+            "TotalDownloads": 65,
             "TotalViews": null
         },
         "Images": [
@@ -797,8 +983,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 67,
-            "TotalDownloads": 107,
+            "UniqueDownloads": 69,
+            "TotalDownloads": 110,
             "TotalViews": null
         },
         "Images": [
@@ -830,9 +1016,9 @@
             "GunsawGenetics.dll": "1.3.0"
         },
         "Statistics": {
-            "Endorsements": 33,
-            "UniqueDownloads": 1086,
-            "TotalDownloads": 1425,
+            "Endorsements": 35,
+            "UniqueDownloads": 1195,
+            "TotalDownloads": 1630,
             "TotalViews": null
         },
         "Images": [
@@ -842,29 +1028,29 @@
     {
         "Id": "nexus-323",
         "Name": "it's owover",
-        "Version": "1.0.4",
-        "bepinexVersion": "1.0.3",
+        "Version": "1.0.5",
+        "bepinexVersion": "1.0.5",
         "Description": "[color=#8e7cc3][size=5][b]what's this??[/b][/size][/color]\n<br />[color=#D4D4D8][size=2]owoo?[/size][/color]\n<br />[color=#D4D4D8][size=2]Use up to [/size][size=3][u][b][color=#d4505a]s[/color][color=#fa6a0a]e[/color][color=#f9a31b]v[/color][color=#1aaa3e]e[/color][color=#289cc4]n[/color][color=#994a90]![/color][/b][/u][/size][size=2] types of modifiers to change the dialogue in the game, ranging from cutesy to entirely incomprehensible![/size][/color]\n<br />[color=#D4D4D8][size=2]Provides choice on where modifiers are applied: Dialogue, EPDAs, tooltips, and [/size][/color][color=#00ffff][size=2]everywhere[/size][/color][color=#D4D4D8][size=2]![/size][/color]\n<br />\n<br />[color=#8e7cc3][size=4][b]Modifiers[/b][/size][/color]\n<br />[color=#D4D4D8][size=2][b]Lisp[/b]: give evewyone a wisp so they can't pwonounce w or w[/size][/color]\n<br />[color=#D4D4D8][size=2][b]Stutter[/b]: a-a-applied to the start of some w-words...[/size][/color]\n<br />[color=#D4D4D8][size=2][b]Nya[/b]: myakes myore dialogue nyow nyaified.[/size][/color]\n<br />[color=#D4D4D8][size=2][b]Tilde[/b]: make sentences a bit more playful with tildes~[/size][/color]\n<br />[color=#D4D4D8][size=2][b]Excitement[/b]: exclaim your emotions!!! suffer confusion????? woah..............[/size][/color]\n<br />[color=#D4D4D8][size=2][b]Faces[/b]: a little emotion c:[/size][/color]\n<br />[color=#D4D4D8][size=2][b]Chaos[/b]: the mowost chaowotic mowodifier uwunder the suwun. uwunreadable.[/size][/color]\n<br />\n<br />[color=#D4D4D8][size=2]The chance for any modifier to be triggered can be changed in the settings menu, under Gameplay.[/size][/color]\n<br />\n<br />[color=#8e7cc3][size=4][b]Installation instructions[/b][/size][/color]\n<br />[size=2]Same dealio as most mods. BepInEx, place .dll in plugins.[/size]\n<br />[size=2]BepInEx install steps:[/size]\n<br />[spoiler][color=#D4D4D8][size=2]1. Download [/size][/color][color=#8e7cc3][size=2][font=Courier New][b]BepInEx_win_x64[/b][/font][/size][/color][color=#D4D4D8][size=2] (even if you're on [/size][/color][color=#ff00ff][size=2]Linux[/size][/color][color=#D4D4D8][size=2]) from their [url=https://github.com/BepInEx/BepInEx/releases]releases[/url]. I used version [/size][/color][color=#8e7cc3][size=2][b]5.4.23.4[/b][/size][/color][color=#D4D4D8][size=2].\n<br />\n<br />2. Unzip the file contents into the root folder of the game. In the same directory as the [/size][/color][color=#8e7cc3][size=2][b].exe[/b][/size][/color][color=#D4D4D8][size=2] file, there should be a [/size][/color][color=#8e7cc3][size=2][b]winhttp.dll[/b][/size][/color][color=#D4D4D8][size=2] file if you've done it right.\n<br />\n<br />2.5. [/size][/color][size=2][b][color=#ff00ff]Linux users[/color][/b][color=#D4D4D8][b]:[/b] Add the following command to your launch options, on steam found in Properties &gt; General &gt; Launch Options: [/color][b][color=#6d9eeb][font=Courier New]WINEDLLOVERRIDES=\"winhttp=n,b\" %command%[/font][/color][/b][color=#D4D4D8]\n<br />\n<br />3. Launch the game. This will initialize BepInEx. If it worked, in Casualties Unknown Demo &gt; BepInEx, there should exist a [/color][color=#8e7cc3][b]plugins[/b][/color][color=#D4D4D8] folder.[/color][/size][/spoiler]\n<br />[color=#D4D4D8][size=2]From there, place the provided [/size][/color][color=#8e7cc3][size=2][b].dll[/b][/size][/color][color=#D4D4D8][size=2] file into [b]BepInEx/plugins[/b][/size][/color]\n<br />\n<br />[color=#8e7cc3][size=4][b]Compatibility[/b][/size][/color]\n<br />[size=2]Untested with multiplayer. Will probably work, but players will see different results. Lemme know if this is something you really want :)[/size]\n<br />[size=2]Should work with any mods that change dialogue strings.[/size]\n<br />[size=2]This mod performs the following patches:[/size]\n<br />[size=2][font=Courier New][color=#8e7cc3]Postfix[/color] [color=#1e84cc]Locale.GetString[/color][/font][/size]\n<br />[size=2][font=Courier New][color=#8e7cc3]Postfix [/color][color=#1e84cc]Locale.GetPdaNote(int)[/color][/font][/size]\n<br />[size=2][font=Courier New][color=#8e7cc3]Postfix [/color][color=#1e84cc]Locale.GetNote[/color][/font][/size]\n<br />[size=2][font=Courier New][color=#8e7cc3]Postfix [/color][color=#1e84cc]Locale.GetItem[/color][/font][/size]\n<br />[size=2][font=Courier New][color=#8e7cc3]Postfix [/color][color=#1e84cc]Locale.GetBuilding[/color][/font][/size]\n<br />[size=2][font=Courier New][color=#8e7cc3]Postfix [/color][color=#1e84cc]Locale.GetMoodle[/color][/font][/size]\n<br />[size=2][font=Courier New][color=#8e7cc3]Postfix [/color][color=#1e84cc]Locale.GetOther[/color][/font][/size]\n<br />[size=2][font=Courier New][color=#8e7cc3]Postfix [/color][color=#1e84cc]Locale.GetTutorial[/color][/font][/size]\n<br />[size=2][font=Courier New][color=#8e7cc3]Postfix [/color][color=#1e84cc]Locale.GetPauseQuote[/color][/font][/size]\n<br />[size=2][font=Courier New][color=#8e7cc3]Postfix[/color] [color=#1e84cc]Settings[/color][/font][/size][color=#1e84cc][size=2][font=Courier New].DefaultSettings[/font][/size][/color]\n<br />[size=2][font=Courier New][color=#8e7cc3]Prefix[/color] [/font][/size][color=#1e84cc][size=2][font=Courier New]Talk.Talker(List&lt;string&gt;, Limb, bool, bool)[/font][/size][/color][color=#6d9eeb][size=2][font=Courier New] [color=#8e7cc3](No skip)[/color][/font][/size][/color]\n<br />\n<br />[color=#8e7cc3][b][size=4]Bug reporting[/size][/b][/color]\n<br />[size=2]There may be bugs I haven't noticed! If you find a bug, let me know and I'll try to fix it quickly. Guide for that:[/size]\n<br />[spoiler][size=2]The more information is provided, the quicker developers are able to address the issue!\n<br />Any information is always better than no information. Even if you can't get much, making any post may help.[/size]\n<br />[size=2]Bug reports should go into the [b]Bugs[/b] section of the mod page.\n<br />\n<br />[b]Description[/b] - Details of what was expected to happen, and what happened instead. Any information that might suggest what the cause is. It can't be fixed if we don't know what the issue is!\n<br />\n<br />[b]Replicability[/b] - If you can give steps to reliably reproduce the issue, that's the most helpful thing! It makes it quick to verify the issue and test fixes.\n<br />\n<br />[b]Existing bug reports[/b] - Try to check if there's already been a report of this bug. You could add more information to that report, or find an explanation of what's going on.\n<br />\n<br />[b]Game version[/b] - This can be seen on the main menu in the bottom right. Code can change a lot between versions!\n<br />\n<br />[b]Log file[/b] - This is located in {game_folder}/BepInEx/LogOutput.log. It provides a list of your mods and their versions, which are very helpful for tracking down the issue!\n<br />\n<br />[b]Updating[/b] - Try to make sure your mods and game are up to date, especially the mod that has the bug. It might have been changed, or fixed.\n<br />\n<br />Modding is not simple work, and most of us do this for free out of passion in our spare time. Be considerate. It might take time to fix things.[/size][/spoiler]\n<br />\n<br />[color=#6d9eeb][size=3][font=Courier New][color=#8e7cc3][b]footnotes[/b][/color][/font][/size][/color]\n<br />i have a [color=#8e7cc3][url=https://discord.gg/2SrT3eCPKs]discord server[/url][/color] if you wanna say hi or talk about a mod\n<br />[color=#8e7cc3][size=3][url=https://github.com/BalaurBohemianBroken/casualties-unknown-owo-mod]source code[/url][/size][/color]",
         "Author": "BalaurBohemianBroken",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/323/323-1781736577-1858301084.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/323"
         },
-        "DownloadUrl": "nexus://scavprototype/323/954",
+        "DownloadUrl": "nexus://scavprototype/323/997",
         "NexusGameDomain": "scavprototype",
         "NexusModId": 323,
         "SourceName": "Nexus",
         "dllNames": [
             "OwOText.dll"
         ],
-        "dllVersion": "1.0.3",
+        "dllVersion": "1.0.5",
         "dllVersions": {
-            "OwOText.dll": "1.0.3"
+            "OwOText.dll": "1.0.5"
         },
         "Statistics": {
             "Endorsements": 4,
-            "UniqueDownloads": 110,
-            "TotalDownloads": 146,
+            "UniqueDownloads": 119,
+            "TotalDownloads": 159,
             "TotalViews": null
         },
         "Images": [
@@ -895,8 +1081,8 @@
         },
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 79,
-            "TotalDownloads": 99,
+            "UniqueDownloads": 84,
+            "TotalDownloads": 106,
             "TotalViews": null
         },
         "Images": [
@@ -906,15 +1092,15 @@
     {
         "Id": "nexus-321",
         "Name": "AdditionalTraps",
-        "Version": "1.0.0",
-        "bepinexVersion": "1.0.1",
+        "Version": "1.0.1",
+        "bepinexVersion": "1.1.3",
         "Description": "[size=4][b]Additional Traps v1.0.0[/b][/size]\n<br />[size=4][b]Features: [/b][/size]\n<br />[list]\n<br />[*][size=3]Add five more traps (Medical Pile,  Nuclear Bomb, Poison Mine, Frost Mine and Piston Trap) to make the game even tougher.[/size][/*]\n<br />[*][size=3]Multiplayer based on KrokMP is supported. Both the server and the client need to be installed. (Optional features)[/size][/*]\n<br />[/list][s]I have been working hard to draw textures, but my talent in this area is really rare, so please don't criticize my painting skills.[/s]\n<br />\n<br />[size=3][b]If you encounter any bugs while playing, please let me know in a timely manner.[/b][/size]\n<br />\n<br />[size=3][b]Contact me [url=https://github.com/MLSLi]here[/url].[/b][/size]\n<br />[line]\n<br />[b][size=4]更多陷阱 v1.0.0[/size][/b]\n<br />[b][size=4]功能：[/size][/b]\n<br />[list]\n<br />[*][size=3]增加五种陷阱（废弃医疗堆，核弹，毒气地雷，寒霜地雷，活塞）来使你的游戏更加困难[/size][/*]\n<br />[*][size=3]支持基于KrokMP的多人游戏，服务端和客户端均需要安装 （可选功能）[/size][/*]\n<br />[/list][s][s]我已经很努力地去画贴图了，但是我对这方面的天赋真的少之又少，所以请不要嫌弃我的画技[/s] [/s]\n<br />\n<br />如果你在游戏中遇到任何bug，请及时通知我\n<br />\n<br />在[url=https://github.com/MLSLi]这里[/url]联系我",
         "Author": "VtLoader",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/321/321-1781702038-14501740.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/321"
         },
-        "DownloadUrl": "nexus://scavprototype/321/837",
+        "DownloadUrl": "nexus://scavprototype/321/1013",
         "NexusGameDomain": "scavprototype",
         "NexusModId": 321,
         "SourceName": "Nexus",
@@ -922,15 +1108,15 @@
             "AdditionalTraps.dll",
             "TrapLib.dll"
         ],
-        "dllVersion": "1.0.1",
+        "dllVersion": "1.1.3",
         "dllVersions": {
-            "AdditionalTraps.dll": "1.0.0",
-            "TrapLib.dll": "1.0.1"
+            "AdditionalTraps.dll": "1.0.1",
+            "TrapLib.dll": "1.1.3"
         },
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 108,
-            "TotalDownloads": 128,
+            "UniqueDownloads": 118,
+            "TotalDownloads": 139,
             "TotalViews": null
         },
         "Images": [
@@ -961,8 +1147,8 @@
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 55,
-            "TotalDownloads": 70,
+            "UniqueDownloads": 59,
+            "TotalDownloads": 76,
             "TotalViews": null
         },
         "Images": [
@@ -994,7 +1180,7 @@
         "Statistics": {
             "Endorsements": 0,
             "UniqueDownloads": 54,
-            "TotalDownloads": 75,
+            "TotalDownloads": 76,
             "TotalViews": null
         },
         "Images": [
@@ -1026,7 +1212,7 @@
         "Statistics": {
             "Endorsements": 5,
             "UniqueDownloads": 110,
-            "TotalDownloads": 166,
+            "TotalDownloads": 169,
             "TotalViews": null
         },
         "Images": [
@@ -1053,8 +1239,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 42,
-            "TotalDownloads": 59,
+            "UniqueDownloads": 43,
+            "TotalDownloads": 61,
             "TotalViews": null
         },
         "Images": [
@@ -1085,8 +1271,8 @@
         },
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 48,
-            "TotalDownloads": 67,
+            "UniqueDownloads": 49,
+            "TotalDownloads": 69,
             "TotalViews": null
         },
         "Images": [
@@ -1118,7 +1304,7 @@
         "Statistics": {
             "Endorsements": 3,
             "UniqueDownloads": 51,
-            "TotalDownloads": 83,
+            "TotalDownloads": 84,
             "TotalViews": null
         },
         "Images": [
@@ -1149,8 +1335,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 132,
-            "TotalDownloads": 151,
+            "UniqueDownloads": 142,
+            "TotalDownloads": 163,
             "TotalViews": null
         },
         "Images": [
@@ -1181,8 +1367,8 @@
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 141,
-            "TotalDownloads": 240,
+            "UniqueDownloads": 147,
+            "TotalDownloads": 248,
             "TotalViews": null
         },
         "Images": [
@@ -1213,8 +1399,8 @@
         },
         "Statistics": {
             "Endorsements": 5,
-            "UniqueDownloads": 91,
-            "TotalDownloads": 107,
+            "UniqueDownloads": 94,
+            "TotalDownloads": 111,
             "TotalViews": null
         },
         "Images": [
@@ -1223,10 +1409,10 @@
     },
     {
         "Id": "nexus-231",
-        "Name": "QoL Unknown Chinese Patch",
+        "Name": "(Deprecated)QoL Unknown Chinese Patch",
         "Version": "0.10.14",
         "bepinexVersion": "0.10.14",
-        "Description": "QoL Unknown Chinese Patch\n<br />A Simplified Chinese localization patch for [b]QoL Unknown[/b], a quality-of-life mod for [b]Casualties: Unknown / Scav Prototype[/b].\n<br />This patch localizes QoL Unknown's menus, settings, module list, tooltips, dropdown entries, and several UI strings into Simplified Chinese.\n<br />This patch does [b]not[/b] include QoL Unknown itself.\n<br />Please install the original QoL Unknown mod first.\n<br />[heading]Supported versions[/heading]\n<br />[list]\n<br />[*]Game: Casualties Unknown Demo v7.0.1[/*]\n<br />[*]Original mod: QoL Unknown 1.0.4.5[/*]\n<br />[*]Mod loader: BepInEx 5.4.23.5[/*]\n<br />[*]Patch version: v0.10.14[/*]\n<br />[/list][heading]Installation[/heading]\n<br />[list=1]\n<br />[*]Install BepInEx 5.4.23.5.[/*]\n<br />[*]Install the original QoL Unknown mod.[/*]\n<br />[*]Download this patch.[/*]\n<br />[*]Extract the \n<br />[code]QoLChinesePatch[/code]folder into:[/*]\n<br />[/list][code]Casualties Unknown Demo/BepInEx/plugins/[/code]The final structure should look like this:\n<br />[code]Casualties Unknown Demo/\n<br />└── BepInEx/\n<br />    └── plugins/\n<br />        ├── QoL Unknown.dll\n<br />        └── QoLChinesePatch/\n<br />            ├── QoLChinesePatch.dll\n<br />            ├── QoLChinesePatch.Bootstrap.dll\n<br />            ├── translations.zh-CN.json\n<br />            └── phrases.zh-CN.json[/code][heading]Known compatibility issue[/heading]\n<br />This version is currently not compatible with [b]KrokMP Chinese Name Fix 1.0.18.20[/b].\n<br />Reason: both mods patch global Unity text rendering methods such as \n<br />[code]UnityEngine.GUI[/code], \n<br />[code]GUILayout[/code], \n<br />[code]GUIStyle[/code], \n<br />[code]TMP_Text[/code], and \n<br />[code]UI.Text[/code]. If both are installed at the same time, some QoL Unknown IMGUI texts may fail to localize correctly.\n<br />Temporary workaround:\n<br />[list]\n<br />[*]Use this patch without KrokMP Chinese Name Fix; or[/*]\n<br />[*]Wait for a future compatibility update from either side.[/*]\n<br />[/list][heading]Notes[/heading]\n<br />This patch only contains localization files and patch code. It does not redistribute:\n<br />[list]\n<br />[*]QoL Unknown original DLL[/*]\n<br />[*]Casualties Unknown game files[/*]\n<br />[*]KrokMP files[/*]\n<br />[*]KrokMP Chinese Name Fix[/*]\n<br />[*]wiki translation JSON files[/*]\n<br />[*]fonts or Unity built-in resources[/*]\n<br />[/list][heading]Credits[/heading]\n<br />Original QoL Unknown mod by Jimmyking / Jimmyking9999999.\n<br />This is an unofficial Simplified Chinese localization patch.",
+        "Description": "【停止维护公告】\n<br />本补丁已停止维护，不再建议新用户安装。\n<br />目前已经有其他更完整的 QoL 汉化方案可用，并且经过测试可以独立运行，字体显示也没有明显问题。因此本补丁将作为历史存档保留，不再继续更新。（[url=https://github.com/031fox-ui/a.chs.mod%EF%BC%89]https://github.com/031fox-ui/a.chs.mod[/url]）\n<br />当前状态：\n<br />[list]\n<br />[*]不再发布新版本；[/*]\n<br />[*]不再适配 QoL Unknown 后续版本；[/*]\n<br />[*]不再处理新的兼容性问题；[/*]\n<br />[*]文件仅作为历史存档保留。[/*]\n<br />[/list]感谢所有使用和测试过本补丁的玩家。\n<br />\n<br />【Maintenance Discontinued】\n<br />This patch is no longer maintained and is no longer recommended for new users.\n<br />A more complete QoL localization solution is now available and has been tested to run independently without this patch. The font display also appears to work correctly. Therefore, this patch will be kept only as a historical archive and will not receive further updates.\n<br />Recommended alternative:\n<br />[url=https://github.com/031fox-ui/a.chs.mod]https://github.com/031fox-ui/a.chs.mod[/url]\n<br />Current status:\n<br />[list]\n<br />[*]No new versions will be released.[/*]\n<br />[*]No future QoL Unknown versions will be supported.[/*]\n<br />[*]No new compatibility issues will be handled.[/*]\n<br />[*]Existing files will remain available only as a historical archive.[/*]\n<br />[/list]Thank you to everyone who used, tested, and gave feedback on this patch.\n<br />\n<br />\n<br />QoL Unknown Chinese Patch\n<br />A Simplified Chinese localization patch for [b]QoL Unknown[/b], a quality-of-life mod for [b]Casualties: Unknown / Scav Prototype[/b].\n<br />This patch localizes QoL Unknown's menus, settings, module list, tooltips, dropdown entries, and several UI strings into Simplified Chinese.\n<br />This patch does [b]not[/b] include QoL Unknown itself.\n<br />Please install the original QoL Unknown mod first.\n<br />[heading]Supported versions[/heading]\n<br />[list]\n<br />[*]Game: Casualties Unknown Demo v7.0.1[/*]\n<br />[*]Original mod: QoL Unknown 1.0.4.5[/*]\n<br />[*]Mod loader: BepInEx 5.4.23.5[/*]\n<br />[*]Patch version: v0.10.14[/*]\n<br />[/list][heading]Installation[/heading]\n<br />[list=1]\n<br />[*]Install BepInEx 5.4.23.5.[/*]\n<br />[*]Install the original QoL Unknown mod.[/*]\n<br />[*]Download this patch.[/*]\n<br />[*]Extract the\n<br />[code]QoLChinesePatch[/code]folder into:[/*]\n<br />[/list][code]Casualties Unknown Demo/BepInEx/plugins/[/code]The final structure should look like this:\n<br />[code]Casualties Unknown Demo/\n<br />└── BepInEx/\n<br />    └── plugins/\n<br />        ├── QoL Unknown.dll\n<br />        └── QoLChinesePatch/\n<br />            ├── QoLChinesePatch.dll\n<br />            ├── QoLChinesePatch.Bootstrap.dll\n<br />            ├── translations.zh-CN.json\n<br />            └── phrases.zh-CN.json[/code][heading]Known compatibility issue[/heading]\n<br />This version is currently not compatible with [b]KrokMP Chinese Name Fix 1.0.18.20[/b].\n<br />Reason: both mods patch global Unity text rendering methods such as\n<br />[code]UnityEngine.GUI[/code],\n<br />[code]GUILayout[/code],\n<br />[code]GUIStyle[/code],\n<br />[code]TMP_Text[/code], and\n<br />[code]UI.Text[/code]. If both are installed at the same time, some QoL Unknown IMGUI texts may fail to localize correctly.\n<br />Temporary workaround:\n<br />[list]\n<br />[*]Use this patch without KrokMP Chinese Name Fix; or[/*]\n<br />[*]Wait for a future compatibility update from either side.[/*]\n<br />[/list][heading]Notes[/heading]\n<br />This patch only contains localization files and patch code. It does not redistribute:\n<br />[list]\n<br />[*]QoL Unknown original DLL[/*]\n<br />[*]Casualties Unknown game files[/*]\n<br />[*]KrokMP files[/*]\n<br />[*]KrokMP Chinese Name Fix[/*]\n<br />[*]wiki translation JSON files[/*]\n<br />[*]fonts or Unity built-in resources[/*]\n<br />[/list][heading]Credits[/heading]\n<br />Original QoL Unknown mod by Jimmyking / Jimmyking9999999.\n<br />This is an unofficial Simplified Chinese localization patch.",
         "Author": "SKEREEEEEEEE",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/231/231-1781443812-468251665.png",
@@ -1246,9 +1432,9 @@
             "QoLChinesePatch.dll": "0.10.14"
         },
         "Statistics": {
-            "Endorsements": 6,
-            "UniqueDownloads": 330,
-            "TotalDownloads": 391,
+            "Endorsements": 7,
+            "UniqueDownloads": 341,
+            "TotalDownloads": 410,
             "TotalViews": null
         },
         "Images": [
@@ -1279,8 +1465,8 @@
         },
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 22,
-            "TotalDownloads": 41,
+            "UniqueDownloads": 25,
+            "TotalDownloads": 45,
             "TotalViews": null
         },
         "Images": [
@@ -1307,8 +1493,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 8,
-            "UniqueDownloads": 387,
-            "TotalDownloads": 449,
+            "UniqueDownloads": 401,
+            "TotalDownloads": 465,
             "TotalViews": null
         },
         "Images": [
@@ -1338,9 +1524,9 @@
             "VforWhiningMPAddon.dll": "1.1.0"
         },
         "Statistics": {
-            "Endorsements": 12,
-            "UniqueDownloads": 490,
-            "TotalDownloads": 589,
+            "Endorsements": 13,
+            "UniqueDownloads": 516,
+            "TotalDownloads": 621,
             "TotalViews": null
         },
         "Images": [
@@ -1372,8 +1558,8 @@
         },
         "Statistics": {
             "Endorsements": 5,
-            "UniqueDownloads": 128,
-            "TotalDownloads": 197,
+            "UniqueDownloads": 129,
+            "TotalDownloads": 200,
             "TotalViews": null
         },
         "Images": [
@@ -1404,8 +1590,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 200,
-            "TotalDownloads": 323,
+            "UniqueDownloads": 207,
+            "TotalDownloads": 334,
             "TotalViews": null
         },
         "Images": [
@@ -1436,8 +1622,8 @@
         },
         "Statistics": {
             "Endorsements": 5,
-            "UniqueDownloads": 86,
-            "TotalDownloads": 124,
+            "UniqueDownloads": 88,
+            "TotalDownloads": 127,
             "TotalViews": null
         },
         "Images": [
@@ -1464,8 +1650,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 154,
-            "TotalDownloads": 184,
+            "UniqueDownloads": 158,
+            "TotalDownloads": 192,
             "TotalViews": null
         },
         "Images": [
@@ -1496,8 +1682,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 176,
-            "TotalDownloads": 214,
+            "UniqueDownloads": 179,
+            "TotalDownloads": 218,
             "TotalViews": null
         },
         "Images": [
@@ -1528,8 +1714,8 @@
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 47,
-            "TotalDownloads": 68,
+            "UniqueDownloads": 49,
+            "TotalDownloads": 71,
             "TotalViews": null
         },
         "Images": [
@@ -1560,8 +1746,8 @@
         },
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 20,
-            "TotalDownloads": 31,
+            "UniqueDownloads": 21,
+            "TotalDownloads": 33,
             "TotalViews": null
         },
         "Images": [
@@ -1592,8 +1778,8 @@
         },
         "Statistics": {
             "Endorsements": 2,
-            "UniqueDownloads": 96,
-            "TotalDownloads": 120,
+            "UniqueDownloads": 104,
+            "TotalDownloads": 129,
             "TotalViews": null
         },
         "Images": [
@@ -1624,8 +1810,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 257,
-            "TotalDownloads": 288,
+            "UniqueDownloads": 261,
+            "TotalDownloads": 294,
             "TotalViews": null
         },
         "Images": [
@@ -1652,8 +1838,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 8,
-            "UniqueDownloads": 192,
-            "TotalDownloads": 249,
+            "UniqueDownloads": 199,
+            "TotalDownloads": 261,
             "TotalViews": null
         },
         "Images": [
@@ -1684,8 +1870,8 @@
         },
         "Statistics": {
             "Endorsements": 9,
-            "UniqueDownloads": 531,
-            "TotalDownloads": 598,
+            "UniqueDownloads": 551,
+            "TotalDownloads": 623,
             "TotalViews": null
         },
         "Images": [
@@ -1716,8 +1902,8 @@
         },
         "Statistics": {
             "Endorsements": 10,
-            "UniqueDownloads": 257,
-            "TotalDownloads": 319,
+            "UniqueDownloads": 267,
+            "TotalDownloads": 332,
             "TotalViews": null
         },
         "Images": [
@@ -1748,8 +1934,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 233,
-            "TotalDownloads": 272,
+            "UniqueDownloads": 239,
+            "TotalDownloads": 279,
             "TotalViews": null
         },
         "Images": [
@@ -1780,8 +1966,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 124,
-            "TotalDownloads": 208,
+            "UniqueDownloads": 131,
+            "TotalDownloads": 220,
             "TotalViews": null
         },
         "Images": [
@@ -1812,8 +1998,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 157,
-            "TotalDownloads": 205,
+            "UniqueDownloads": 160,
+            "TotalDownloads": 209,
             "TotalViews": null
         },
         "Images": [
@@ -1844,8 +2030,8 @@
         },
         "Statistics": {
             "Endorsements": 4,
-            "UniqueDownloads": 62,
-            "TotalDownloads": 100,
+            "UniqueDownloads": 66,
+            "TotalDownloads": 105,
             "TotalViews": null
         },
         "Images": [
@@ -1875,9 +2061,9 @@
             "bepinex_soundmod.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 3,
-            "UniqueDownloads": 139,
-            "TotalDownloads": 187,
+            "Endorsements": 4,
+            "UniqueDownloads": 142,
+            "TotalDownloads": 192,
             "TotalViews": null
         },
         "Images": [
@@ -1908,8 +2094,8 @@
         },
         "Statistics": {
             "Endorsements": 4,
-            "UniqueDownloads": 165,
-            "TotalDownloads": 212,
+            "UniqueDownloads": 166,
+            "TotalDownloads": 214,
             "TotalViews": null
         },
         "Images": [
@@ -1940,8 +2126,8 @@
         },
         "Statistics": {
             "Endorsements": 9,
-            "UniqueDownloads": 245,
-            "TotalDownloads": 357,
+            "UniqueDownloads": 249,
+            "TotalDownloads": 366,
             "TotalViews": null
         },
         "Images": [
@@ -1972,8 +2158,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 201,
-            "TotalDownloads": 229,
+            "UniqueDownloads": 205,
+            "TotalDownloads": 234,
             "TotalViews": null
         },
         "Images": [
@@ -2004,8 +2190,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 121,
-            "TotalDownloads": 156,
+            "UniqueDownloads": 127,
+            "TotalDownloads": 166,
             "TotalViews": null
         },
         "Images": [
@@ -2032,8 +2218,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 5,
-            "UniqueDownloads": 115,
-            "TotalDownloads": 150,
+            "UniqueDownloads": 117,
+            "TotalDownloads": 153,
             "TotalViews": null
         },
         "Images": [
@@ -2045,7 +2231,7 @@
         "Name": "Straightforward Health Panel",
         "Version": "5",
         "bepinexVersion": "1.0.0",
-        "Description": "[size=4][b]Description[/b][/size]\n<br />Reworks the health panel to be more straightforward\n<br />Stats are now categorized by organ, and don't always show their number values, instead changing the organ they belong to\n<br />Body-wide stats also have their own fancy little bars\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />This mod requires BepInEx\n<br />Once it's installed, place SFHealthPanel.dll and the SFHealthPanelTextures folder in the plugins folder\n<br />This mod is probably not compatible with any other mod that messes with the health panel\n<br />\n<br />This mod was made in five days starting from quite literally zero modding knowledge as a result of a random burst of \"i can do whatever the fuck i want\"\n<br />I am aware that this removes some of the charm that the obtuse vanilla health panel has, as you have to figure out what to pay attention to while figuring out what's causing you to rapidly perish, but i personally don't like it and i doubt i'm the only one\n<br />\n<br />If you wanna tell me anything, dm me on discord (@rosa_astraea, i'm in the main server)",
+        "Description": "[size=4][b]Description[/b][/size]\n<br />Reworks the health panel to be more straightforward\n<br />Stats are now categorized by organ, and don't always show their number values, instead changing the organ they belong to\n<br />Body-wide stats also have their own fancy little bars\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />This mod requires BepInEx\n<br />Once it's installed, place SFHealthPanel.dll and the SFHealthPanelTextures folder in the plugins folder\n<br />This mod is probably not compatible with any other mod that messes with the health panel\n<br />\n<br />This mod was made in five days starting from quite literally zero modding knowledge as a result of a random burst of \"i can do whatever the fuck i want\"\n<br />I am aware that this removes some of the charm that the obtuse vanilla health panel has, as you have to figure out what to pay attention to while figuring out what's causing you to rapidly perish, but i personally don't like it and i doubt i'm the only one",
         "Author": "RosaAstraea",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/198/198-1780962693-1967035822.png",
@@ -2064,8 +2250,8 @@
         },
         "Statistics": {
             "Endorsements": 9,
-            "UniqueDownloads": 232,
-            "TotalDownloads": 303,
+            "UniqueDownloads": 239,
+            "TotalDownloads": 313,
             "TotalViews": null
         },
         "Images": [
@@ -2096,8 +2282,8 @@
         },
         "Statistics": {
             "Endorsements": 28,
-            "UniqueDownloads": 939,
-            "TotalDownloads": 1122,
+            "UniqueDownloads": 974,
+            "TotalDownloads": 1165,
             "TotalViews": null
         },
         "Images": [
@@ -2124,8 +2310,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 44,
-            "TotalDownloads": 78,
+            "UniqueDownloads": 45,
+            "TotalDownloads": 81,
             "TotalViews": null
         },
         "Images": [
@@ -2155,9 +2341,9 @@
             "Beta_RaceChanger.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 19,
-            "UniqueDownloads": 514,
-            "TotalDownloads": 610,
+            "Endorsements": 20,
+            "UniqueDownloads": 527,
+            "TotalDownloads": 625,
             "TotalViews": null
         },
         "Images": [
@@ -2187,9 +2373,9 @@
             "WearableArray.dll": "1.0.1"
         },
         "Statistics": {
-            "Endorsements": 18,
-            "UniqueDownloads": 666,
-            "TotalDownloads": 870,
+            "Endorsements": 20,
+            "UniqueDownloads": 681,
+            "TotalDownloads": 895,
             "TotalViews": null
         },
         "Images": [
@@ -2216,8 +2402,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 9,
-            "UniqueDownloads": 625,
-            "TotalDownloads": 744,
+            "UniqueDownloads": 651,
+            "TotalDownloads": 775,
             "TotalViews": null
         },
         "Images": [
@@ -2248,8 +2434,8 @@
         },
         "Statistics": {
             "Endorsements": 7,
-            "UniqueDownloads": 309,
-            "TotalDownloads": 364,
+            "UniqueDownloads": 315,
+            "TotalDownloads": 386,
             "TotalViews": null
         },
         "Images": [
@@ -2280,8 +2466,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 341,
-            "TotalDownloads": 421,
+            "UniqueDownloads": 347,
+            "TotalDownloads": 429,
             "TotalViews": null
         },
         "Images": [
@@ -2309,7 +2495,7 @@
         "Statistics": {
             "Endorsements": 1,
             "UniqueDownloads": 38,
-            "TotalDownloads": 55,
+            "TotalDownloads": 56,
             "TotalViews": null
         },
         "Images": [
@@ -2340,8 +2526,8 @@
         },
         "Statistics": {
             "Endorsements": 4,
-            "UniqueDownloads": 179,
-            "TotalDownloads": 206,
+            "UniqueDownloads": 182,
+            "TotalDownloads": 210,
             "TotalViews": null
         },
         "Images": [
@@ -2372,8 +2558,8 @@
         },
         "Statistics": {
             "Endorsements": 5,
-            "UniqueDownloads": 71,
-            "TotalDownloads": 147,
+            "UniqueDownloads": 72,
+            "TotalDownloads": 149,
             "TotalViews": null
         },
         "Images": [
@@ -2405,9 +2591,9 @@
             "DynamiteTimerEN.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 6,
-            "UniqueDownloads": 257,
-            "TotalDownloads": 303,
+            "Endorsements": 7,
+            "UniqueDownloads": 261,
+            "TotalDownloads": 310,
             "TotalViews": null
         },
         "Images": [
@@ -2417,29 +2603,29 @@
     {
         "Id": "nexus-183",
         "Name": "KrokMP Chinese Supplement - Simplified Chinese Translation",
-        "Version": "0.1.25",
-        "bepinexVersion": "0.1.25",
+        "Version": "0.1.33",
+        "bepinexVersion": "0.1.33",
         "Description": "KrokMP Chinese Supplement - Simplified Chinese Translation\n<br />A Simplified Chinese supplement translation patch for [b]KrokMP / Krokosha_MP_CU / CO-OP MOD[/b] for [b]Casualties Unknown Demo[/b].\n<br />This mod provides additional Chinese translations for the multiplayer mod UI, server browser, rule menu, chat/status messages, tooltips, dynamic messages, and Battle Royale mode texts.\n<br />This is a translation supplement only. It does [b]not[/b] include the original KrokMP / CO-OP MOD files.\n<br />[line]\n<br />[heading]Description[/heading]\n<br />KrokMP Chinese Supplement is a BepInEx-based Simplified Chinese translation supplement for KrokMP / CO-OP MOD.\n<br />It is designed to fill in text that is not covered by the base Chinese language file, especially hardcoded multiplayer UI text and dynamic status messages.\n<br />It translates or supplements:\n<br />[list]\n<br />[*]Multiplayer main menu[/*]\n<br />[*]Server browser[/*]\n<br />[*]Lobby creation and connection menu[/*]\n<br />[*]Rule menu[/*]\n<br />[*]Rule search[/*]\n<br />[*]Tooltip text[/*]\n<br />[*]Chat and server announcements[/*]\n<br />[*]Last status messages[/*]\n<br />[*]Multiplayer in-game status panel[/*]\n<br />[*]Battle Royale mode texts[/*]\n<br />[*]TPS / FPS display text[/*]\n<br />[*]New KrokMP 3.1.0 language keys[/*]\n<br />[*]Location names and mood/status texts[/*]\n<br />[/list]This patch does not replace large wiki-style Chinese translation packs such as Wiki Chinese. It is only a supplement for KrokMP / CO-OP MOD multiplayer texts.\n<br />[line]\n<br />[heading]Supported Versions[/heading]\n<br />Tested with:\n<br />[list]\n<br />[*]Casualties Unknown Demo v7.0.1[/*]\n<br />[*]KrokMP / Krokosha_MP_CU / CO-OP MOD v3.1.0[/*]\n<br />[*]BepInEx 5[/*]\n<br />[/list]Older versions may work, but are not the main target of this release.\n<br />[line]\n<br />[heading]Requirements[/heading]\n<br />Required:\n<br />[list]\n<br />[*]Casualties Unknown Demo[/*]\n<br />[*]BepInEx 5[/*]\n<br />[*]KrokMP / Krokosha_MP_CU / CO-OP MOD v3.1.0[/*]\n<br />[/list]Recommended:\n<br />[list]\n<br />[*]A Simplified Chinese base translation / language file for the game[/*]\n<br />[/list]This translation supplement does not include the original KrokMP files, game files, or any decompiled KrokMP source code.\n<br />[line]\n<br />[heading]Installation[/heading]\n<br />[list=1]\n<br />[*]Install BepInEx 5.[/*]\n<br />[*]Install the original KrokMP / Krokosha_MP_CU / CO-OP MOD.[/*]\n<br />[*]Download this translation supplement.[/*]\n<br />[*]Extract the archive.[/*]\n<br />[*]Put the entire\n<br />[code]KrokMPChineseSupplement[/code]folder into:[/*]\n<br />[/list][code]BepInEx/plugins/[/code]The final structure should look like this:\n<br />[code]BepInEx/plugins/KrokMPChineseSupplement/\n<br />├─ KrokMPChineseSupplement.dll\n<br />├─ translations.zh-CN.json\n<br />├─ phrases.zh-CN.json\n<br />└─ README.md[/code][list=1]\n<br />[*]Start the game.[/*]\n<br />[/list][line]\n<br />[heading]Uninstallation[/heading]\n<br />Delete this folder:\n<br />[code]BepInEx/plugins/KrokMPChineseSupplement/[/code]If you want to fully clean the configuration file, also delete:\n<br />[code]BepInEx/config/casualtiesunknown.krokmpchinesesupplement.cfg[/code][line]\n<br />[heading]Main Features[/heading]\n<br />Multiplayer UI Translation\n<br />Translates the KrokMP multiplayer menu, server browser, direct connect menu, lobby settings, buttons, labels, and status messages.\n<br />Rule Menu Translation\n<br />Adds Chinese translations for multiplayer rules, rule names, rule tooltips, and rule search.\n<br />Dynamic Text Translation\n<br />Adds fallback translation for dynamic messages such as lobby status, Steam lobby type, player count, server messages, disconnect reasons, and status logs.\n<br />Battle Royale Translation\n<br />Adds translation support for Battle Royale mode texts, including gamemode activation, waiting messages, victory/death messages, play area warnings, and direction hints.\n<br />TPS / FPS Translation\n<br />Adds display translations such as:\n<br />[code]SERVER TPS → 服务器刻率\n<br />LOCAL TPS → 本地刻率\n<br />TPS → 刻率\n<br />FPS → 帧率[/code]Performance-Safe Patch Strategy\n<br />The supplement uses targeted patches and JSON translation dictionaries. It does not modify KrokMP networking, player validation, Steamworks initialization, network packets, or world synchronization.\n<br />[line]\n<br />[heading]Notes[/heading]\n<br />This mod does not include:\n<br />[list]\n<br />[*]Original KrokMP DLL files[/*]\n<br />[*]Original KrokMP assets[/*]\n<br />[*]Game files[/*]\n<br />[*]Decompiled KrokMP source code[/*]\n<br />[*]Decompiled game source code[/*]\n<br />[/list]The original KrokMP / CO-OP MOD belongs to its author.\n<br />This project only contains an independent BepInEx translation supplement plugin and Simplified Chinese translation dictionaries.\n<br />[line]\n<br />[heading]Known Limitations[/heading]\n<br />[list]\n<br />[*]Rare dynamic messages may still be untranslated.[/*]\n<br />[*]Battle Royale mode itself may still have original KrokMP-side logic issues. This patch only translates its visible text.[/*]\n<br />[*]Discord IPC timeout messages are from KrokMP / Discord RPC and are not caused by this translation patch.[/*]\n<br />[*]Steam Chinese display names may still appear as question marks because this is handled by KrokMP itself. The experimental Steam display-name replacement was removed to avoid breaking nametag layout.[/*]\n<br />[/list]If you find untranslated text, please report it with:\n<br />[list]\n<br />[*]Screenshot[/*]\n<br />[*][code]BepInEx/LogOutput.log[/code][/*]\n<br />[*]Game version[/*]\n<br />[*]KrokMP version[/*]\n<br />[*]Steps to reproduce[/*]\n<br />[/list][line]\n<br />[heading]Version 0.1.23 Beta[/heading]\n<br />Changes:\n<br />[list]\n<br />[*]Updated for KrokMP / CO-OP MOD v3.1.0.[/*]\n<br />[*]Updated for Casualties Unknown Demo v7.0.1.[/*]\n<br />[*]Added Battle Royale mode text translations.[/*]\n<br />[*]Added TPS / FPS display translations.[/*]\n<br />[*]Added\n<br />[code]AlwaysAllowCarry[/code]rule name and tooltip translation.[/*]\n<br />[*]Added new voice mode text such as\n<br />[code]Toggle to talk[/code].[/*]\n<br />[*]Added new KrokMP 3.1.0\n<br />[code]krokosha_coop_*[/code]language keys.[/*]\n<br />[*]Added new location and mood text entries from Wiki Chinese v1.6.5.[/*]\n<br />[*]Added updater/status text translations.[/*]\n<br />[*]Removed the experimental Steam Chinese display-name replacement to avoid breaking nametag layout.[/*]\n<br />[/list][line]\n<br />[heading]简体中文说明[/heading]\n<br />这是用于 [b]Casualties Unknown Demo《未知伤亡》[/b] 的 [b]KrokMP / CO-OP MOD 简体中文补充汉化补丁[/b]。\n<br />本补丁主要补全联机 Mod 中没有走原有语言表的硬编码英文、动态状态文本、服务器浏览器文本、规则菜单文本、聊天提示、tooltip 和大逃杀模式文本。\n<br />安装方法：\n<br />[code]将 KrokMPChineseSupplement 文件夹放入 BepInEx/plugins/[/code]本补丁不包含 KrokMP 原版文件、不包含游戏文件，也不包含反编译源码。\n<br />如果发现漏翻文本，请提供截图和\n<br />[code]BepInEx/LogOutput.log[/code]。\n<br />[line]\n<br />[heading]Credits[/heading]\n<br />Thanks to the original author of KrokMP / Krokosha_MP_CU / CO-OP MOD.\n<br />Thanks to the creators and maintainers of the Simplified Chinese translation resources used as reference.\n<br />Thanks to players who tested the patch and reported untranslated text.",
         "Author": "SKEREEEEEEEE",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/183/183-1780664930-1820743226.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/183"
         },
-        "DownloadUrl": "nexus://scavprototype/183/753",
+        "DownloadUrl": "nexus://scavprototype/183/1012",
         "NexusGameDomain": "scavprototype",
         "NexusModId": 183,
         "SourceName": "Nexus",
         "dllNames": [
             "KrokMPChineseSupplement.dll"
         ],
-        "dllVersion": "0.1.25",
+        "dllVersion": "0.1.33",
         "dllVersions": {
-            "KrokMPChineseSupplement.dll": "0.1.25"
+            "KrokMPChineseSupplement.dll": "0.1.33"
         },
         "Statistics": {
-            "Endorsements": 16,
-            "UniqueDownloads": 758,
-            "TotalDownloads": 1035,
+            "Endorsements": 17,
+            "UniqueDownloads": 770,
+            "TotalDownloads": 1063,
             "TotalViews": null
         },
         "Images": [
@@ -2467,7 +2653,7 @@
         "Statistics": {
             "Endorsements": 2,
             "UniqueDownloads": 86,
-            "TotalDownloads": 119,
+            "TotalDownloads": 120,
             "TotalViews": null
         },
         "Images": [
@@ -2499,7 +2685,7 @@
         "Statistics": {
             "Endorsements": 2,
             "UniqueDownloads": 104,
-            "TotalDownloads": 159,
+            "TotalDownloads": 162,
             "TotalViews": null
         },
         "Images": [
@@ -2511,7 +2697,7 @@
         "Name": "ContainerTweaks",
         "Version": "1.4.0",
         "bepinexVersion": "1.4.0",
-        "Description": "[center][url=https://github.com/Shinkudaisuki/ContainerTweaksPlugin][img]https://img.shields.io/badge/github-repo-blue?logo=github&amp;link=https%3A%2F%2Fgithub.com%2FShinkudaisuki%2FContainerTweaksPlugin[/img][/url]  [img]https://img.shields.io/badge/Multiplayer-Verified-green?logo=%25F0%259F%258C%2590[/img][/center]\n<br />[b]Description[/b]\n<br />\n<br />ContainerTweaks is a BepInEx plugin for [b]Casualties: Unknown Demo[/b] that improves the container UI.\n<br />It expands the container layout and adds scrolling support, making containers with many items easier to browse and use. It also adds a configurable quick-transfer hotkey for moving matching items between containers, quick liquid transfer between compatible water containers, and auto-highlights compatible items when dragging.\n<br />\n<br />[b]Installation instructions[/b]\n<br />\n<br />1. Install BepInEx for [b]Casualties: Unknown Demo[/b]. \n<br />2. Download or build [b]ContainerTweaks.dll[/b]. \n<br />3. Copy [b]ContainerTweaks.dll[/b] into the game’s BepInEx plugins folder:\n<br />[b]BepInEx/plugins/ContainerTweaks.dll[/b]\n<br />4. Launch the game.\n<br />\n<br />[b]Main features[/b]\n<br />\n<br />• Expands the container grid from 3 columns to 6 columns by default.\n<br />• Adds mouse wheel scrolling for containers with more items than the visible area.\n<br />• Keeps the expanded container area from closing unexpectedly while interacting with it.\n<br />• Adds a configurable quick-transfer hotkey (default: LeftControl) for moving matching items between containers.\n<br />• Supports quick liquid transfer between compatible water containers.\n<br />• Supports quick magazine-to-magazine transfers for the same ammo type.\n<br />• Supports quick loading rounds (in a magazine, including a 12gauge box) into a direct-feed gun (typically a shotgun).\n<br />• Supports quick loading rounds into a magazine, including a 12gauge box.\n<br />• Provides BepInEx configuration entries for grid layout, scrolling, drag threshold values, and enabling / disabling specific features.\n<br />• Auto-highlights compatible items in the container when dragging an item (water containers, ammo, and guns).\n<br />• Supports multiplayer mod [url=https://www.nexusmods.com/scavprototype/mods/67]Casualties Together[/url].\n<br />\n<br />[b]Known issues[/b]\n<br />\n<br />• The background and volumn bar of the container view won't scale with the number of columns. Because I can't figure out how they are drawn.\n<br />• The simi-transparent strip indicates closing inventory view won't scale for the same reasion above. But since the drop feature of the base game still works, I'd like to call this a feature ;) .\n<br />\n<br />[b]Credits[/b]\n<br />\n<br />The container scrolling implementation references code from [url=https://github.com/jimmyking9999999/QoL-Unknown]QoL-Unknown[/url].\n<br />Because QoL-Unknown does not support the latest current version (v7.0.1) of the game by the time this plugin was created, the container scrolling feature was ported into this plugin.\n<br />Thanks to the original author of QoL-Unknown. If the original author prefers, the related referenced or ported code can be removed from this project.",
+        "Description": "[center][url=https://github.com/Shinkudaisuki/ContainerTweaksPlugin][img]https://img.shields.io/badge/github-repo-blue?logo=github&amp;link=https%3A%2F%2Fgithub.com%2FShinkudaisuki%2FContainerTweaksPlugin[/img][/url]  [img]https://img.shields.io/badge/Multiplayer-Verified-green?logo=%25F0%259F%258C%2590[/img][/center]\n<br />[b]Description[/b]\n<br />\n<br />ContainerTweaks is a BepInEx plugin for [b]Casualties: Unknown Demo[/b] that improves the container UI.\n<br />It expands the container layout and adds scrolling support, making containers with many items easier to browse and use. It also adds a configurable quick-transfer hotkey for moving matching items between containers, quick liquid transfer between compatible water containers, and auto-highlights compatible items when dragging.\n<br />\n<br />[b]Installation instructions[/b]\n<br />\n<br />1. Install BepInEx for [b]Casualties: Unknown Demo[/b]. \n<br />2. Download or build [b]ContainerTweaks.dll[/b]. \n<br />3. Copy [b]ContainerTweaks.dll[/b] into the game’s BepInEx plugins folder:\n<br />[b]BepInEx/plugins/ContainerTweaks.dll[/b]\n<br />4. Launch the game.\n<br />\n<br />[b]Main features[/b]\n<br />\n<br />[list]\n<br />[*]Expands the container grid from 3 columns to 6 columns by default.[/*]\n<br />[*]Adds mouse wheel scrolling for containers with more items than the visible area.[/*]\n<br />[*]Keeps the expanded container area from closing unexpectedly while interacting with it.[/*]\n<br />[*]Adds a configurable quick-transfer hotkey (default: LeftControl) for moving matching items between containers.[/*]\n<br />[*]Supports quick liquid transfer between compatible water containers.[/*]\n<br />[*]Supports quick magazine-to-magazine transfers for the same ammo type.[/*]\n<br />[*]Supports quick loading rounds (in a magazine, including a 12gauge box) into a direct-feed gun (typically a shotgun).[/*]\n<br />[*]Supports quick loading rounds into a magazine, including a 12gauge box.[/*]\n<br />[*]Provides BepInEx configuration entries for grid layout, scrolling, drag threshold values, and enabling / disabling specific features.[/*]\n<br />[*]Auto-highlights compatible items in the container when dragging an item (water containers, ammo, and guns).[/*]\n<br />[*]Supports multiplayer mod [url=https://www.nexusmods.com/scavprototype/mods/67]Casualties Together[/url].[/*]\n<br />[/list]\n<br />[b]Quick Transfer[/b]\n<br />\n<br />Hold the configured quick-transfer key while dragging an item onto another container-like item. \n<br />\n<br />[list]\n<br />[*]For normal items, matching items with the same full name are moved from the source container to the target container.[/*]\n<br />[*]For water containers, [b]themselves[/b] with same liquid types in the source container are transferred to the target [b]item[/b] container.[/*]\n<br />[*]For water containers, [b]liquids[/b] are transferred when the target [b]water[/b] container is empty or has the same liquid types.[/*]\n<br />[*]For ammo, all rounds of the same type in the source container are loaded into the target magazine (including a 12gauge box) or the target direct-feed gun (typically a shotgun).[/*]\n<br />[*]For magazines (including 12gauge boxes), rounds are transferred between matching magazines of the same ammo type.[/*]\n<br />[*]The target container must be able to hold the dragged item.[/*]\n<br />[/list]\n<br />[b]Auto Highlight[/b]\n<br />\n<br />When dragging an item, compatible items in the container are automatically highlighted:\n<br />[list]\n<br />[*][b]Green[/b]: compatible and has space (e.g. a magazine that can receive the dragged round, a gun that can be loaded).[/*]\n<br />[*][b]Cyan[/b]: compatible but full (e.g. a magazine of the same ammo type but already full).[/*]\n<br />[*][b]Yellow[/b]: partially compatible water container — contains a subset of the liquid types in the dragged item.[/*]\n<br />[/list]\n<br />[b]Known issues[/b]\n<br />\n<br />[list]\n<br />[*]The background and volume bar of the container view won't scale with the number of columns. Because I can't figure out how they are drawn.[/*]\n<br />[*]The simi-transparent strip indicates closing inventory view won't scale for the same reason above. But since the drop feature of the base game still works, I'd like to call this a feature ;) .[/*]\n<br />[/list]\n<br />[b]Credits[/b]\n<br />\n<br />The container scrolling implementation references code from [url=https://github.com/jimmyking9999999/QoL-Unknown]QoL-Unknown[/url].\n<br />Because QoL-Unknown does not support the latest current version (v7.0.1) of the game by the time this plugin was created, the container scrolling feature was ported into this plugin.\n<br />Thanks to the original author of QoL-Unknown. If the original author prefers, the related referenced or ported code can be removed from this project.",
         "Author": "shinkudaisuki",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/179/179-1780650207-1195298539.png",
@@ -2530,8 +2716,8 @@
         },
         "Statistics": {
             "Endorsements": 22,
-            "UniqueDownloads": 621,
-            "TotalDownloads": 1010,
+            "UniqueDownloads": 634,
+            "TotalDownloads": 1027,
             "TotalViews": null
         },
         "Images": [
@@ -2561,9 +2747,9 @@
             "CasualtiesExtra.dll": "1.0"
         },
         "Statistics": {
-            "Endorsements": 22,
-            "UniqueDownloads": 529,
-            "TotalDownloads": 937,
+            "Endorsements": 21,
+            "UniqueDownloads": 550,
+            "TotalDownloads": 969,
             "TotalViews": null
         },
         "Images": [
@@ -2593,9 +2779,9 @@
             "GracePickupBypass.dll": "1.2.1"
         },
         "Statistics": {
-            "Endorsements": 11,
-            "UniqueDownloads": 579,
-            "TotalDownloads": 772,
+            "Endorsements": 12,
+            "UniqueDownloads": 583,
+            "TotalDownloads": 788,
             "TotalViews": null
         },
         "Images": [
@@ -2626,8 +2812,8 @@
         },
         "Statistics": {
             "Endorsements": 17,
-            "UniqueDownloads": 383,
-            "TotalDownloads": 568,
+            "UniqueDownloads": 385,
+            "TotalDownloads": 573,
             "TotalViews": null
         },
         "Images": [
@@ -2636,16 +2822,16 @@
     },
     {
         "Id": "nexus-161",
-        "Name": "More dialog and text (352 New DIalogs btw grammar fix upd)",
-        "Version": "0.7.04",
+        "Name": "More dialog and text (400 New DIalogs)",
+        "Version": "0.8",
         "bepinexVersion": null,
-        "Description": "[b][size=5]WIP. Will add more later (Give me ideas)[/size][/b]\n<br />[b][size=3](I[/size][/b][b][size=3]dk how to add dialog for things that arent in the game. Like dialog for being happy or dialog for last stand, so i would appriciate some help if anyone knows how to code.)[/size][/b]\n<br />[b]\n<br />[size=4]For people who play multiplayer and wonder if it will work:[/size][/b]\n<br />The mod will work if the host has it, cause the lang file is not client sided.\n<br /> \n<br />[b][size=5]Ever wanted for them to say more stuff then they already do?[/size][/b]\n<br />[b][size=5]Well this mod if for you, and lucky you i also take suggestions.[/size][/b]\n<br />[b][size=5]You can be part of this by commenting what lines you would like to be added on top of the current ones. Something [color=#ff0000]serious[/color][color=#ffffff] something a bit [/color][color=#3d85c6]silly[/color][color=#ffffff], it aint off the table.[/color][/size][/b]\n<br />\n<br />[b][color=#ffffff]I make my attempts to be creative, but some comunity help (or whatever) would be nice, since all of this so far has been human made.[/color][/b]\n<br />\n<br />[b][size=5]Number of lines added so far: 352[/size][/b]\n<br />[size=2]Trying to aim for about 500 or so for now before beginning with the item desc and stuff like that.[/size]\n<br />\n<br />[size=5][b]Number of lines gathered: 386[/b][/size]\n<br />[size=5][b]Next upd will have 400 lines[/b][/size]\n<br />[size=4]This shows how far the next upd is[/size]\n<br />\n<br />[size=4][b]Description[/b][/size]\n<br />[color=#d4d4d8]This mod was made for fun, and was mostly about adding more dialogs.[/color]\n<br />[color=#d4d4d8]Additionally, there might be small changes to descriptions or other things text related in the game.[/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#ffff00]If you don't know how to open the files up from the steam download:[/color]\n<br />[color=#e69138]1. Locate the game itself in the library[/color]\n<br />[color=#e69138]2. Find the gear icon (It should say \"Manage\" when hovering your cursor over it. It is next to the \"info\" and \"heart\" icon.)[/color]\n<br />[color=#e69138]Once clicking on it, you will have to hover over the \"Manage\" option and then click \"Browse local files\"[/color]\n<br />[color=#e69138]3. Now you should be in file explorer (or whatever you have opend up). Then you should open \"CasualtiesUnknown_Data\", then \"Lang\"[/color]\n<br />[color=#6aa84f]Now you have found the language file location and all you have is to replace it with the one of the mod.[/color]\n<br />[color=#ffffff](Note: You will have to make a seperate folder to keep the old language file in if you want to keep it. But you can just anyways \"check file integrity\" on steam and it should revert to the old version (diddent get rid of the other mods when i accidentally did that))[/color]\n<br />\n<br />[size=4][b]Note for people[/b][/size]\n<br />I'm making this mostly for fun/am bored, so don't expect too much from me.  My grammer isn't the best and wont mind if people help me out fixing it. \n<br />\n<br />[b][size=4]Dialog (Additions):[/size][/b]\n<br />https://docs.google.com/document/d/1k1oj_F4U-sj9_NkP_04ROjOe_D3zENU-j-0Wsbqf3Pk/edit?usp=sharing\n<br />[b][size=4](Srry yall, website started lagging too much, so if yall wanna see then you gotta use the link)[/size][/b]\n<br />\n<br />[b][size=4]Text (modifications):[/size][/b]\n<br />[size=3]https://docs.google.com/document/d/15iCliCSXxtlV1xFU3sU3scEb3bCG1u3EUf8QFOadoVs/edit?usp=sharing[/size]\n<br />[size=3]Not so much getting done on this one cause im focusing more on dialogs at the moment, maybe around when version 1 is finished.[/size]\n<br />\n<br />[size=2]If anyone wants to tell me smth or suggest ideas for dialogs and text or smth like that without putting it in the comments (posts). Then my Discord is seebby90, you can dm me n stuff, i don't mind.[/size]",
+        "Description": "[b][size=5]WIP. Will add more later (Give me ideas)[/size][/b]\n<br />[b][size=3](I[/size][/b][b][size=3]dk how to add dialog for things that arent in the game. Like dialog for being happy or dialog for last stand, so i would appriciate some help if anyone knows how to code.)[/size][/b]\n<br />[b]\n<br />[size=4]For people who play multiplayer and wonder if it will work:[/size][/b]\n<br />The mod will work if the host has it, cause the lang file is not client sided.\n<br /> \n<br />[b][size=5]Ever wanted for them to say more stuff then they already do?[/size][/b]\n<br />[b][size=5]Well this mod if for you, and lucky you i also take suggestions.[/size][/b]\n<br />[b][size=5]You can be part of this by commenting what lines you would like to be added on top of the current ones. Something [color=#ff0000]serious[/color][color=#ffffff] something a bit [/color][color=#3d85c6]silly[/color][color=#ffffff], it aint off the table.[/color][/size][/b]\n<br />\n<br />[b][color=#ffffff]I make my attempts to be creative, but some comunity help (or whatever) would be nice, since all of this so far has been human made.[/color][/b]\n<br />\n<br />[b][size=5]Number of lines added so far: 400[/size][/b]\n<br />[size=2]Trying to aim for about 500 or so for now before beginning with the item desc and stuff like that.[/size]\n<br />\n<br />[size=5][b]Number of lines gathered: 400[/b][/size]\n<br />[size=5][b]Next upd will have 450 lines[/b][/size]\n<br />[size=4]This shows how far the next upd is[/size]\n<br />\n<br />[size=4][b]Description[/b][/size]\n<br />[color=#d4d4d8]This mod was made for fun, and was mostly about adding more dialogs.[/color]\n<br />[color=#d4d4d8]Additionally, there might be small changes to descriptions or other things text related in the game.[/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#ffff00]If you don't know how to open the files up from the steam download:[/color]\n<br />[color=#e69138]1. Locate the game itself in the library[/color]\n<br />[color=#e69138]2. Find the gear icon (It should say \"Manage\" when hovering your cursor over it. It is next to the \"info\" and \"heart\" icon.)[/color]\n<br />[color=#e69138]Once clicking on it, you will have to hover over the \"Manage\" option and then click \"Browse local files\"[/color]\n<br />[color=#e69138]3. Now you should be in file explorer (or whatever you have opend up). Then you should open \"CasualtiesUnknown_Data\", then \"Lang\"[/color]\n<br />[color=#6aa84f]Now you have found the language file location and all you have is to replace it with the one of the mod.[/color]\n<br />[color=#ffffff](Note: You will have to make a seperate folder to keep the old language file in if you want to keep it. But you can just anyways \"check file integrity\" on steam and it should revert to the old version (diddent get rid of the other mods when i accidentally did that))[/color]\n<br />\n<br />[size=4][b]Note for people[/b][/size]\n<br />I'm making this mostly for fun/am bored, so don't expect too much from me.  My grammer isn't the best and wont mind if people help me out fixing it. \n<br />\n<br />[b][size=4]Dialog (Additions):[/size][/b]\n<br />https://docs.google.com/document/d/1k1oj_F4U-sj9_NkP_04ROjOe_D3zENU-j-0Wsbqf3Pk/edit?usp=sharing\n<br />[b][size=4](Srry yall, website started lagging too much, so if yall wanna see then you gotta use the link)[/size][/b]\n<br />\n<br />[b][size=4]Text (modifications):[/size][/b]\n<br />[size=3]https://docs.google.com/document/d/15iCliCSXxtlV1xFU3sU3scEb3bCG1u3EUf8QFOadoVs/edit?usp=sharing[/size]\n<br />[size=3]Not so much getting done on this one cause im focusing more on dialogs at the moment, maybe around when version 1 is finished.[/size]\n<br />\n<br />[size=2]If anyone wants to tell me smth or suggest ideas for dialogs and text or smth like that without putting it in the comments (posts). Then my Discord is seebby90, you can dm me n stuff, i don't mind.[/size]",
         "Author": "seebby900",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/161/161-1780589331-1135661131.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/161"
         },
-        "DownloadUrl": "nexus://scavprototype/161/883",
+        "DownloadUrl": "nexus://scavprototype/161/996",
         "NexusGameDomain": "scavprototype",
         "NexusModId": 161,
         "SourceName": "Nexus",
@@ -2654,8 +2840,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 17,
-            "UniqueDownloads": 315,
-            "TotalDownloads": 472,
+            "UniqueDownloads": 327,
+            "TotalDownloads": 494,
             "TotalViews": null
         },
         "Images": [
@@ -2686,8 +2872,8 @@
         },
         "Statistics": {
             "Endorsements": 39,
-            "UniqueDownloads": 1167,
-            "TotalDownloads": 1326,
+            "UniqueDownloads": 1201,
+            "TotalDownloads": 1369,
             "TotalViews": null
         },
         "Images": [
@@ -2720,8 +2906,8 @@
         },
         "Statistics": {
             "Endorsements": 11,
-            "UniqueDownloads": 240,
-            "TotalDownloads": 422,
+            "UniqueDownloads": 242,
+            "TotalDownloads": 427,
             "TotalViews": null
         },
         "Images": [
@@ -2752,8 +2938,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 86,
-            "TotalDownloads": 110,
+            "UniqueDownloads": 92,
+            "TotalDownloads": 117,
             "TotalViews": null
         },
         "Images": [
@@ -2784,8 +2970,8 @@
         },
         "Statistics": {
             "Endorsements": 27,
-            "UniqueDownloads": 616,
-            "TotalDownloads": 1223,
+            "UniqueDownloads": 631,
+            "TotalDownloads": 1247,
             "TotalViews": null
         },
         "Images": [
@@ -2815,9 +3001,9 @@
             "PlayerCustomizer.dll": "1.9.0"
         },
         "Statistics": {
-            "Endorsements": 21,
-            "UniqueDownloads": 957,
-            "TotalDownloads": 1344,
+            "Endorsements": 23,
+            "UniqueDownloads": 990,
+            "TotalDownloads": 1388,
             "TotalViews": null
         },
         "Images": [
@@ -2848,8 +3034,8 @@
         },
         "Statistics": {
             "Endorsements": 7,
-            "UniqueDownloads": 137,
-            "TotalDownloads": 285,
+            "UniqueDownloads": 139,
+            "TotalDownloads": 292,
             "TotalViews": null
         },
         "Images": [
@@ -2880,8 +3066,8 @@
         },
         "Statistics": {
             "Endorsements": 16,
-            "UniqueDownloads": 367,
-            "TotalDownloads": 647,
+            "UniqueDownloads": 370,
+            "TotalDownloads": 653,
             "TotalViews": null
         },
         "Images": [
@@ -2912,8 +3098,8 @@
         },
         "Statistics": {
             "Endorsements": 12,
-            "UniqueDownloads": 289,
-            "TotalDownloads": 394,
+            "UniqueDownloads": 297,
+            "TotalDownloads": 404,
             "TotalViews": null
         },
         "Images": [
@@ -2944,8 +3130,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 132,
-            "TotalDownloads": 170,
+            "UniqueDownloads": 136,
+            "TotalDownloads": 177,
             "TotalViews": null
         },
         "Images": [
@@ -2972,8 +3158,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 11,
-            "UniqueDownloads": 227,
-            "TotalDownloads": 259,
+            "UniqueDownloads": 228,
+            "TotalDownloads": 261,
             "TotalViews": null
         },
         "Images": [
@@ -3004,8 +3190,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 79,
-            "TotalDownloads": 113,
+            "UniqueDownloads": 81,
+            "TotalDownloads": 116,
             "TotalViews": null
         },
         "Images": [
@@ -3048,8 +3234,8 @@
         },
         "Statistics": {
             "Endorsements": 7,
-            "UniqueDownloads": 915,
-            "TotalDownloads": 1255,
+            "UniqueDownloads": 935,
+            "TotalDownloads": 1285,
             "TotalViews": null
         },
         "Images": [
@@ -3077,7 +3263,7 @@
         "Statistics": {
             "Endorsements": 2,
             "UniqueDownloads": 92,
-            "TotalDownloads": 111,
+            "TotalDownloads": 112,
             "TotalViews": null
         },
         "Images": [
@@ -3104,8 +3290,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 5,
-            "UniqueDownloads": 134,
-            "TotalDownloads": 171,
+            "UniqueDownloads": 136,
+            "TotalDownloads": 174,
             "TotalViews": null
         },
         "Images": [
@@ -3137,7 +3323,7 @@
         "Statistics": {
             "Endorsements": 2,
             "UniqueDownloads": 51,
-            "TotalDownloads": 66,
+            "TotalDownloads": 67,
             "TotalViews": null
         },
         "Images": [
@@ -3168,8 +3354,8 @@
         },
         "Statistics": {
             "Endorsements": 13,
-            "UniqueDownloads": 506,
-            "TotalDownloads": 928,
+            "UniqueDownloads": 527,
+            "TotalDownloads": 959,
             "TotalViews": null
         },
         "Images": [
@@ -3200,8 +3386,8 @@
         },
         "Statistics": {
             "Endorsements": 5,
-            "UniqueDownloads": 120,
-            "TotalDownloads": 169,
+            "UniqueDownloads": 123,
+            "TotalDownloads": 173,
             "TotalViews": null
         },
         "Images": [
@@ -3232,8 +3418,8 @@
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 142,
-            "TotalDownloads": 168,
+            "UniqueDownloads": 143,
+            "TotalDownloads": 170,
             "TotalViews": null
         },
         "Images": [
@@ -3264,8 +3450,8 @@
         },
         "Statistics": {
             "Endorsements": 23,
-            "UniqueDownloads": 798,
-            "TotalDownloads": 1437,
+            "UniqueDownloads": 823,
+            "TotalDownloads": 1488,
             "TotalViews": null
         },
         "Images": [
@@ -3297,7 +3483,7 @@
         "Statistics": {
             "Endorsements": 2,
             "UniqueDownloads": 42,
-            "TotalDownloads": 59,
+            "TotalDownloads": 60,
             "TotalViews": null
         },
         "Images": [
@@ -3328,8 +3514,8 @@
         },
         "Statistics": {
             "Endorsements": 17,
-            "UniqueDownloads": 448,
-            "TotalDownloads": 571,
+            "UniqueDownloads": 454,
+            "TotalDownloads": 581,
             "TotalViews": null
         },
         "Images": [
@@ -3360,9 +3546,9 @@
             "ChangeSkinMP.dll": "3.2.0"
         },
         "Statistics": {
-            "Endorsements": 36,
-            "UniqueDownloads": 2530,
-            "TotalDownloads": 3456,
+            "Endorsements": 39,
+            "UniqueDownloads": 2628,
+            "TotalDownloads": 3619,
             "TotalViews": null
         },
         "Images": [
@@ -3392,9 +3578,9 @@
             "WorldMap.dll": "1.3.0"
         },
         "Statistics": {
-            "Endorsements": 23,
-            "UniqueDownloads": 741,
-            "TotalDownloads": 1050,
+            "Endorsements": 24,
+            "UniqueDownloads": 745,
+            "TotalDownloads": 1059,
             "TotalViews": null
         },
         "Images": [
@@ -3425,8 +3611,8 @@
         },
         "Statistics": {
             "Endorsements": 7,
-            "UniqueDownloads": 221,
-            "TotalDownloads": 340,
+            "UniqueDownloads": 222,
+            "TotalDownloads": 345,
             "TotalViews": null
         },
         "Images": [
@@ -3457,8 +3643,8 @@
         },
         "Statistics": {
             "Endorsements": 8,
-            "UniqueDownloads": 191,
-            "TotalDownloads": 278,
+            "UniqueDownloads": 193,
+            "TotalDownloads": 282,
             "TotalViews": null
         },
         "Images": [
@@ -3489,8 +3675,8 @@
         },
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 29,
-            "TotalDownloads": 42,
+            "UniqueDownloads": 30,
+            "TotalDownloads": 44,
             "TotalViews": null
         },
         "Images": [
@@ -3521,8 +3707,8 @@
         },
         "Statistics": {
             "Endorsements": 11,
-            "UniqueDownloads": 141,
-            "TotalDownloads": 186,
+            "UniqueDownloads": 145,
+            "TotalDownloads": 191,
             "TotalViews": null
         },
         "Images": [
@@ -3552,9 +3738,9 @@
             "InfiniteBatteries.dll": "1.2.0"
         },
         "Statistics": {
-            "Endorsements": 15,
-            "UniqueDownloads": 408,
-            "TotalDownloads": 475,
+            "Endorsements": 16,
+            "UniqueDownloads": 411,
+            "TotalDownloads": 480,
             "TotalViews": null
         },
         "Images": [
@@ -3585,8 +3771,8 @@
         },
         "Statistics": {
             "Endorsements": 4,
-            "UniqueDownloads": 74,
-            "TotalDownloads": 97,
+            "UniqueDownloads": 77,
+            "TotalDownloads": 102,
             "TotalViews": null
         },
         "Images": [
@@ -3614,7 +3800,7 @@
         "Statistics": {
             "Endorsements": 0,
             "UniqueDownloads": 36,
-            "TotalDownloads": 53,
+            "TotalDownloads": 54,
             "TotalViews": null
         },
         "Images": [
@@ -3645,8 +3831,8 @@
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 94,
-            "TotalDownloads": 116,
+            "UniqueDownloads": 96,
+            "TotalDownloads": 119,
             "TotalViews": null
         },
         "Images": [
@@ -3673,8 +3859,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 78,
-            "TotalDownloads": 110,
+            "UniqueDownloads": 80,
+            "TotalDownloads": 113,
             "TotalViews": null
         },
         "Images": [
@@ -3705,8 +3891,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 339,
-            "TotalDownloads": 436,
+            "UniqueDownloads": 342,
+            "TotalDownloads": 440,
             "TotalViews": null
         },
         "Images": [
@@ -3737,8 +3923,8 @@
         },
         "Statistics": {
             "Endorsements": 21,
-            "UniqueDownloads": 739,
-            "TotalDownloads": 1070,
+            "UniqueDownloads": 752,
+            "TotalDownloads": 1089,
             "TotalViews": null
         },
         "Images": [
@@ -3790,7 +3976,7 @@
         "Statistics": {
             "Endorsements": 3,
             "UniqueDownloads": 66,
-            "TotalDownloads": 99,
+            "TotalDownloads": 100,
             "TotalViews": null
         },
         "Images": [
@@ -3821,8 +4007,8 @@
         },
         "Statistics": {
             "Endorsements": 13,
-            "UniqueDownloads": 383,
-            "TotalDownloads": 505,
+            "UniqueDownloads": 385,
+            "TotalDownloads": 508,
             "TotalViews": null
         },
         "Images": [
@@ -3853,8 +4039,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 211,
-            "TotalDownloads": 250,
+            "UniqueDownloads": 213,
+            "TotalDownloads": 254,
             "TotalViews": null
         },
         "Images": [
@@ -3885,8 +4071,8 @@
         },
         "Statistics": {
             "Endorsements": 13,
-            "UniqueDownloads": 263,
-            "TotalDownloads": 340,
+            "UniqueDownloads": 266,
+            "TotalDownloads": 345,
             "TotalViews": null
         },
         "Images": [
@@ -3917,8 +4103,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 375,
-            "TotalDownloads": 463,
+            "UniqueDownloads": 379,
+            "TotalDownloads": 474,
             "TotalViews": null
         },
         "Images": [
@@ -3949,8 +4135,8 @@
         },
         "Statistics": {
             "Endorsements": 4,
-            "UniqueDownloads": 208,
-            "TotalDownloads": 272,
+            "UniqueDownloads": 209,
+            "TotalDownloads": 274,
             "TotalViews": null
         },
         "Images": [
@@ -3978,7 +4164,7 @@
         "Statistics": {
             "Endorsements": 1,
             "UniqueDownloads": 85,
-            "TotalDownloads": 111,
+            "TotalDownloads": 112,
             "TotalViews": null
         },
         "Images": [
@@ -4009,8 +4195,8 @@
         },
         "Statistics": {
             "Endorsements": 22,
-            "UniqueDownloads": 695,
-            "TotalDownloads": 821,
+            "UniqueDownloads": 700,
+            "TotalDownloads": 827,
             "TotalViews": null
         },
         "Images": [
@@ -4041,8 +4227,8 @@
         },
         "Statistics": {
             "Endorsements": 3,
-            "UniqueDownloads": 354,
-            "TotalDownloads": 443,
+            "UniqueDownloads": 355,
+            "TotalDownloads": 445,
             "TotalViews": null
         },
         "Images": [
@@ -4073,8 +4259,8 @@
         },
         "Statistics": {
             "Endorsements": 29,
-            "UniqueDownloads": 638,
-            "TotalDownloads": 1098,
+            "UniqueDownloads": 642,
+            "TotalDownloads": 1106,
             "TotalViews": null
         },
         "Images": [
@@ -4105,8 +4291,8 @@
         },
         "Statistics": {
             "Endorsements": 31,
-            "UniqueDownloads": 1098,
-            "TotalDownloads": 2164,
+            "UniqueDownloads": 1111,
+            "TotalDownloads": 2186,
             "TotalViews": null
         },
         "Images": [
@@ -4133,8 +4319,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 9,
-            "UniqueDownloads": 272,
-            "TotalDownloads": 380,
+            "UniqueDownloads": 278,
+            "TotalDownloads": 389,
             "TotalViews": null
         },
         "Images": [
@@ -4161,8 +4347,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 9,
-            "UniqueDownloads": 535,
-            "TotalDownloads": 686,
+            "UniqueDownloads": 538,
+            "TotalDownloads": 693,
             "TotalViews": null
         },
         "Images": [
@@ -4193,8 +4379,8 @@
         },
         "Statistics": {
             "Endorsements": 11,
-            "UniqueDownloads": 248,
-            "TotalDownloads": 304,
+            "UniqueDownloads": 249,
+            "TotalDownloads": 307,
             "TotalViews": null
         },
         "Images": [
@@ -4226,7 +4412,7 @@
         "Statistics": {
             "Endorsements": 16,
             "UniqueDownloads": 304,
-            "TotalDownloads": 370,
+            "TotalDownloads": 371,
             "TotalViews": null
         },
         "Images": [
@@ -4257,8 +4443,8 @@
         },
         "Statistics": {
             "Endorsements": 36,
-            "UniqueDownloads": 988,
-            "TotalDownloads": 1134,
+            "UniqueDownloads": 995,
+            "TotalDownloads": 1144,
             "TotalViews": null
         },
         "Images": [
@@ -4288,9 +4474,9 @@
             "CasualtiesUnknownAlwaysLastStand.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 13,
-            "UniqueDownloads": 262,
-            "TotalDownloads": 312,
+            "Endorsements": 14,
+            "UniqueDownloads": 264,
+            "TotalDownloads": 316,
             "TotalViews": null
         },
         "Images": [
@@ -4320,9 +4506,9 @@
             "ShrapnelVariants.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 57,
-            "UniqueDownloads": 2005,
-            "TotalDownloads": 2411,
+            "Endorsements": 59,
+            "UniqueDownloads": 2046,
+            "TotalDownloads": 2465,
             "TotalViews": null
         },
         "Images": [
@@ -4352,9 +4538,9 @@
             "MultiplayerSpriteReplacer.dll": "1.2.0"
         },
         "Statistics": {
-            "Endorsements": 130,
-            "UniqueDownloads": 8115,
-            "TotalDownloads": 12195,
+            "Endorsements": 135,
+            "UniqueDownloads": 8281,
+            "TotalDownloads": 12497,
             "TotalViews": null
         },
         "Images": [
@@ -4384,9 +4570,9 @@
             "SellFromBags.dll": "1.0.1"
         },
         "Statistics": {
-            "Endorsements": 40,
-            "UniqueDownloads": 1359,
-            "TotalDownloads": 1615,
+            "Endorsements": 42,
+            "UniqueDownloads": 1383,
+            "TotalDownloads": 1649,
             "TotalViews": null
         },
         "Images": [
@@ -4417,8 +4603,8 @@
         },
         "Statistics": {
             "Endorsements": 26,
-            "UniqueDownloads": 1043,
-            "TotalDownloads": 1238,
+            "UniqueDownloads": 1049,
+            "TotalDownloads": 1247,
             "TotalViews": null
         },
         "Images": [
@@ -4449,8 +4635,8 @@
         },
         "Statistics": {
             "Endorsements": 11,
-            "UniqueDownloads": 370,
-            "TotalDownloads": 443,
+            "UniqueDownloads": 374,
+            "TotalDownloads": 451,
             "TotalViews": null
         },
         "Images": [
@@ -4481,8 +4667,8 @@
         },
         "Statistics": {
             "Endorsements": 33,
-            "UniqueDownloads": 731,
-            "TotalDownloads": 1762,
+            "UniqueDownloads": 739,
+            "TotalDownloads": 1776,
             "TotalViews": null
         },
         "Images": [
@@ -4512,9 +4698,9 @@
             "CatPatch.dll": "1.0.1"
         },
         "Statistics": {
-            "Endorsements": 140,
-            "UniqueDownloads": 5788,
-            "TotalDownloads": 9881,
+            "Endorsements": 148,
+            "UniqueDownloads": 5884,
+            "TotalDownloads": 10040,
             "TotalViews": null
         },
         "Images": [
@@ -4541,8 +4727,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 12,
-            "UniqueDownloads": 338,
-            "TotalDownloads": 454,
+            "UniqueDownloads": 340,
+            "TotalDownloads": 458,
             "TotalViews": null
         },
         "Images": [
@@ -4596,29 +4782,29 @@
     {
         "Id": "nexus-66",
         "Name": "Razor blade",
-        "Version": "1.0.2",
-        "bepinexVersion": "1.0.2",
-        "Description": "[b][size=4]Description[/size]\n<br />[/b]An alternative to The minigame\n<br />When feeling down or worse you can cut yourself with razor blade for a little mood gain and selfharm cooldown reset\n<br />Note: if you are playing in multiplayer you must cut yourself\n<br />Blade also usable when miserable\n<br />[b][color=#00ff00]MP Status[/color]:[/b] Supported!\n<br />Detailed descrpition of mechanics:\n<br />[spoiler]On limb use:\n<br />+6 pain\n<br />-4 skin\n<br />+0.02l/m bleed\n<br />-3% blade condition\n<br />Then it rolls random number between 0 and 25 and if its above current blade condition:\n<br />  +5 shrapnel to limb\n<br />  Destroy blade\n<br />  Talk UseBroken\n<br />  Play syringe broken sound\n<br />  [color=#1e84cc]SKIP[/color] logic below\n<br />Play harm string\n<br />If bleed amount above 0.2l/m:\n<br />  [color=#1e84cc]SKIP[/color] logic below\n<br />Add selfHarmWound to limb while below 95 skin\n<br />If playing in multiplayer:\n<br />  If healer not as same as patient:\n<br />    Talk UseNotMe\n<br />    [color=#1e84cc]SKIP[/color] logic below\n<br />  Do mood penalty, same as with selfharm\n<br /> If happiness above -5:\n<br />  -4 Happiness\n<br />  Talk UseNotMe\n<br />Elif happiness above -40:\n<br />  +1 Happiness\n<br />  Selfharm cooldown set to 120 if was below\n<br />  Talk UseGloomy\n<br />Elif happiness above -70:\n<br />  +2 Happiness\n<br />  Selfharm cooldown set to 120 if was below\n<br />  Talk UseDepressed\n<br />Else (below -70):\n<br />  +2 Happiness\n<br />  Selfharm cooldown set to 60 if was below\n<br />  Talk UseDepressed[/spoiler]\n<br />\n<br />Dialoges:\n<br />[spoiler]Use when happy (&gt; -5):\n<br />  OWCH!\n<br />  What the fuck did i do..\n<br />  euhh...\n<br />  Why am i doing this..\n<br />  Fuuck..\n<br />Use when gloomy (&lt; - 5 &amp;&amp; &gt; -40):\n<br />  owh..\n<br />  ngh..\n<br />  That's not that bad actualy..\n<br />Use when depressed (&lt; -40 &amp;&amp; &gt; -70):\n<br />  haha.. fuck..\n<br />  Fuck yeahh..\n<br />  This is.. ouuhh..\n<br />  Goooood..\n<br />Use when misereable (&lt; -70):\n<br />  This hurts so good..\n<br />  I want to cut these funny strings on my hand..\n<br />  Hahahahaha..\n<br />  Yes.. YES..!\n<br />  Get this fucker.. this is what you deserve..\n<br />  I needed this more than any hug..\n<br />Blade broken:\n<br />  AAH!\n<br />  I shouldn't use that so much\n<br />  WAAH!?\n<br />MP, Not the one who uses it:\n<br />  That wasn't me\n<br />  I think someone is cutting me.\n<br />  Someone is cutting me!\n<br />  That hurt[/spoiler]\n<br />\n<br />\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />If you mod your game for first time (dont have BepInEx):\n<br />[spoiler]Go to BepInEx download page\n<br />https://github.com/BepInEx/BepInEx/releases/tag/v\n<br />And download BepInEx_win_x64_5.4.23.5\n<br />Open steam, choose browse local file\n<br />Extract BepInEx contents into game folder's root (winhttp.dll should be in same folder as executable)\n<br />Open game once and close\n<br />Now folder BepInEx/plugins should be created\n<br />\n<br />Additional instruction for Linux users:\n<br />  - Add  `WINEDLLOVERRIDES=\"winhttp=n,b\"  %command%` into launch arguments[/spoiler]\n<br />Download and extract into BepInEx/plugins RshLib.2.1.5 (if you haven't before)\n<br />You can verify that RshLib loaded by seeing \"This is a modded beta build\" on top\n<br />Download `Razor` and extract into BepInEx/plugins\n<br />\n<br />Please report any bugs you find\n<br />\n<br />[b][size=4]Shout out[/size][/b]\n<br />u/zedddddddddddddis at Reddit for this idea. Original post: https://www.reddit.com/r/scavprototype/comments/1tdzmrf/another_shitty_concept_but_this_time_its_an_item/\n<br />I can't write anything on reddit, for some reason every single time i create account it immedently got sended into \"considered as a spam\"\n<br />[size=1]And the worst thing. I had no idea why my posts got deleted because it never said that, i founded out it only by code inspect CODE INSPECT, F12![/size]\n<br />So, uhh, if zedddddddddddddis want to contact me, do it in posts section or discord\n<br />[size=2]Zhodholm if you don't want your art in gallery, let me know, i will remove it[/size]",
+        "Version": "1.1.0",
+        "bepinexVersion": "1.1.0",
+        "Description": "[b][size=4]Description[/size]\n<br />[/b]An alternative to The minigame\n<br />When feeling down or worse you can cut yourself with razor blade for a little mood gain and selfharm cooldown reset\n<br />Note: if you are playing in multiplayer you must cut yourself\n<br />Blade also usable when miserable\n<br />[b][color=#00ff00]MP Status[/color]:[/b] Supported!\n<br />Detailed descrpition of mechanics:\n<br />[spoiler]On limb use:\n<br />+8 pain\n<br />-4 skin\n<br />+0.02l/m bleed\n<br />-3% blade condition\n<br />Then it rolls random number between 0 and 25 and if its above current blade condition:\n<br />  +5 shrapnel to limb\n<br />  Destroy blade\n<br />  Talk UseBroken\n<br />  Play syringe broken sound\n<br />  [color=#1e84cc]SKIP[/color] logic below\n<br />Play harm string\n<br />If bleed amount above 0.2l/m:\n<br />  [color=#1e84cc]SKIP[/color] logic below\n<br />Add selfHarmWound to limb while below 95 skin\n<br />If playing in multiplayer:\n<br />  If healer not as same as patient:\n<br />    Talk UseNotMe\n<br />    [color=#1e84cc]SKIP[/color] logic below\n<br />  Do mood penalty, same as with selfharm\n<br /> If happiness above -5:\n<br />  If have a masochist chip:\n<br />    Talk UseGloomy\n<br />    [color=#3d85c6]SKIP[/color] logic below\n<br />  -4 Happiness\n<br />  Talk UseHappy\n<br />Elif happiness above -40:\n<br />  +1 Happiness\n<br />  Selfharm cooldown set to 120 if was below\n<br />  Talk UseGloomy\n<br />Elif happiness above -70:\n<br />  +2 Happiness\n<br />  Selfharm cooldown set to 120 if was below\n<br />  Talk UseDepressed\n<br />Else (below -70):\n<br />  +2 Happiness\n<br />  Selfharm cooldown set to 60 if was below\n<br />  Talk UseDepressed[/spoiler]\n<br />\n<br />Dialoges:\n<br />[spoiler]Use when happy (&gt; -5):\n<br />  OWCH!\n<br />  What the fuck did i do..\n<br />  euhh...\n<br />  Why am i doing this..\n<br />  Fuuck..\n<br />Use when gloomy (&lt; - 5 &amp;&amp; &gt; -40):\n<br />  owh..\n<br />  ngh..\n<br />  That's not that bad actualy..\n<br />Use when depressed (&lt; -40 &amp;&amp; &gt; -70):\n<br />  haha.. fuck..\n<br />  Fuck yeahh..\n<br />  This is.. ouuhh..\n<br />  Goooood..\n<br />Use when misereable (&lt; -70):\n<br />  This hurts so good..\n<br />  I want to cut these funny strings on my hand..\n<br />  Hahahahaha..\n<br />  Yes.. YES..!\n<br />  Get this fucker.. this is what you deserve..\n<br />  I needed this more than any hug..\n<br />Blade broken:\n<br />  AAH!\n<br />  I shouldn't use that so much\n<br />  WAAH!?\n<br />MP, Not the one who uses it:\n<br />  That wasn't me\n<br />  I think someone is cutting me.\n<br />  Someone is cutting me!\n<br />  That hurt[/spoiler]\n<br />\n<br />\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />If you mod your game for first time (dont have BepInEx):\n<br />[spoiler]Go to BepInEx download page\n<br />https://github.com/BepInEx/BepInEx/releases/tag/v\n<br />And download BepInEx_win_x64_5.4.23.5\n<br />Open steam, choose browse local file\n<br />Extract BepInEx contents into game folder's root (winhttp.dll should be in same folder as executable)\n<br />Open game once and close\n<br />Now folder BepInEx/plugins should be created\n<br />\n<br />Additional instruction for Linux users:\n<br />  - Add  `WINEDLLOVERRIDES=\"winhttp=n,b\"  %command%` into launch arguments[/spoiler]\n<br />Download and extract into BepInEx/plugins RshLib (if you haven't before)\n<br />You can verify that RshLib loaded by seeing \"This is a modded beta build\" on top\n<br />Download `Razor` and extract into BepInEx/plugins\n<br />\n<br />Please report any bugs you find\n<br />\n<br />[b][size=4]Shout out[/size][/b]\n<br />[url=https://www.nexusmods.com/profile/wictorias]wictorias[/url] for sprite\n<br />u/zedddddddddddddis at Reddit for this idea. Original post: https://www.reddit.com/r/scavprototype/comments/1tdzmrf/another_shitty_concept_but_this_time_its_an_item/\n<br />I can't write anything on reddit, for some reason every single time i create account it immedently got sended into \"considered as a spam\"\n<br />[size=1]And the worst thing. I had no idea why my posts got deleted because it never said that, i founded out it only by code inspect CODE INSPECT, F12![/size]\n<br />So, uhh, if zedddddddddddddis want to contact me, do it in posts section or discord\n<br />[size=2]Zhodholm if you don't want your art in gallery, let me know, i will remove it[/size]",
         "Author": "RushellXYZ",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/66/66-1778936124-997772655.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/66"
         },
-        "DownloadUrl": "nexus://scavprototype/66/559",
+        "DownloadUrl": "nexus://scavprototype/66/995",
         "NexusGameDomain": "scavprototype",
         "NexusModId": 66,
         "SourceName": "Nexus",
         "dllNames": [
             "Razor.dll"
         ],
-        "dllVersion": "1.0.2",
+        "dllVersion": "1.1.0",
         "dllVersions": {
-            "Razor.dll": "1.0.2"
+            "Razor.dll": "1.1.0"
         },
         "Statistics": {
             "Endorsements": 12,
-            "UniqueDownloads": 239,
-            "TotalDownloads": 351,
+            "UniqueDownloads": 245,
+            "TotalDownloads": 367,
             "TotalViews": null
         },
         "Images": [
@@ -4649,8 +4835,8 @@
         },
         "Statistics": {
             "Endorsements": 5,
-            "UniqueDownloads": 236,
-            "TotalDownloads": 289,
+            "UniqueDownloads": 238,
+            "TotalDownloads": 293,
             "TotalViews": null
         },
         "Images": [
@@ -4676,9 +4862,9 @@
         "dllVersion": null,
         "dllVersions": {},
         "Statistics": {
-            "Endorsements": 37,
-            "UniqueDownloads": 1365,
-            "TotalDownloads": 1999,
+            "Endorsements": 40,
+            "UniqueDownloads": 1398,
+            "TotalDownloads": 2047,
             "TotalViews": null
         },
         "Images": [
@@ -4710,7 +4896,7 @@
         "Statistics": {
             "Endorsements": 17,
             "UniqueDownloads": 395,
-            "TotalDownloads": 560,
+            "TotalDownloads": 561,
             "TotalViews": null
         },
         "Images": [
@@ -4723,7 +4909,7 @@
         "Version": "1.2.0",
         "bepinexVersion": "1.2.0",
         "Description": "[b][size=4]Chinese description:[/size]\n<br />[/b]\n<br />[spoiler]现在小动物们在头顶显示文字的时候可以发出声音了，类似动物森友会的音调。 Milky和Dune也有语音！Milky的声调较高，而Dune的声调则要低一些。 多人联机模式：支持！其他玩家的文字声音也能听见，但你听不见你自己的。 除了英语之外需要自行添加语音库。 你也可以通过animalese指令更改声调/音调 支持英文和中文 jcmamama（我）做的中文，我不太会&gt;&lt;[/spoiler]\n<br />\n<br />[b][size=4]\n<br />Description[/size][/b]\n<br />Now your expie's dialoges are voiced by animalese\n<br />Traders are voiced too! With milky having higher pitch, and dune have lower\n<br />[b][color=#00ff00]MP Status: Suported[/color][/b]! It voices yap and text of other players. Host can not have it\n<br />Languagues other then english would require adding new voice bank\n<br />You can also change your pitch with animalese command\n<br />Supports english and chinese\n<br />jcmamama did all chinese, i dont speak it &gt;&lt;\n<br />\n<br />\n<br />[b][size=4]Installation instructions[/size][/b]\n<br />If you mod your game for first time (dont have BepInEx):\n<br />[spoiler]Go to BepInEx download page\n<br />https://github.com/BepInEx/BepInEx/releases/tag/v\n<br />And download BepInEx_win_x64_5.4.23.5\n<br />Open steam, choose browse local file\n<br />Extract BepInEx contents into game folder's root (winhttp.dll should be in same folder as executable)\n<br />Open game once and close\n<br />Now folder BepInEx/plugins should be created\n<br />\n<br />Additional instruction for Linux users:\n<br />  - Add  `WINEDLLOVERRIDES=\"winhttp=n,b\"  %command%` into launch arguments[/spoiler]\n<br />\n<br />Download `Animalese` and extract into BepInEx/plugins\n<br />\n<br />Please report any bugs you find\n<br />\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[color=#D4D4D8]jcmamama at Nexus for all chinese stuff[/color]\n<br />[color=#D4D4D8]chocolatte at Discord for giving this idea and playtesting[/color]\n<br />[color=#D4D4D8]usdivad at GitHub for animalese audio bank[/color]",
-        "Author": "RushellXYZ jcmamama",
+        "Author": "RushellXYZ - jcmamama",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/60/60-1778681275-472147762.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/60"
@@ -4741,8 +4927,8 @@
         },
         "Statistics": {
             "Endorsements": 29,
-            "UniqueDownloads": 863,
-            "TotalDownloads": 1126,
+            "UniqueDownloads": 876,
+            "TotalDownloads": 1142,
             "TotalViews": null
         },
         "Images": [
@@ -4769,8 +4955,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 38,
-            "UniqueDownloads": 860,
-            "TotalDownloads": 1496,
+            "UniqueDownloads": 871,
+            "TotalDownloads": 1515,
             "TotalViews": null
         },
         "Images": [
@@ -4801,8 +4987,8 @@
         },
         "Statistics": {
             "Endorsements": 21,
-            "UniqueDownloads": 617,
-            "TotalDownloads": 848,
+            "UniqueDownloads": 620,
+            "TotalDownloads": 860,
             "TotalViews": null
         },
         "Images": [
@@ -4833,8 +5019,8 @@
         },
         "Statistics": {
             "Endorsements": 16,
-            "UniqueDownloads": 678,
-            "TotalDownloads": 803,
+            "UniqueDownloads": 681,
+            "TotalDownloads": 808,
             "TotalViews": null
         },
         "Images": [
@@ -4864,9 +5050,9 @@
             "CasualtiesUnknownRussifier.dll": "0.9.1.1"
         },
         "Statistics": {
-            "Endorsements": 10,
-            "UniqueDownloads": 1225,
-            "TotalDownloads": 1800,
+            "Endorsements": 12,
+            "UniqueDownloads": 1247,
+            "TotalDownloads": 1832,
             "TotalViews": null
         },
         "Images": [
@@ -4896,9 +5082,9 @@
             "Cigs.dll": "1.0.1"
         },
         "Statistics": {
-            "Endorsements": 19,
-            "UniqueDownloads": 439,
-            "TotalDownloads": 559,
+            "Endorsements": 20,
+            "UniqueDownloads": 449,
+            "TotalDownloads": 570,
             "TotalViews": null
         },
         "Images": [
@@ -4925,8 +5111,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 206,
-            "TotalDownloads": 270,
+            "UniqueDownloads": 208,
+            "TotalDownloads": 273,
             "TotalViews": null
         },
         "Images": [
@@ -4958,7 +5144,7 @@
         "Statistics": {
             "Endorsements": 3,
             "UniqueDownloads": 38,
-            "TotalDownloads": 64,
+            "TotalDownloads": 65,
             "TotalViews": null
         },
         "Images": [
@@ -4989,8 +5175,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 88,
-            "TotalDownloads": 117,
+            "UniqueDownloads": 89,
+            "TotalDownloads": 120,
             "TotalViews": null
         },
         "Images": [
@@ -5020,9 +5206,9 @@
             "RemiyamuremodLayerUnlock.dll": "2.1.0"
         },
         "Statistics": {
-            "Endorsements": 49,
-            "UniqueDownloads": 1424,
-            "TotalDownloads": 2359,
+            "Endorsements": 50,
+            "UniqueDownloads": 1468,
+            "TotalDownloads": 2449,
             "TotalViews": null
         },
         "Images": [
@@ -5053,8 +5239,8 @@
         },
         "Statistics": {
             "Endorsements": 14,
-            "UniqueDownloads": 309,
-            "TotalDownloads": 439,
+            "UniqueDownloads": 310,
+            "TotalDownloads": 441,
             "TotalViews": null
         },
         "Images": [
@@ -5085,8 +5271,8 @@
         },
         "Statistics": {
             "Endorsements": 22,
-            "UniqueDownloads": 885,
-            "TotalDownloads": 1412,
+            "UniqueDownloads": 890,
+            "TotalDownloads": 1422,
             "TotalViews": null
         },
         "Images": [
@@ -5114,9 +5300,9 @@
         "dllVersion": null,
         "dllVersions": {},
         "Statistics": {
-            "Endorsements": 51,
-            "UniqueDownloads": 1409,
-            "TotalDownloads": 2358,
+            "Endorsements": 52,
+            "UniqueDownloads": 1440,
+            "TotalDownloads": 2425,
             "TotalViews": null
         },
         "Images": [
@@ -5146,9 +5332,9 @@
             "VoySoundSwap.dll": "1.0.3"
         },
         "Statistics": {
-            "Endorsements": 25,
-            "UniqueDownloads": 597,
-            "TotalDownloads": 696,
+            "Endorsements": 27,
+            "UniqueDownloads": 603,
+            "TotalDownloads": 706,
             "TotalViews": null
         },
         "Images": [
@@ -5179,8 +5365,8 @@
         },
         "Statistics": {
             "Endorsements": 12,
-            "UniqueDownloads": 230,
-            "TotalDownloads": 293,
+            "UniqueDownloads": 233,
+            "TotalDownloads": 297,
             "TotalViews": null
         },
         "Images": [
@@ -5192,7 +5378,7 @@
         "Name": "Prosthetics",
         "Version": "1",
         "bepinexVersion": "0.8.1",
-        "Description": "[b]Prosthetics mod, allows you to replace a missing limb with a prosthetic, that changes gameplay, visuals both as in world items, sprites on your character and in Wound UI. (works with changeskin and spritereplacer mods)[/b]\n<br />\n<br />[b][color=#00ff00]MP STATUS:[/color] Works if both host and client have the mod and requirements (there will be bugs, report them here pls)\n<br />[/b]\n<br />[b][color=#ff0000]Balancing[/color]: the balancing is WIP I would love to hear your opinion on what can be improved, or changed.[/b]\n<br />\n<br />[b][color=#ff0000]ITS WIP[/color], For the future ideas go to the end of description, heres what's currently in the mod:[/b]\n<br />\n<br />[b][color=#783f04]Wooden [/color]prosthetics:[/b]\n<br />[list]\n<br />[*]Get +25% damage from all sources;[/*]\n<br />[*]Deals 80% damage to environment;[/*]\n<br />[*]Slow you down if you have em as legs;[/*]\n<br />[*]Wooden arms cant hold anything besides containers (theese are hooks bro);[/*]\n<br />[*]Upon breaking without wrench you recieve glass shards (splinters) on your nearest normal limb;[/*]\n<br />[*]Can be healed via applying bio-chem, wood scraps, wood panels, sticks in medical ui.\n<br />\n<br />[size=4]New sprites for mini games made by  Il_Disabile[/size][/*]\n<br />[/list][b][color=#999999]Scrap [/color]Prosthetics[/b]\n<br />[list]\n<br />[*][b]prty much the same as a normal limb[/b][/*]\n<br />[*]they dont bleed, infect or get a broken bone[/*]\n<br />[*]can be repaired with: scrap metal, panel, bundle of wires.[/*]\n<br />[/list][b][color=#1155cc]TITANIUM [/color]limbs:[/b]\n<br />Buffs are influenced by hp of the limbs and how wet they are, they can give you debuffs if limbs are damaged or wet.\n<br />[b]Arms[/b]:\n<br />[list]\n<br />[*]Deal more damage with claws, tools, melee weapons[/*]\n<br />[*][s]When you put something in the titanium arm slot it halves the weight of that item..[/s][/*]\n<br />[*]Act as hammering tools when you have em equipped (you can finally make juice with hands)[/*]\n<br />[/list][b]Legs[/b]:\n<br />[list]\n<br />[*]Make you go faster and jump higher[/*]\n<br />[*]if you have 2 titanium legs it will prevent fall damage unless you are falling while being ragdolled[/*]\n<br />[/list][b]Also[/b]:\n<br />[list]\n<br />[*]Titanium limbs can be repaired with titanium sheets they restore both \"skin\" and \"muscle\"[/*]\n<br />[*]Titanium limbs cant be fully destroyed unless eaten by an elder.[/*]\n<br />[*]Extremely rare and expensive if you find them on traders.[/*]\n<br />[*]You cant take em off unless they have &gt; 80% hp[/*]\n<br />[*]Have 2 mod slots each.\n<br />[/*]\n<br />[/list][b][color=#ff7700]Copper Jaw prosthetic[/color][/b]:\n<br />[list]\n<br />[*]Can be apllied when you lose a jaw[/*]\n<br />[*]Gives 25% dmg resistance to the head[/*]\n<br />[*]Defends against shrapnel and dislocations[/*]\n<br />[*]Broken bone on head event will destroy it tho, no need to fix the \"bone\"[/*]\n<br />[*]Items in the mouth slot will not be dropped when you are unconscious[/*]\n<br />[*]You gain only half of the mood from food sources[/*]\n<br />[/list][color=#00ff00]Prosthetic [b]EYE[/b][/color]:\n<br />\n<br /> — a one-shot surgical tool that opens an augment socket directly in a biological arm or leg. Now you can run Powergrip, Steady Hand, Multi-Hacking, or Powersteps without committing to a full prosthetic.\n<br />\n<br />[list]\n<br />[*]Powered by small,medium batteries[/*]\n<br />[*]Restores sight if its powered[/*]\n<br />[*]Can be your flashlight if you hit F, and if you have both prosthetic eyes the light will be stronger! but at a cost of more energy consumption.[/*]\n<br />[*]You can take out the battery while its in your head via wound ui, or pull it out into inventory and do it there[/*]\n<br />[*]Battery in the prosthetic eye will take damage instead of the eye if it comes to that, if theres no battery the prosthetic eye may be broken same way a normal eye can.[/*]\n<br />[*]Prosthetic eyes can break. If a battery is loaded when it would break, the battery gets destroyed instead and the eye survives — so a charged eye is its own shield.[/*]\n<br />[/list]\n<br />[b]Bonesaw[/b]:\n<br />[b]Added:[/b] Two new bonesaws — a Makeshift Bonesaw you can craft, and a Medicinal Bonesaw that must be found in the world.\n<br />Both allow you to sever a limb regardless of its current state, and do so more efficiently than any other tool.\n<br />\n<br />[b]Plastic fork[/b]: Allows  you to get rid of your \"useless\" biological eye out to make space for an upgrade.\n<br />\n<br />[color=#9900ff][b]NEW CHALLENGE MODE:[/b][/color]\n<br />You start with wooden limbs and an empty prosthetic eye, but just to make it a little more fair you start with 13 int and a flimsy knife at your feet.\n<br />\n<br />[b][color=#00ffff][size=5]NEW UI[/size][/color][/b]\n<br />[list]\n<br />[*]Press V to activate[/*]\n<br />[*]You can equip/unequip augments and mods via this interface.[/*]\n<br />[*]You can see the statuses of your augmentations and mods (battery charge, uses left ext.)[/*]\n<br />[/list][heading]Brain Mods[/heading]\n<br />[list]\n<br />[*][b]Pain Blocker[/b] — Halves all incoming pain. [i]Ejection: brain flash + vomiting.[/i][/*]\n<br />[*][b]Trap Detector[/b] — Red glow on beartraps, mines, coils, turrets, spikes. [i]Ejection: brain flash + vomiting.[/i][/*]\n<br />[*][b]Sonic Screamer[/b] — Active. 25-unit sonic burst sends nearby creatures fleeing for 2s. [i]3 uses, safe to eject.[/i][/*]\n<br />[*][b]Maso chip [/b]— Pain hurts 10% more, but mood rises the more you suffer. [i]Ejection: 5 brain damage, brain flash, 15 head pain.[/i][/*]\n<br />[*][b]Adrenaline Surge[/b] — Active. Stand up from any ragdoll, even mid-air. Hurts like hell. [i]3 uses, safe to eject.[/i][/*]\n<br />[*][b]Sandivistian[/b] — Active. Military reflex booster, slows perceived time. Severe sickness after 10s. [i]3 uses, can't eject while active, auto-breaks on last use.[/i][/*]\n<br />[*][i][b]Scanning Chip [/b]— hold an item, activate, 3 s scan reveals the recipe and permanently marks the item as recognized (saved across runs)\n<br />[/i]\n<br />[color=#a4c2f4]Notes:\n<br />- brain mods will now be in their own category of items\n<br />- brain mods can be found in new Neuromod boxes (1-3 spawn on each layer, you'll need to find em)\n<br />- Milkies are more likely to have one brain mod in their catalogue[/color][/*]\n<br />[/list]\n<br />[color=#ff0000][b]Augmenting Biological Limbs[/b][/color]\n<br />\n<br />[list]\n<br />[*][color=#ffffff][b]Augment Implant Tool[/b] — a one-shot surgical tool that opens an augment socket directly in a biological arm or leg. Now you can run Powergrip, Steady Hand, Multi-Hacking, or Powersteps without committing to a full prosthetic.[/color][/*]\n<br />[*][color=#ffffff]Use it in the wound view on a Shoulder or Thigh.[/color][/*]\n<br />[*][color=#ffffff]The socket dies with the limb — if the limb gets cut off, the socket is gone.[/color][/*]\n<br />[/list]\n<br />[color=#9900ff][size=5][b]Limb Augments[/b] [/size][/color]\n<br />Battery-powered modifications you install into prosthetic limbs (or into a biological limb if you've used an Implant Tool — see below). All come with their own sprites and sound effects. Toggle them and check status from the cybernetics panel (V by default).\n<br />[list]\n<br />[*][b]Steady Hand[/b] — wrist gyroscope. Cuts gun recoil in half while powered, and shows a live ammo count next to your held item. Small or medium battery.[/*]\n<br />[*][b]Powergrip[/b] — power-assisted palm grip. Held items feel half as heavy, you hit harder, you throw farther, and you keep your grip even if you pass out. Small or medium battery.[/*]\n<br />[*][b]Multi-Hacking[/b] — skips lock-picking minigames, keypads, and blood terminals at a battery cost per use. Small battery can't crack blood terminals; medium can.[/*]\n<br />[*][b]Powersteps[/b] — servo pistons in the thigh. Run faster and jump higher while active: +12.5% with one leg, +25% with both. Small, medium, or large battery. One hotbar key fires both legs at once.[/*]\n<br />[/list][heading]Grappling Hook (Arm Prosthetic Mod)[/heading]\n<br />[list]\n<br />[*]Installs into a [b]scrap[/b] or [b]titanium[/b] arm prosthetic via wound ui or the aug interface panel (press V)[/*]\n<br />[*]Battery-powered — each fire drains charge; hook becomes inert when depleted[/*]\n<br />[*]Live condition % shown in the cybernetics panel [/*]\n<br />[*]1-second cooldown between shots so it can't be spammed.[/*]\n<br />[/list][line]\n<br />[b]Prosthetics[/b]\n<br />[list]\n<br />[*]They are craftable and visible as world items[/*]\n<br />[*]Visually: Seen on your character when applied both in UI and in game.[/*]\n<br />[/list][b]How They Work[/b]\n<br />[list]\n<br />[*]Apply to any missing limb directly from your inventory[/*]\n<br />[*]Restores full limb function — no movement penalty (wooden exception)[/*]\n<br />[*]The wound view updates to show the prosthetic in place of the missing limb[/*]\n<br />[/list][b]Repair[/b]\n<br />[list]\n<br />[*]Use the correct materal to repair skin and muscle damage of a prosthetic[/*]\n<br />[*]Medical items (bandages, bruise kits, LRDs, etc.) do not work on prosthetics[/*]\n<br />[/list][b]Prosthetics Don't...[/b]\n<br />[list]\n<br />[*]Bleed or drip blood[/*]\n<br />[*]Get infected[/*]\n<br />[*]Cause pain[/*]\n<br />[*]Heal passively over time[/*]\n<br />[*]Get broken bones[/*]\n<br />[*]Cant get injected with venom by all kinds of vile creatures[/*]\n<br />[*]Can not be targeted by self-harm event[/*]\n<br />[*]Dune doesnt bite em, if you dont have any normal limbs He wont bite you even if you ask him.[/*]\n<br />[/list][b]Breaking[/b]\n<br />[list]\n<br />[*]If skin or muscle health reaches 0, most prosthetics breaks apart[/*]\n<br />[*]Any impact that would normally break a bone destroys it instead[/*]\n<br />[*]On destruction: drops material at your feet[/*]\n<br />[/list][b]Ripped Dressings and Old Rags[/b]:\n<br />- You can fight off wetness with ripped dressings and old rags by using them on yourself\n<br />\n<br />KeyBinds:\n<br />You can change the three keybinds of my mod game settings in Controlls \n<br />\n<br />Main menu ui:\n<br />[list]\n<br />[*]its a button that alerts you if you need to update.[/*]\n<br />[*]When you click it a  pop up appears that gives you more info and a link to download page.[/*]\n<br />[/list]\n<br />[line]\n<br />[b]Installation[/b] Unpack into:\n<br />[code]Game/BepInEx/plugins/[/code][b]\n<br />[img]https://staticdelivery.nexusmods.com/mods/8391/images/40/40-1781212506-2020377369.png[/img]\n<br />Thats how your plugins folder will look with the mod installed correctly.\n<br />\n<br />Requirements[/b] BepInEx 5.4 · RshLib 2.1.2. ( idk 2.1.3. doesnt work without mp mod)\n<br />\n<br />\n<br />\n<br />[b]IDEAS (Future Content):[/b]\n<br />\n<br />[b]Augmentations / Modifications\n<br />[/b]\n<br />[list]\n<br />[*][b]Shields, you can carry in hand or equip them to your prosthetic, they take the damage from the direction to themselves and prevent your bodyparts from getting cut or shrappnelled, but you recieve blunt damage through them instead, which is reduced. As a con: climbing debuff (covers Arm on which is equipped, Torso, Abdomen, Head, Thighs)[/b][/*]\n<br />[*][b]RTG [/b]or a nuclear battery that yo can attach to your chest via implant tool to make all prosthetics and their mods recharge passively all the time at the cost of having a permanent 2 radiation sickness all the time. Or you can carry it and when it charges batteries it emits radiation 0.1 rad per second when activated (mb you should leave it somewhere then come back or risk the exposure?).[/*]\n<br />[/list]\n<br />[b]Minigames:[/b]\n<br />Change the \"Hand sprite\" in minigames to the current prosthetic sprite.\n<br />I'm thinking about making a brain chip install/eject mini game. (if you fuck up it dmgs brain integrity)\n<br />Maybe: Prosthetic installation.\n<br />Maybe: Cybernetic installation (could be cool to have an insert eye minigame)\n<br />\n<br />If you want to contact me, or stay updated abt the mod via discord you can do that on this server:  [url=https://discord.gg/aCBrFPYYjs]https://discord.gg/aCBrFPYYjs[/url]\n<br />\n<br />P.S. BIG Thanks to everyone who supported and supports me, and YOU for scrolling down here ;)\n<br />[img]https://i.postimg.cc/8kwLsj9s/Screenshot-52.png[/img]\n<br />",
+        "Description": "[b]Prosthetics mod, allows you to replace a missing limb with a prosthetic, that changes gameplay, visuals both as in world items, sprites on your character and in Wound UI. (works with changeskin and spritereplacer mods)[/b]\n<br />\n<br />[b][color=#00ff00]MP STATUS:[/color] Works if both host and client have the mod and requirements (there will be bugs, report them here pls)\n<br />[/b]\n<br />[b][color=#ff0000]Balancing[/color]: the balancing is WIP I would love to hear your opinion on what can be improved, or changed.[/b]\n<br />\n<br />[b][color=#ff0000]ITS WIP[/color], For the future ideas go to the end of description, heres what's currently in the mod:[/b]\n<br />\n<br />[b][color=#783f04]Wooden [/color]prosthetics:[/b]\n<br />[list]\n<br />[*]Get +25% damage from all sources;[/*]\n<br />[*]Deals 80% damage to environment;[/*]\n<br />[*]Slow you down if you have em as legs;[/*]\n<br />[*]Wooden arms cant hold anything besides containers (theese are hooks bro);[/*]\n<br />[*]Upon breaking without wrench you recieve glass shards (splinters) on your nearest normal limb;[/*]\n<br />[*]Can be healed via applying bio-chem, wood scraps, wood panels, sticks in medical ui.\n<br />\n<br />[size=4]New sprites for mini games made by  Il_Disabile[/size][/*]\n<br />[/list][b][color=#999999]Scrap [/color]Prosthetics[/b]\n<br />[list]\n<br />[*][b]prty much the same as a normal limb[/b][/*]\n<br />[*]they dont bleed, infect or get a broken bone[/*]\n<br />[*]can be repaired with: scrap metal, panel, bundle of wires.[/*]\n<br />[/list][b][color=#1155cc]TITANIUM [/color]limbs:[/b]\n<br />Buffs are influenced by hp of the limbs and how wet they are, they can give you debuffs if limbs are damaged or wet.\n<br />[b]Arms[/b]:\n<br />[list]\n<br />[*]Deal more damage with claws, tools, melee weapons[/*]\n<br />[*][s]When you put something in the titanium arm slot it halves the weight of that item..[/s][/*]\n<br />[*]Act as hammering tools when you have em equipped.[/*]\n<br />[/list][b]Legs[/b]:\n<br />[list]\n<br />[*]Make you go faster and jump higher[/*]\n<br />[*]if you have 2 titanium legs it will prevent fall damage unless you are falling while being ragdolled[/*]\n<br />[/list][b]Also[/b]:\n<br />[list]\n<br />[*]Titanium limbs can be repaired with titanium sheets they restore both \"skin\" and \"muscle\"[/*]\n<br />[*]Titanium limbs cant be fully destroyed unless eaten by an elder.[/*]\n<br />[*]Extremely rare and expensive if you find them on traders.[/*]\n<br />[*]You cant take em off unless they have &gt; 80% hp[/*]\n<br />[*]Have 2 mod slots each. \n<br />\n<br />\n<br />[size=4]Epic Wound ui and ingame sprites were made by [/size] [b][color=#cc0000][size=6][font=Arial Black]HelperDeath [/font][/size][/color][/b]\n<br />[/*]\n<br />[/list][b][color=#ff7700]Copper Jaw prosthetic[/color][/b]:\n<br />[list]\n<br />[*]Can be apllied when you lose a jaw[/*]\n<br />[*]Gives 25% dmg resistance to the head[/*]\n<br />[*]Defends against shrapnel and dislocations[/*]\n<br />[*]Broken bone on head event will destroy it tho, no need to fix the \"bone\"[/*]\n<br />[*]Items in the mouth slot will not be dropped when you are unconscious[/*]\n<br />[*]You gain only half of the mood from food sources[/*]\n<br />[/list][color=#00ff00]Prosthetic [b]EYE[/b][/color]:\n<br />\n<br /> — a one-shot surgical tool that opens an augment socket directly in a biological arm or leg. Now you can run Powergrip, Steady Hand, Multi-Hacking, or Powersteps without committing to a full prosthetic.\n<br />\n<br />[list]\n<br />[*]Powered by small,medium batteries[/*]\n<br />[*]Restores sight if its powered[/*]\n<br />[*]Can be your flashlight if you hit F, and if you have both prosthetic eyes the light will be stronger! but at a cost of more energy consumption.[/*]\n<br />[*]You can take out the battery while its in your head via wound ui, or pull it out into inventory and do it there[/*]\n<br />[*]Battery in the prosthetic eye will take damage instead of the eye if it comes to that, if theres no battery the prosthetic eye may be broken same way a normal eye can.[/*]\n<br />[*]Prosthetic eyes can break. If a battery is loaded when it would break, the battery gets destroyed instead and the eye survives — so a charged eye is its own shield.[/*]\n<br />[/list]\n<br />[b]Bonesaw[/b]:\n<br />[b]Added:[/b] Two new bonesaws — a Makeshift Bonesaw you can craft, and a Medicinal Bonesaw that must be found in the world.\n<br />Both allow you to sever a limb regardless of its current state, and do so more efficiently than any other tool.\n<br />\n<br />[b]Plastic fork[/b]: Allows  you to get rid of your \"useless\" biological eye out to make space for an upgrade.\n<br />\n<br />[color=#9900ff][b]NEW CHALLENGE MODE:[/b][/color]\n<br />You start with wooden limbs and an empty prosthetic eye, but just to make it a little more fair you start with 13 int and a flimsy knife at your feet.\n<br />\n<br />[b][color=#00ffff][size=5]NEW UI[/size][/color][/b]\n<br />[list]\n<br />[*]Press V to activate[/*]\n<br />[*]You can equip/unequip augments and mods via this interface.[/*]\n<br />[*]You can see the statuses of your augmentations and mods (battery charge, uses left ext.)[/*]\n<br />[/list][heading]Brain Mods[/heading]\n<br />[list]\n<br />[*][b]Pain Blocker[/b] — Halves all incoming pain. [i]Ejection: brain flash + vomiting.[/i][/*]\n<br />[*][b]Trap Detector[/b] — Red glow on beartraps, mines, coils, turrets, spikes. [i]Ejection: brain flash + vomiting.[/i][/*]\n<br />[*][b]Sonic Screamer[/b] — Active. 25-unit sonic burst sends nearby creatures fleeing for 2s. [i]3 uses, safe to eject.[/i][/*]\n<br />[*][b]Maso chip [/b]— Pain hurts 10% more, but mood rises the more you suffer. [i]Ejection: 5 brain damage, brain flash, 15 head pain.[/i][/*]\n<br />[*][b]Adrenaline Surge[/b] — Active. Stand up from any ragdoll, even mid-air. Hurts like hell. [i]3 uses, safe to eject.[/i][/*]\n<br />[*][b]Sandivistian[/b] — Active. Military reflex booster, slows perceived time. Severe sickness after 10s. [i]3 uses, can't eject while active, auto-breaks on last use.[/i][/*]\n<br />[*][i][b]Scanning Chip [/b]— hold an item, activate, 3 s scan reveals the recipe and permanently marks the item as recognized (saved across runs)\n<br />[/i]\n<br />[color=#a4c2f4]Notes:\n<br />- brain mods will now be in their own category of items\n<br />- brain mods can be found in new Neuromod boxes (1-3 spawn on each layer, you'll need to find em)\n<br />- Milkies are more likely to have one brain mod in their catalogue[/color][/*]\n<br />[/list]\n<br />[color=#ff0000][b]Augmenting Biological Limbs[/b][/color]\n<br />\n<br />[list]\n<br />[*][color=#ffffff][b]Augment Implant Tool[/b] — a one-shot surgical tool that opens an augment socket directly in a biological arm or leg. Now you can run Powergrip, Steady Hand, Multi-Hacking, or Powersteps without committing to a full prosthetic.[/color][/*]\n<br />[*][color=#ffffff]Use it in the wound view on a Shoulder or Thigh.[/color][/*]\n<br />[*][color=#ffffff]The socket dies with the limb — if the limb gets cut off, the socket is gone.[/color][/*]\n<br />[/list]\n<br />[color=#9900ff][size=5][b]Limb Augments[/b] [/size][/color]\n<br />Battery-powered modifications you install into prosthetic limbs (or into a biological limb if you've used an Implant Tool — see below). All come with their own sprites and sound effects. Toggle them and check status from the cybernetics panel (V by default).\n<br />[list]\n<br />[*][b]Steady Hand[/b] — wrist gyroscope. Cuts gun recoil in half while powered, and shows a live ammo count next to your held item. Small or medium battery.[/*]\n<br />[*][b]Powergrip[/b] — power-assisted palm grip. Held items feel half as heavy, you hit harder, you throw farther, and you keep your grip even if you pass out. Small or medium battery.[/*]\n<br />[*][b]Multi-Hacking[/b] — skips lock-picking minigames, keypads, and blood terminals at a battery cost per use. Small battery can't crack blood terminals; medium can.[/*]\n<br />[*][b]Powersteps[/b] — servo pistons in the thigh. Run faster and jump higher while active: +12.5% with one leg, +25% with both. Small, medium, or large battery. One hotbar key fires both legs at once.[/*]\n<br />[/list][heading]Grappling Hook (Arm Prosthetic Mod)[/heading]\n<br />[list]\n<br />[*]Installs into a [b]scrap[/b] or [b]titanium[/b] arm prosthetic via wound ui or the aug interface panel (press V)[/*]\n<br />[*]Battery-powered — each fire drains charge; hook becomes inert when depleted[/*]\n<br />[*]Live condition % shown in the cybernetics panel [/*]\n<br />[*]1-second cooldown between shots so it can't be spammed.[/*]\n<br />[/list][line]\n<br />[b]Prosthetics[/b]\n<br />[list]\n<br />[*]They are craftable and visible as world items[/*]\n<br />[*]Visually: Seen on your character when applied both in UI and in game.[/*]\n<br />[*][color=#3d85c6][b]Wetness [/b][/color]debuffs, when you are wet it can debuff the prosthetic if its an arm you deal less dmg if a leg it slows you down— wet debuffs only kick in once a prosthetic's skin is damaged. The lower the skin HP, the harsher the wetness penalty on that limb.[/*]\n<br />[/list][b]How They Work[/b]\n<br />[list]\n<br />[*]Apply to any missing limb directly from your inventory[/*]\n<br />[*]Restores full limb function — no movement penalty (wooden exception)[/*]\n<br />[*]The wound view updates to show the prosthetic in place of the missing limb[/*]\n<br />[/list][b]Repair[/b]\n<br />[list]\n<br />[*]Use the correct materal to repair skin and muscle damage of a prosthetic[/*]\n<br />[*]Medical items (bandages, bruise kits, LRDs, etc.) do not work on prosthetics[/*]\n<br />[*][b]Welding titanium limbs[/b] — use a [b]plasma cutter[/b] or [b]mini laser drill[/b] in wound view to repair. Costs battery (Large 5%, Medium 20%, Small 30%). Flashbangs you for 3 seconds unless you're wearing a prosthetic eye, safety glasses, auto-zoom goggles, or a blindfold. In multiplayer, nearby unprotected buddies catch the flash too.[/*]\n<br />[*][b]Chain healing[/b] — one repair spreads to adjacent prosthetics of the same kind on the same arm/leg:  \n<br />[list]\n<br />[*][color=#783f04][b]Wood [/b][/color]→ biochem[/*]\n<br />[*][b][color=#cccccc]Scrap [/color][/b]→ bundle of wires[/*]\n<br />[*][b][color=#3c78d8]Titanium [/color][/b]→ plasma cutter / mini laser drill[/*]\n<br />[/list][/*]\n<br />[/list][b]Prosthetics Don't...[/b]\n<br />[list]\n<br />[*]Bleed or drip blood[/*]\n<br />[*]Get infected[/*]\n<br />[*]Cause pain[/*]\n<br />[*]Heal passively over time[/*]\n<br />[*]Get broken bones[/*]\n<br />[*]Cant get injected with venom by all kinds of vile creatures[/*]\n<br />[*]Can not be targeted by self-harm event[/*]\n<br />[*]Dune doesnt bite em, if you dont have any normal limbs He wont bite you even if you ask him.[/*]\n<br />[/list][b]Breaking[/b]\n<br />[list]\n<br />[*]If skin or muscle health reaches 0, most prosthetics breaks apart[/*]\n<br />[*]Any impact that would normally break a bone destroys it instead[/*]\n<br />[*]On destruction: drops material at your feet[/*]\n<br />[/list][b]Ripped Dressings and Old Rags[/b]:\n<br />- You can fight off wetness with ripped dressings and old rags by using them on yourself\n<br />\n<br />KeyBinds:\n<br />You can change the three keybinds of my mod game settings in Controlls \n<br />\n<br />Main menu ui:\n<br />[list]\n<br />[*]its a button that alerts you if you need to update.[/*]\n<br />[*]When you click it a  pop up appears that gives you more info and a link to download page.[/*]\n<br />[/list]\n<br />[line]\n<br />[b]Installation[/b] Unpack into:\n<br />[code]Game/BepInEx/plugins/[/code][b]\n<br />[img]https://staticdelivery.nexusmods.com/mods/8391/images/40/40-1781212506-2020377369.png[/img]\n<br />Thats how your plugins folder will look with the mod installed correctly.\n<br />\n<br />Requirements[/b] BepInEx 5.4 · RshLib 2.1.2. ( idk 2.1.3. doesnt work without mp mod)\n<br />\n<br />\n<br />\n<br />[b]IDEAS (Future Content):[/b]\n<br />\n<br />[b]Augmentations / Modifications\n<br />[/b]\n<br />[list]\n<br />[*][b]Shields, you can carry in hand or equip them to your prosthetic, they take the damage from the direction to themselves and prevent your bodyparts from getting cut or shrappnelled, but you recieve blunt damage through them instead, which is reduced. As a con: climbing debuff (covers Arm on which is equipped, Torso, Abdomen, Head, Thighs)[/b][/*]\n<br />[*][b]RTG [/b]or a nuclear battery that yo can attach to your chest via implant tool to make all prosthetics and their mods recharge passively all the time at the cost of having a permanent 2 radiation sickness all the time. Or you can carry it and when it charges batteries it emits radiation 0.1 rad per second when activated (mb you should leave it somewhere then come back or risk the exposure?).[/*]\n<br />[/list]\n<br />[b]Minigames:[/b]\n<br />Change the \"Hand sprite\" in minigames to the current prosthetic sprite.\n<br />I'm thinking about making a brain chip install/eject mini game. (if you fuck up it dmgs brain integrity)\n<br />Maybe: Prosthetic installation.\n<br />Maybe: Cybernetic installation (could be cool to have an insert eye minigame)\n<br />\n<br />If you want to contact me, or stay updated abt the mod via discord you can do that on this server:  [url=https://discord.gg/aCBrFPYYjs]https://discord.gg/aCBrFPYYjs[/url]\n<br />\n<br />P.S. BIG Thanks to everyone who supported and supports me, and YOU for scrolling down here ;)\n<br />[img]https://i.postimg.cc/8kwLsj9s/Screenshot-52.png[/img]\n<br />",
         "Author": "YOU1ARE0IC",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/40/40-1779805889-188784589.png",
@@ -5210,9 +5396,9 @@
             "prosthetics.dll": "0.8.1"
         },
         "Statistics": {
-            "Endorsements": 123,
-            "UniqueDownloads": 3516,
-            "TotalDownloads": 9829,
+            "Endorsements": 130,
+            "UniqueDownloads": 3606,
+            "TotalDownloads": 10206,
             "TotalViews": null
         },
         "Images": [
@@ -5243,8 +5429,8 @@
         },
         "Statistics": {
             "Endorsements": 29,
-            "UniqueDownloads": 767,
-            "TotalDownloads": 930,
+            "UniqueDownloads": 771,
+            "TotalDownloads": 936,
             "TotalViews": null
         },
         "Images": [
@@ -5276,7 +5462,7 @@
         "Statistics": {
             "Endorsements": 0,
             "UniqueDownloads": 37,
-            "TotalDownloads": 58,
+            "TotalDownloads": 59,
             "TotalViews": null
         },
         "Images": [
@@ -5364,8 +5550,8 @@
         },
         "Statistics": {
             "Endorsements": 8,
-            "UniqueDownloads": 107,
-            "TotalDownloads": 139,
+            "UniqueDownloads": 108,
+            "TotalDownloads": 141,
             "TotalViews": null
         },
         "Images": [
@@ -5396,8 +5582,8 @@
         },
         "Statistics": {
             "Endorsements": 24,
-            "UniqueDownloads": 694,
-            "TotalDownloads": 938,
+            "UniqueDownloads": 707,
+            "TotalDownloads": 953,
             "TotalViews": null
         },
         "Images": [
@@ -5427,9 +5613,9 @@
             "RshLib.dll": "3.0.2"
         },
         "Statistics": {
-            "Endorsements": 140,
-            "UniqueDownloads": 4350,
-            "TotalDownloads": 7596,
+            "Endorsements": 142,
+            "UniqueDownloads": 4437,
+            "TotalDownloads": 7747,
             "TotalViews": null
         },
         "Images": [
@@ -5517,8 +5703,8 @@
         },
         "Statistics": {
             "Endorsements": 37,
-            "UniqueDownloads": 945,
-            "TotalDownloads": 1113,
+            "UniqueDownloads": 954,
+            "TotalDownloads": 1125,
             "TotalViews": null
         },
         "Images": [
@@ -5549,8 +5735,8 @@
         },
         "Statistics": {
             "Endorsements": 21,
-            "UniqueDownloads": 485,
-            "TotalDownloads": 617,
+            "UniqueDownloads": 488,
+            "TotalDownloads": 621,
             "TotalViews": null
         },
         "Images": [
@@ -5582,7 +5768,7 @@
         "Statistics": {
             "Endorsements": 3,
             "UniqueDownloads": 28,
-            "TotalDownloads": 44,
+            "TotalDownloads": 46,
             "TotalViews": null
         },
         "Images": [
@@ -5613,8 +5799,8 @@
         },
         "Statistics": {
             "Endorsements": 6,
-            "UniqueDownloads": 58,
-            "TotalDownloads": 77,
+            "UniqueDownloads": 59,
+            "TotalDownloads": 79,
             "TotalViews": null
         },
         "Images": [
@@ -5797,7 +5983,7 @@
         "Statistics": {
             "Endorsements": 1,
             "UniqueDownloads": 64,
-            "TotalDownloads": 80,
+            "TotalDownloads": 81,
             "TotalViews": null
         },
         "Images": [
@@ -5828,8 +6014,8 @@
         },
         "Statistics": {
             "Endorsements": 8,
-            "UniqueDownloads": 179,
-            "TotalDownloads": 210,
+            "UniqueDownloads": 182,
+            "TotalDownloads": 217,
             "TotalViews": null
         },
         "Images": [
@@ -5861,7 +6047,7 @@
         "Statistics": {
             "Endorsements": 1,
             "UniqueDownloads": 52,
-            "TotalDownloads": 78,
+            "TotalDownloads": 79,
             "TotalViews": null
         },
         "Images": [
@@ -5892,8 +6078,8 @@
         },
         "Statistics": {
             "Endorsements": 7,
-            "UniqueDownloads": 167,
-            "TotalDownloads": 237,
+            "UniqueDownloads": 170,
+            "TotalDownloads": 241,
             "TotalViews": null
         },
         "Images": [
@@ -5924,8 +6110,8 @@
         },
         "Statistics": {
             "Endorsements": 37,
-            "UniqueDownloads": 745,
-            "TotalDownloads": 885,
+            "UniqueDownloads": 752,
+            "TotalDownloads": 894,
             "TotalViews": null
         },
         "Images": [
@@ -5956,8 +6142,8 @@
         },
         "Statistics": {
             "Endorsements": 8,
-            "UniqueDownloads": 204,
-            "TotalDownloads": 294,
+            "UniqueDownloads": 207,
+            "TotalDownloads": 298,
             "TotalViews": null
         },
         "Images": [
@@ -5987,9 +6173,9 @@
             "ScavShrapnelMod.dll": "1.0"
         },
         "Statistics": {
-            "Endorsements": 30,
-            "UniqueDownloads": 673,
-            "TotalDownloads": 914,
+            "Endorsements": 31,
+            "UniqueDownloads": 679,
+            "TotalDownloads": 922,
             "TotalViews": null
         },
         "Images": [
@@ -6019,9 +6205,9 @@
             "body_sprite_replacer.dll": "1.1.0"
         },
         "Statistics": {
-            "Endorsements": 54,
-            "UniqueDownloads": 2304,
-            "TotalDownloads": 2864,
+            "Endorsements": 55,
+            "UniqueDownloads": 2347,
+            "TotalDownloads": 2922,
             "TotalViews": null
         },
         "Images": [
@@ -6084,8 +6270,8 @@
         },
         "Statistics": {
             "Endorsements": 4,
-            "UniqueDownloads": 110,
-            "TotalDownloads": 174,
+            "UniqueDownloads": 111,
+            "TotalDownloads": 176,
             "TotalViews": null
         },
         "Images": [
@@ -6112,8 +6298,8 @@
         "dllVersions": {},
         "Statistics": {
             "Endorsements": 0,
-            "UniqueDownloads": 10,
-            "TotalDownloads": 23,
+            "UniqueDownloads": 11,
+            "TotalDownloads": 25,
             "TotalViews": null
         },
         "Images": [
@@ -6144,8 +6330,8 @@
         },
         "Statistics": {
             "Endorsements": 12,
-            "UniqueDownloads": 423,
-            "TotalDownloads": 546,
+            "UniqueDownloads": 433,
+            "TotalDownloads": 560,
             "TotalViews": null
         },
         "Images": [
@@ -6176,8 +6362,8 @@
         },
         "Statistics": {
             "Endorsements": 34,
-            "UniqueDownloads": 930,
-            "TotalDownloads": 1326,
+            "UniqueDownloads": 951,
+            "TotalDownloads": 1351,
             "TotalViews": null
         },
         "Images": [
@@ -6239,9 +6425,9 @@
             "QoL Unknown.dll": "1.0.4.8"
         },
         "Statistics": {
-            "Endorsements": 211,
-            "UniqueDownloads": 7830,
-            "TotalDownloads": 13374,
+            "Endorsements": 215,
+            "UniqueDownloads": 7943,
+            "TotalDownloads": 13673,
             "TotalViews": null
         },
         "Images": [
@@ -6303,13 +6489,52 @@
             "SandboxDragMode.dll": "1.1.0"
         },
         "Statistics": {
-            "Endorsements": 12,
-            "UniqueDownloads": 380,
-            "TotalDownloads": 436,
+            "Endorsements": 13,
+            "UniqueDownloads": 382,
+            "TotalDownloads": 439,
             "TotalViews": null
         },
         "Images": [
             "https://staticdelivery.nexusmods.com/mods/8391/images/5/5-1768286119-376404011.png"
+        ]
+    },
+    {
+        "Id": "nexus-4",
+        "Name": "Texturse Prolo",
+        "Version": "1.2",
+        "bepinexVersion": "5.6.1",
+        "Description": "\n<br />[b][size=5]— How to install?[/size][/b]\n<br />Just move the folder from the archive to the root directory of the game. If anything happens, click \"Replace\"\n<br />[list]\n<br />[*][color=#ffffff]XUnity.AutoTranslator is already embedded in the archive.[/color][/*]\n<br />[*][color=#e06666]BepInEX required[/color]\n<br />Some textures weren't imported due to technical difficulties.[/*]\n<br />[*]If you want to help me, my discord is: \"Bygau\"[/*]\n<br />[*]To disable the texture pack during the game, press \"Alt+T\".[/*]\n<br />[/list][color=#ff0000][size=5]If you encounter any errors, please post in the comments section for the mod.[/size][/color]",
+        "Author": "Kerfix",
+        "Links": {
+            "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/4/4-1782417284-1005402498.png",
+            "NexusMods": "https://www.nexusmods.com/scavprototype/mods/4"
+        },
+        "DownloadUrl": "nexus://scavprototype/4/1004",
+        "NexusGameDomain": "scavprototype",
+        "NexusModId": 4,
+        "SourceName": "Nexus",
+        "dllNames": [
+            "ExIni.dll",
+            "XUnity.AutoTranslator.Plugin.BepInEx.dll",
+            "XUnity.AutoTranslator.Plugin.Core.dll",
+            "XUnity.AutoTranslator.Plugin.ExtProtocol.dll",
+            "XUnity.Common.dll",
+            "XUnity.ResourceRedirector.BepInEx.dll",
+            "XUnity.ResourceRedirector.dll"
+        ],
+        "dllVersion": "5.6.1",
+        "dllVersions": {
+            "XUnity.ResourceRedirector.BepInEx.dll": "2.1.0",
+            "XUnity.AutoTranslator.Plugin.BepInEx.dll": "5.6.1"
+        },
+        "Statistics": {
+            "Endorsements": 7,
+            "UniqueDownloads": 225,
+            "TotalDownloads": 345,
+            "TotalViews": null
+        },
+        "Images": [
+            "https://staticdelivery.nexusmods.com/mods/8391/images/4/4-1782417284-1005402498.png"
         ]
     },
     {
@@ -6336,8 +6561,8 @@
         },
         "Statistics": {
             "Endorsements": 12,
-            "UniqueDownloads": 408,
-            "TotalDownloads": 464,
+            "UniqueDownloads": 409,
+            "TotalDownloads": 466,
             "TotalViews": null
         },
         "Images": [
@@ -6367,9 +6592,9 @@
             "CU_ItemSpawner_Mod.dll": "1.0.0"
         },
         "Statistics": {
-            "Endorsements": 34,
-            "UniqueDownloads": 1525,
-            "TotalDownloads": 1799,
+            "Endorsements": 36,
+            "UniqueDownloads": 1537,
+            "TotalDownloads": 1814,
             "TotalViews": null
         },
         "Images": [
