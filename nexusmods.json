@@ -1,5 +1,163 @@
 [
     {
+        "Id": "nexus-388",
+        "Name": "Casualty Vitals",
+        "Version": "1.0.0",
+        "bepinexVersion": "0.2.0",
+        "Description": "[size=5]Casualty Vitals\n<br />[/size]\n<br />Casualty Vitals replaces the vanilla Casualties Unknown ECG panel with a richer patient monitor powered by a BepInEx 5 plugin. It adds multi-channel waveform viewing, progressive clinical-ish complications, alarm tinting, manual defibrillator support, and a few strange but medically flavored edge cases.\n<br />\n<br />This is an experimental gameplay/immersion mod. It is not medical advice, a diagnosis tool, or a realistic clinical simulator.\n<br />\n<br />[size=4]Requirements[/size]\n<br />\n<br />- Casualties Unknown Demo\n<br />- [url=https://www.nexusmods.com/scavprototype/mods/32]RshLib[/url]\n<br />- BepInEx 5 for Unity Mono\n<br />- Windows x64 game install\n<br />\n<br />RSHLib is required for the custom medical solution items. Casualty Vitals declares it as a hard dependency, so BepInEx will refuse to load this mod if RSHLib is missing.\n<br />\n<br />[size=4]Installation[/size]\n<br />\n<br />1. Install BepInEx 5 into the Casualties Unknown game folder.\n<br />2. Launch the game once so BepInEx creates its folders.\n<br />3. Install `RshLib.dll` and\n<br />4. Copy `CasualtyVitals.dll` into:\n<br />\n<br />\n<br />&lt;Game Folder&gt;&#92;BepInEx&#92;plugins&#92;\n<br />\n<br />\n<br />\n<br />5. Launch the game.\n<br />6. Check `BepInEx&#92;LogOutput.log` for:\n<br />\n<br />[code]\n<br />Plugin CasualtyVitals is loaded.\n<br />[/code]\n<br />\n<br />The mod keeps normal runtime logging quiet. If the log grows rapidly, look for warnings/errors rather than routine status spam.\n<br />\n<br />[size=4]What It Does[/size]\n<br />\n<br />- Replaces the vanilla health-panel ECG display with a custom monitor overlay.\n<br />- Adds selectable waveform channels:\n<br />  - HEART\n<br />  - SPO2\n<br />  - RESP\n<br />  - ABP\n<br />  - ETCO2\n<br />- Lets channels be previewed by hovering and pinned by clicking.\n<br />- Adds fast channel blending to reduce flicker when the vanilla UI changes rapidly.\n<br />- Adds monitor alarm tinting instead of large alarm text covering the trace.\n<br />- Pulses affected channel buttons during alarms.\n<br />- Supports a photosensitive alarm mode with slower, softer flashing.\n<br />- Hides the custom health monitor during unchipped mode so the vanilla behavior can show through.\n<br />- Adds a manual pulse check for unchipped or low-information playthroughs.\n<br />- Adds custom electrolyte treatment items through RSHLib.\n<br />- Adds elder thornback dread effects with moodles, heartbeat audio, panic HR, and post-fight adrenaline crash.\n<br />- Adds optional gameplay complications that can push vanilla Body fields when enabled.\n<br />\n<br />[size=4]Manual Defibrillator Support[/size]\n<br />\n<br />The manual defibrillator minigame receives its own limited monitor overlay.\n<br />\n<br />It shows:\n<br />\n<br />- HEART\n<br />- SPO2\n<br />- ABP\n<br />\n<br />It does not show:\n<br />\n<br />- RESP\n<br />- ETCO2\n<br />\n<br />AED/manual defib shocks create a short noisy electrical artifact on the heart trace. Higher manual defib charge, or AED shocks, make the artifact slightly more erratic and last a little longer. In unchipped mode, the manual defib monitor can still show the shock artifact while the normal health monitor stays hidden.\n<br />\n<br />Manual defibrillators can also be made rarer in generic loot/trader pools, or made more fragile after each shock, through config. This does not intentionally nerf AEDs.\n<br />\n<br />[size=4]Physiology Layer[/size]\n<br />\n<br />Casualty Vitals reads the current Body state and turns it into monitor behavior instead of only drawing the raw vanilla ECG.\n<br />\n<br />Supported/estimated complication patterns include:\n<br />\n<br />- Hypovolemia\n<br />- Hypoxia\n<br />- Respiratory failure\n<br />- Shock\n<br />- Angina/chest discomfort\n<br />- Ventricular instability\n<br />- Waterlogging/drowning-like respiratory stress\n<br />- Hyperkalemia from banana overload\n<br />- Hypercalcemia from electrolyte medication overdose\n<br />- Electrolyte medication toxicity\n<br />- Elder thornback panic/adrenaline states\n<br />- EtCO2 changes from ventilation, obstruction, waterlogging, perfusion, shock, and external API modifiers\n<br />\n<br />These conditions are progressive. The monitor should often show deterioration before the raw numbers look completely catastrophic.\n<br />\n<br />[size=4]Waveform Changes[/size]\n<br />\n<br />The monitor can display:\n<br />\n<br />- Sinus rhythm\n<br />- Bradycardia\n<br />- Tachycardia\n<br />- SVT-like fast rhythm\n<br />- VTach (now explicitly organized, monomorphic wide-complex)\n<br />- VFib (now fades in continuously instead of snapping)\n<br />- PEA-like electrical activity with poor/no perfusion\n<br />- Asystole (now decays gradually instead of snapping flat)\n<br />- Defib shock artifacts\n<br />- Hyperkalemia morphology with reduced P waves and tall peaked T waves\n<br />- Respiratory distress, apnea, waterlogged, and agonal-like patterns\n<br />- Pleth quality loss with poor oxygen/perfusion\n<br />- ABP loss with low pressure, low blood volume, arrest, or severe ventricular instability\n<br />- Synthetic/robotic ABP morphology when a charged autopump appears to be actively supporting low pressure\n<br />- EtCO2 plateau changes, including higher/waterlogged patterns\n<br />\n<br />[size=4]Manual Pulse Checks[/size]\n<br />\n<br />Holding left click with an empty cursor on the head, wrist, hand, or forearm in the health panel reveals a faint manual pulse trace after a short hold. This is mainly for unchipped playthroughs, but it can also be used in normal runs if you want a rough second opinion without relying fully on the monitor (for some reason?).\n<br />\n<br />The manual trace is intentionally approximate. Higher intelligence improves interpretation: estimates appear with fewer beats, the BPM number tightens faster, and the trace is a little cleaner. Low intelligence takes longer and produces a rougher read.\n<br />\n<br />During or near fibrillation, the manual pulse check becomes hard to interpret instead of giving a clean diagnostic VFib strip. If the patient is crashing that badly, the pulse check should feel like a warning sign, not a perfect monitor.\n<br />\n<br />[size=4]Mod API[/size]\n<br />\n<br />Casualty Vitals v1.0.0+ exposes `CasualtyVitalsApi` for other BepInEx mods. This allows other mods to safely read `VitalsSnapshot` without touching vanilla fields, inject additive condition burdens (`ExternalConditionSignal`), or apply custom waveform modifiers.\n<br />\n<br />[size=4]Gameplay Effects[/size]\n<br />\n<br />The mod can be used as a mostly visual monitor upgrade, or as a gameplay-affecting complication layer.\n<br />\n<br />When `EnableGameplayEffects` is enabled, developing conditions can nudge vanilla Body fields. This can affect stamina, shock, chest pain, abdomen pain, hemothorax pressure, oxygen, respiratory behavior, blood pressure behavior, and fibrillation risk.\n<br />\n<br />The goal is not instant punishment. The goal is to make subtle monitor deterioration matter.\n<br />\n<br />Major gameplay-facing additions include:\n<br />\n<br />- Hyperkalemia can progress from repeated banana eating and can contribute to chest pain, ECG changes, ventricular instability, and fibrillation risk if ignored.\n<br />- Hypercalcemia can occur from calcium gluconate overdose and can push angina/rhythm burden.\n<br />- Calcium gluconate and calcitonin solution are real custom items, not renamed vanilla saline.\n<br />- Both solutions can be consumed orally from the radial menu or injected through the health panel.\n<br />- Oral use takes about 14 mL and acts slowly with lower overdose risk.\n<br />- Injection uses the syringe minigame and can deliver much more at once, so overdose is easier.\n<br />- Each bottle holds 100 mL; injecting more than about 30 mL of either medication is the danger zone.\n<br />- Electrolyte medication overdose adds its own chipped-only moodle instead of pretending to be opiate overdose.\n<br />- Elder thornbacks can trigger Sense of Impending Doom, Horrified, and Focused moodles, boost heartbeat audio, and push panic heart rate toward a configurable maximum.\n<br />- After a thornback encounter ends, the heartbeat fades down over time and the adrenaline crash can lightly drain stamina.\n<br />- Thornback panic suppresses the monitor's hypertensive crisis reaction so dread HR spikes do not immediately become a hypertensive crisis by themselves.\n<br />\n<br />For multiplayer, host-driven gameplay effects are the safest setup. Client-only monitor display is much safer than multiple clients writing vanilla Body fields at the same time (but it does work in a multiplayer setup, or well shouldn't break anything).\n<br />\n<br />[size=4]Custom Medical Items[/size]\n<br />\n<br />RSHLib registers two electrolyte solution items:\n<br />\n<br />- `Calcium Gluconate Solution`\n<br />- `Calcitonin Solution`\n<br />\n<br />Both use embedded sprites, spawn in medical loot pools, and can occasionally appear at traders. They are liquid containers with 100 mL of solution, custom liquid colors, custom locale text, and health-panel injection support.\n<br />\n<br />Calcium gluconate stabilizes dangerous hyperkalemia. Calcitonin counteracts hypercalcemia after electrolyte treatment overdose. They are meant to be dosed carefully: partial oral doses are safer and slower, while health-panel injection is faster but can overdose hard if you dump too much.\n<br />\n<br />[size=4]Banana Hyperkalemia[/size]\n<br />\n<br />Because someone had to make potassium a gameplay mechanic:\n<br />\n<br />- Eating more than about 1.5 bananas inside roughly 3 minutes starts the risk.\n<br />- Each extra half-banana step after that rolls a 50% chance.\n<br />- Each failed roll adds hyperkalemia progress.\n<br />- A very unlucky binge can max out the condition.\n<br />- Hyperkalemia decays by itself, but very slowly.\n<br />- Hyperkalemia contributes to angina burden, chest discomfort, abdomen discomfort, ventricular instability, ECG changes, and fibrillation risk (if enabled).\n<br />\n<br />[size=4]Configuration[/size]\n<br />\n<br />After first launch, BepInEx creates:\n<br />\n<br />[code]\n<br />&lt;Game Folder&gt;&#92;BepInEx&#92;config&#92;CasualtyVitals.cfg\n<br />[/code]\n<br />Useful settings:\n<br />\n<br />[code]\n<br />[Complications]\n<br />EnableGameplayEffects = false\n<br />EnableAutoPumpDiscomfort = false\n<br />EnableThornbackDread = true\n<br />\n<br />[Accessibility]\n<br />PhotosensitiveAlarmMode = false\n<br />\n<br />[Monitor]\n<br />ProcessingDelayMs = 120\n<br />WaveformTimeScale = 0.85\n<br />\n<br />[Thornback Dread]\n<br />AuraDistance = 28\n<br />PanicDistance = 9.5\n<br />MaxHeartRate = 200\n<br />PeakHoldSeconds = 4.5\n<br />CrashStaminaDrain = 0.18\n<br />\n<br />[Manual Pulse ECG]\n<br />EnableManualPulseEcg = true\n<br />HoldSeconds = 3.5\n<br />HistoryScale = 1.4\n<br />HeadOffsetX = 0\n<br />HeadOffsetY = 0\n<br />LeftHandOffsetX = 0\n<br />LeftHandOffsetY = 0\n<br />RightHandOffsetX = 0\n<br />RightHandOffsetY = 0\n<br />\n<br />[Manual Defibrillator]\n<br />LootChanceMultiplier = 1\n<br />ShockConditionLoss = 0\n<br />\n<br />[Debug]\n<br />EnableDebugHotkeys = false\n<br />[/code]\n<br />EnableGameplayEffects = false keeps the monitor behavior without letting the complication layer push vanilla Body fields.\n<br />\n<br />EnableThornbackDread` is separate from `EnableGameplayEffects; turn it off if you only want the monitor/items/API without thornback panic physiology.\n<br />\n<br />PhotosensitiveAlarmMode = true uses slower, softer alarm pulses.\n<br />\n<br />ProcessingDelayMs tunes visual delay against the game's heartbeat/audio feel.\n<br />\n<br />WaveformTimeScale slows or speeds the monitor trace without changing the actual physiology.\n<br />\n<br />Manual pulse ECG offsets are in screen pixels. The config comments include rough presets such as next-to-body, under-limb, and above-limb. The probe also nudges away if it would cover the limb being checked.\n<br />\n<br />LootChanceMultiplier = 0 removes manual defibrillators from generic loot/trader pools. Values above `1` make them more common there. Direct special-case world spawns may still be controlled by the base game.\n<br />\n<br />ShockConditionLoss only applies to the manual defibrillator. The AED is not intentionally affected.\n<br />\n<br />[size=4]Debug Hotkeys[/size]\n<br />\n<br />Debug hotkeys are disabled by default. Enable them in the config if you want to test the monitor quickly.\n<br />\n<br />- F7 - hemorrhage / hypovolemia\n<br />- F8 - hypoxia\n<br />- F9 - ventricular instability\n<br />- F10 - thoracic / respiratory complication\n<br />- F11 - PEA-like state\n<br />[size=1]These hotkeys intentionally alter the current patient.[/size]\n<br />\n<br />This mod also adds console commands for testing internal values:\n<br />\n<br />[code]\n<br />cvlistbodyfields\n<br />cvsetbodyfield &lt;field&gt; &lt;value&gt; [seconds]\n<br />cvgetbodyfield &lt;field&gt;\n<br />[/code]\n<br />[size=4]Compatibility[/size]\n<br />\n<br />This mod is a BepInEx plugin that overlays and disables specific vanilla ECG UI components while active. It may conflict with mods that replace the same health-panel ECG, wound panel, or manual defibrillator minigame UI.\n<br />\n<br />It should be compatible with unrelated item, world, audio, and quality-of-life mods unless they heavily alter the same UI or Body fields.\n<br />\n<br />(as should be noted that this mod looks for \"WoundView\" so if any mod alters it in ways that CasualtyVitals can't see it properly, it might break, but by itself does not alter this class.)\n<br />\n<br />[size=4]Known Limitations[/size]\n<br />\n<br />- The mod estimates some hidden game states because not every useful Body/device detail is exposed cleanly.\n<br />- Autopump activity is inferred from pressure behavior and wearable/battery state.\n<br />- The monitor is stylized for Casualties Unknown rather than a strict medical simulator.\n<br />- Some severe or nonsensical vanilla states can still produce odd combinations, because Casualties Unknown allows odd physiology.\n<br />- The manual defib monitor is intentionally limited and not perfectly accurate.\n<br />- Manual pulse checks are approximate and intentionally affected by intelligence.\n<br />- Gameplay-affecting complications should generally be host-driven in multiplayer.\n<br />- RSHLib must load before the custom solution items can register.\n<br />- Setting the heartRate too high may lead to a game crash (but this is usually in the billions so it's fine in NORMAL gameplay.)\n<br />\n<br />[size=4]Troubleshooting[/size]\n<br />\n<br />If the monitor does not appear:\n<br />\n<br />- Confirm BepInEx 5 loads.\n<br />- Confirm CasualtyVitals.dll is in BepInEx&#92;plugins.\n<br />- Confirm RshLib.dll is in BepInEx&#92;plugins`.\n<br />- Confirm LogOutput.log contains Plugin CasualtyVitals is loaded.\n<br />- Open the health/wound panel; the overlay attaches to the game's ECG UI.\n<br />- If using other UI mods, try disabling anything that changes the health panel or defibrillator UI.\n<br />\n<br />If the log file gets noisy:\n<br />\n<br />- Check for repeated warnings or errors from Casualty Vitals.\n<br />- Routine status messages are intentionally suppressed.\n<br />- Debug hotkey messages only appear when debug hotkeys are enabled and pressed.\n<br />\n<br />If alarm flashing is uncomfortable:\n<br />\n<br />- Set PhotosensitiveAlarmMode = true.\n<br />\n<br />[size=4]Uninstall[/size]\n<br />\n<br />Delete:\n<br />\n<br />[code]\n<br />&lt;Game Folder&gt;&#92;BepInEx&#92;plugins&#92;CasualtyVitals.dll\n<br />[/code]\n<br />Optional:\n<br />\n<br />[code]\n<br />&lt;Game Folder&gt;&#92;BepInEx&#92;config&#92;CasualtyVitals.cfg\n<br />[/code]\n<br />[size=1]If no other mod requires RshLib.dll you can also delete it.[/size]\n<br />\n<br />[size=4]Credits[/size]\n<br />\n<br />- Built with BepInEx 5.\n<br />- Inspired by the [url=https://github.com/ThatOneFBIAgent/VitalSignSimulator]StatPatMon/VitalSign Monitor[/url] simulation work (outside app of mine).\n<br />- Developed for experimental Casualties Unknown medical-monitor modding.\n<br />[size=4]\n<br />Version[/size]\n<br />\n<br />Current workspace version: 1.0.0\n<br />\n<br />This build is experimental and may change as the underlying game and mod hooks are better understood.\n<br />\n<br />",
+        "Author": "yzaCarlos",
+        "Links": {
+            "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/388/388-1782971746-2037319602.png",
+            "NexusMods": "https://www.nexusmods.com/scavprototype/mods/388"
+        },
+        "DownloadUrl": "nexus://scavprototype/388/1081",
+        "NexusGameDomain": "scavprototype",
+        "NexusModId": 388,
+        "SourceName": "Nexus",
+        "dllNames": [
+            "CasualtyVitals.dll"
+        ],
+        "dllVersion": "0.2.0",
+        "dllVersions": {
+            "CasualtyVitals.dll": "0.2.0"
+        },
+        "Statistics": {
+            "Endorsements": 0,
+            "UniqueDownloads": 0,
+            "TotalDownloads": 0,
+            "TotalViews": null
+        },
+        "Images": [
+            "https://staticdelivery.nexusmods.com/mods/8391/images/388/388-1782971746-2037319602.png"
+        ]
+    },
+    {
+        "Id": "nexus-386",
+        "Name": "Axivorn's Experiment NPCs",
+        "Version": "1",
+        "bepinexVersion": "1.27.0",
+        "Description": "[b][size=4][font=Arial Black]Description[/font][/size][/b]\n<br />Experiment NPCs that eat, drink, exercise, wander, bleed, heal, patch themselves up, and fight with melee or guns.\n<br />You can spawn them, provoke them or make them hostile, fight back, open their health panel, give them fent, treat their wounds, and turn them into allies who follow and protect you. Full wound, bleed, and medical systems — same as your character.\n<br />\n<br />[b]Got Issues talk here: [url=https://discord.gg/vDjyqbVX8y]https://discord.gg/vDjyqbVX8y[/url][/b]\n<br />\n<br />[line]\n<br />[heading]Installation instructions[/heading]\n<br />[list=1]\n<br />[*]Install [url=https://docs.bepinex.dev/]BepInEx[/url] for Casualties Unknown (if you don’t already have it).[/*]\n<br />[*]Download and extract the mod zip.[/*]\n<br />[*]Copy the contents into:\n<br />Casualties Unknown/BepInEx/plugins/ [/*]\n<br />[*]Your folder should look like:\n<br />ExpieNPCMod/\n<br />├── AxivornsExpieNPCMod.dll\n<br />├── infectedsprites/\n<br />└── sounds/[/*]\n<br />[*]Remove any old \n<br />[code]ExpieNPCMod.dll[/code] from that folder if you’re updating.[/*]\n<br />[*]Launch the game and load into the Sandbox[/*]\n<br />[/list][line]\n<br />[heading][b]Requirements[/b]\n<br />[list]\n<br />[*]Casualties Unknown (1.0.7)[/*]\n<br />[*]BepInEx 5.x[/*]\n<br />[/list]\n<br />[b]Quick reference[/b]\n<br />[list]\n<br />[*][b]Sandbox settings:[/b] F2[/*]\n<br />[*][b]Make/remove ally (while hovering NPC):[/b] H[/*]\n<br />[*][b]Spawn NPC:[/b]\n<br />[code]spawnexpie random[/code][/*]\n<br />[*][b]Spawn armed:[/b]\n<br />[code]spawnexpie random gun[/code][/*]\n<br />[*][b]Spawn medical:[/b]\n<br />[code]spawnexpie random medical[/code][/*]\n<br />[/list][/heading]\n<br />",
+        "Author": "Axivorn",
+        "Links": {
+            "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/386/386-1782955611-1470098728.png",
+            "NexusMods": "https://www.nexusmods.com/scavprototype/mods/386"
+        },
+        "DownloadUrl": "nexus://scavprototype/386/1072",
+        "NexusGameDomain": "scavprototype",
+        "NexusModId": 386,
+        "SourceName": "Nexus",
+        "dllNames": [
+            "AxivornsExpieNPCMod.dll"
+        ],
+        "dllVersion": "1.27.0",
+        "dllVersions": {
+            "AxivornsExpieNPCMod.dll": "1.27.0"
+        },
+        "Statistics": {
+            "Endorsements": 0,
+            "UniqueDownloads": 0,
+            "TotalDownloads": 0,
+            "TotalViews": null
+        },
+        "Images": [
+            "https://staticdelivery.nexusmods.com/mods/8391/images/386/386-1782955611-1470098728.png"
+        ]
+    },
+    {
+        "Id": "nexus-384",
+        "Name": "Kaizo Unknown",
+        "Version": "1.0",
+        "bepinexVersion": null,
+        "Description": "[size=4][b]Description[/b][/size]\n<br />[color=#D4D4D8][size=3]A very poorly made C:U mod meant to torture you and kill you for every action[/size][/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8]backup your original Assembly-CSharp.dll in casualtiesunknowndemo &gt; CasualtiesUnknown_Data &gt; Managed &gt; Assembly-CSharp.dll by renaming it to Assembly-CSharp.dll.old and copy and paste the new one there[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[color=#D4D4D8][size=3]Most hazards are instantly deadly, some things outright kill you if you even dare to touch it, slight modifications to existing mechanics.[/size][/color]\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#D4D4D8][size=3]Casualties Unknown 7.0.1[/size][/color]",
+        "Author": "Astroneticpulse",
+        "Links": {
+            "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/384/384-1782942352-409015313.png",
+            "NexusMods": "https://www.nexusmods.com/scavprototype/mods/384"
+        },
+        "DownloadUrl": "nexus://scavprototype/384/1069",
+        "NexusGameDomain": "scavprototype",
+        "NexusModId": 384,
+        "SourceName": "Nexus",
+        "dllNames": [
+            "Assembly-CSharp.dll"
+        ],
+        "dllVersion": null,
+        "dllVersions": {},
+        "Statistics": {
+            "Endorsements": 0,
+            "UniqueDownloads": 1,
+            "TotalDownloads": 2,
+            "TotalViews": null
+        },
+        "Images": [
+            "https://staticdelivery.nexusmods.com/mods/8391/images/384/384-1782942352-409015313.png"
+        ]
+    },
+    {
+        "Id": "nexus-383",
+        "Name": "No more oil pipes",
+        "Version": "7.0.1",
+        "bepinexVersion": "7.0.1",
+        "Description": "[size=4][b]Description[/b][/size]\n<br />[color=#D4D4D8]Improves performance, especially in multiplayer. Eliminates the layer flooding issue.[/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[size=3][color=#D4D4D8]Put in BepinEx/Plugins[/color][/size]",
+        "Author": "CavernOfDespair",
+        "Links": {
+            "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/383/383-1782936924-1213314027.png",
+            "NexusMods": "https://www.nexusmods.com/scavprototype/mods/383"
+        },
+        "DownloadUrl": "nexus://scavprototype/383/1067",
+        "NexusGameDomain": "scavprototype",
+        "NexusModId": 383,
+        "SourceName": "Nexus",
+        "dllNames": [
+            "NoOilMod.dll"
+        ],
+        "dllVersion": "7.0.1",
+        "dllVersions": {
+            "NoOilMod.dll": "7.0.1"
+        },
+        "Statistics": {
+            "Endorsements": 0,
+            "UniqueDownloads": 2,
+            "TotalDownloads": 2,
+            "TotalViews": null
+        },
+        "Images": [
+            "https://staticdelivery.nexusmods.com/mods/8391/images/383/383-1782936924-1213314027.png"
+        ]
+    },
+    {
+        "Id": "nexus-382",
+        "Name": "Choose Quit Type",
+        "Version": "1.0.0",
+        "bepinexVersion": "1.0.0",
+        "Description": "[size=4][b]Inspired by [url=https://www.nexusmods.com/scavprototype/mods/144]No Self-Destruct on Quit[/url]. Requires BepInEx![/b][/size]\n<br />\n<br />On the pause menu, you can now hold Left Shift to alternate between the vanilla brain chip explosion quit out and the sandbox-style instant quit to menu.\n<br />\n<br />Now you don't have to be forced to make the choice of how to abandon your runs -- you can mercy kill your suffering Expie OR leave their fate undetermined! How thoughtful of you!",
+        "Author": "IAmLeftie",
+        "Links": {
+            "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/382/382-1782927980-1598388311.png",
+            "NexusMods": "https://www.nexusmods.com/scavprototype/mods/382"
+        },
+        "DownloadUrl": "nexus://scavprototype/382/1060",
+        "NexusGameDomain": "scavprototype",
+        "NexusModId": 382,
+        "SourceName": "Nexus",
+        "dllNames": [
+            "ChooseQuitType.dll"
+        ],
+        "dllVersion": "1.0.0",
+        "dllVersions": {
+            "ChooseQuitType.dll": "1.0.0"
+        },
+        "Statistics": {
+            "Endorsements": 0,
+            "UniqueDownloads": 3,
+            "TotalDownloads": 3,
+            "TotalViews": null
+        },
+        "Images": [
+            "https://staticdelivery.nexusmods.com/mods/8391/images/382/382-1782927980-1598388311.png"
+        ]
+    },
+    {
         "Id": "nexus-381",
         "Name": "Manual Breathing",
         "Version": "1",
@@ -66,29 +224,29 @@
     {
         "Id": "nexus-378",
         "Name": "Russian Mods Translation",
-        "Version": "1.0.0",
-        "bepinexVersion": "1.0.0",
-        "Description": "[size=5]Примечание[/size]\n<br />Я делал этот мод примерно месяц, и прямо перед тем как выложить обнаружил что другой автор залил свой русификатор на модификации. Вы вольны выбирать любой. (привет, если ты это читаешь!!!!!!!! ты крутой &lt;3)\n<br />[line]\n<br />[size=4]Описание[/size]\n<br />Мод, переводящий другие моды. Необычно, да?\n<br />Основная миссия мода - обеспечить качественный перевод на русский язык для большинства модов. Я хочу предоставить один удобный и полный перевод модов. Я старался переводить самое важное - не трогал логи в консолях и то, что и так мега-очевидно или не является игровым UI. Ну и я не переводил то, что еще не успел/не понял как и т.п..\n<br />[line]\n<br />[size=4]Установка[/size]\n<br />Я объясню максимально подробно, хотя зачем. Вы же по-любому уже поставили пару модов раз уж ставите русификатор на них.\n<br />[list=1]\n<br />[*]Установите BepInEx и распакуйте архив в папку с игрой[/*]\n<br />[*]Запустите игру один раз для появления дополнительных файлов[/*]\n<br />[*]Закиньте файлы из архива мода в BepInEx/plugins[/*]\n<br />[*]Вы великолепны.[/*]\n<br />[/list][line]\n<br />[size=4]Список переведённых модификаций[/size]\n<br />[size=3]Список будет пополняться![/size]\n<br />[list]\n<br />[*][size=3][url=https://www.nexusmods.com/scavprototype/mods/67]Casualties Together[/url] ( Не все проверено, у меня нет друзей :( )[/size][/*]\n<br />[*][url=https://www.nexusmods.com/scavprototype/mods/7]QoL Unknown[/url] [/*]\n<br />[*][url=https://www.nexusmods.com/scavprototype/mods/40]Prosthetics[/url] [/*]\n<br />[*][url=https://www.nexusmods.com/scavprototype/mods/43]New Clothing[/url] [/*]\n<br />[*][url=https://www.nexusmods.com/scavprototype/mods/70]Galaxy Gray Technology Company[/url] [/*]\n<br />[*][url=https://www.nexusmods.com/scavprototype/mods/59]Killer's Clothing and Armor[/url] [/*]\n<br />[/list][line]\n<br />[size=4]Контакты[/size]\n<br />К сожалению я не робот и всегда могу где-то ошибиться. Пропустил текст, что-то не перевел, сделал опечатку и т.п.. Не стесняйтесь заходить писать об ошибках или же свои предложения по улучшению сюда:\n<br />[url=https://t.me/RuScavMods][size=4]Телеграм канал[/size][/url]\n<br />[size=3]Или же, если вы стесняетесь[/size]\n<br />[url=https://t.me/Floydba][size=4]М[/size][size=4]ой ТГ[/size][/url]\n<br />[url=https://steamcommunity.com/id/Floydba/][size=4]Мой стим[/size][/url]\n<br />Как-нибудь сделаю дискорд сервер, пока влом.",
+        "Version": "1.0.0.1",
+        "bepinexVersion": "1.0.1.0",
+        "Description": "[size=5]Примечание[/size]\n<br />Я делал этот мод примерно месяц, и прямо перед тем как выложить обнаружил что другой автор залил свой русификатор на модификации. Вы вольны выбирать любой. (привет, если ты это читаешь!!!!!!!! ты крутой &lt;3)\n<br />[line]\n<br />[size=4]Описание[/size]\n<br />Мод, переводящий другие моды. Необычно, да?\n<br />Основная миссия мода - обеспечить качественный перевод на русский язык для большинства модов. Я хочу предоставить один удобный и полный перевод модов. Я старался переводить самое важное - не трогал логи в консолях и то, что и так мега-очевидно или не является игровым UI. Ну и я не переводил то, что еще не успел/не понял как и т.п..\n<br />[line]\n<br />[size=4]Установка[/size]\n<br />Я объясню максимально подробно, хотя зачем. Вы же по-любому уже поставили пару модов раз уж ставите русификатор на них.\n<br />[list=1]\n<br />[*]Установите BepInEx и распакуйте архив в папку с игрой[/*]\n<br />[*]Запустите игру один раз для появления дополнительных файлов[/*]\n<br />[*]Закиньте файлы из архива мода в BepInEx/plugins[/*]\n<br />[*]Вы великолепны.[/*]\n<br />[/list][line]\n<br />[size=4]Список переведённых модификаций[/size]\n<br />[size=3]Список будет пополняться![/size]\n<br />[list]\n<br />[*][size=3][url=https://www.nexusmods.com/scavprototype/mods/67]Casualties Together[/url] ( Не все проверено, у меня нет друзей :( )[/size][/*]\n<br />[*][url=https://www.nexusmods.com/scavprototype/mods/7]QoL Unknown[/url] [/*]\n<br />[*][url=https://www.nexusmods.com/scavprototype/mods/40]Prosthetics[/url] [/*]\n<br />[*][url=https://www.nexusmods.com/scavprototype/mods/43]New Clothing[/url] [/*]\n<br />[*][url=https://www.nexusmods.com/scavprototype/mods/70]Galaxy Gray Technology Company[/url] [/*]\n<br />[*][url=https://www.nexusmods.com/scavprototype/mods/59]Killer's Clothing and Armor[/url] [/*]\n<br />[*][url=https://www.nexusmods.com/scavprototype/mods/122]New Firearms[/url] [/*]\n<br />[/list][line]\n<br />[size=4]Контакты[/size]\n<br />К сожалению я не робот и всегда могу где-то ошибиться. Пропустил текст, что-то не перевел, сделал опечатку и т.п.. Не стесняйтесь заходить писать об ошибках или же свои предложения по улучшению сюда:\n<br />[url=https://t.me/RuScavMods][size=4]Телеграм канал[/size][/url]\n<br />[size=3]Или же, если вы стесняетесь[/size]\n<br />[url=https://t.me/Floydba][size=4]М[/size][size=4]ой ТГ[/size][/url]\n<br />[url=https://steamcommunity.com/id/Floydba/][size=4]Мой стим[/size][/url]\n<br />Как-нибудь сделаю дискорд сервер, пока влом.",
         "Author": "Floydba",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/378/378-1782875102-321669885.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/378"
         },
-        "DownloadUrl": "nexus://scavprototype/378/1054",
+        "DownloadUrl": "nexus://scavprototype/378/1066",
         "NexusGameDomain": "scavprototype",
         "NexusModId": 378,
         "SourceName": "Nexus",
         "dllNames": [
             "RuScavMods.dll"
         ],
-        "dllVersion": "1.0.0",
+        "dllVersion": "1.0.1.0",
         "dllVersions": {
-            "RuScavMods.dll": "1.0.0"
+            "RuScavMods.dll": "1.0.1.0"
         },
         "Statistics": {
-            "Endorsements": 0,
-            "UniqueDownloads": 2,
-            "TotalDownloads": 2,
+            "Endorsements": 1,
+            "UniqueDownloads": 32,
+            "TotalDownloads": 37,
             "TotalViews": null
         },
         "Images": [
@@ -432,29 +590,29 @@
     {
         "Id": "nexus-366",
         "Name": "Lefty Expies",
-        "Version": "2.0.0",
-        "bepinexVersion": "2.0.0",
+        "Version": "2.0.1",
+        "bepinexVersion": "2.0.1",
         "Description": "Make your Expies lefties! This mod makes it so that there's a chance that your Experiment will be left handed or ambidextrous when you start a new run. Left handed Expies prefer to use and default to their left hand instead of their right, and ambidextrous Expies can use both equally, but at a 10% damage penalty across the board as a trade off. Everything is configurable in the game settings!\n<br />\n<br />I haven't tested this mod with multiplayer, use at your own risk.\n<br />\n<br />A known issue is that if you load a save file, all future runs until you close the game will always have the same handedness. Not sure why, but a quick restart fixes it!\n<br />\n<br />Currently has support for the following languages:\n<br />- English (Courtesy of myself)\n<br />- Spanish (Machine translated)\n<br />- Italian (Machine translated)\n<br />- Russian (Machine translated)\n<br />- Ukrainian (Machine translated)\n<br />- Vietnamese (Courtesy of InklessBrush)\n<br />- Simplified Chinese (Machine translated)\n<br />- Romanian (Machine translated)\n<br />- Korean (Machine Translated)\n<br />\n<br />Please let me know if you find any errors or would like to contribute!\n<br />\n<br />[size=5][b]Requires BepInEx and CUCoreLib![/b][/size]\n<br />\n<br />[b]If the mod does not work:[/b]\n<br />1.  Open the BepInEx config at\n<br />[code]C:&#92;Program Files (x86)&#92;Steam&#92;steamapps&#92;common&#92;Casualties Unknown Demo&#92;BepInEx&#92;config&#92;BepInEx.cfg[/code]2. Change HideManagerGameObject to true:[img]https://files.catbox.moe/y9wzou.png[/img]\n<br />\n<br />Future ideas:\n<br />- Explicit multiplayer mod support\n<br />",
         "Author": "IAmLeftie",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/366/366-1782582137-1051220565.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/366"
         },
-        "DownloadUrl": "nexus://scavprototype/366/1026",
+        "DownloadUrl": "nexus://scavprototype/366/1059",
         "NexusGameDomain": "scavprototype",
         "NexusModId": 366,
         "SourceName": "Nexus",
         "dllNames": [
             "LeftyExpie.dll"
         ],
-        "dllVersion": "2.0.0",
+        "dllVersion": "2.0.1",
         "dllVersions": {
-            "LeftyExpie.dll": "2.0.0"
+            "LeftyExpie.dll": "2.0.1"
         },
         "Statistics": {
             "Endorsements": 1,
-            "UniqueDownloads": 23,
-            "TotalDownloads": 35,
+            "UniqueDownloads": 35,
+            "TotalDownloads": 52,
             "TotalViews": null
         },
         "Images": [
@@ -5995,29 +6153,29 @@
     {
         "Id": "nexus-32",
         "Name": "RshLib",
-        "Version": "3.1.0",
-        "bepinexVersion": "3.1.0",
+        "Version": "3.1.1",
+        "bepinexVersion": "3.1.1",
         "Description": "[size=4][font=Arial][url=https://github.com/rushellxyz/rshlib]GitHub[/url] repository[/font][/size]\n<br />\n<br />[b][size=4][font=Arial]Installation instruction[/font][/size][/b]\n<br />Download `RshLib.3.1.0` and put RshLib.dll into BepInEx/plugins\n<br />You can ensure that RshLib is loaded by seeing \"This is a modded beta\" in top of screen\n<br />\n<br />[size=4][b]If you're installing mods for first time (dont have BepInEx)[/b][/size]\n<br />Go to BepInEx download page\n<br />https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5\n<br />And download BepInEx_win_x64_5.4.23.5\n<br />Open steam, choose browse local file\n<br />Extract BepInEx contents into game folder's root (winhttp.dll should be in same folder as executable)\n<br />Open game once and close\n<br />Now folder BepInEx/plugins should be created\n<br />\n<br />Additional instruction for Linux users:\n<br />[spoiler]Add  `WINEDLLOVERRIDES=\"winhttp=n,b\"  %command%` into launch arguments[/spoiler]\n<br />[b][size=4]Multiplayer support![/size][/b]\n<br />Both client and server should have RshLib and all other mods\n<br />\n<br />[b][size=4]Known bugs[/size][/b]\n<br />None\n<br />\n<br />\n<br />[b][size=4]For developers[/size][/b]\n<br />[spoiler]Why are you even need RshLib?\n<br />In a nutshell: If two different mods try to implement code for custom items, only one will work. RshLib implements this code and other mods now tells RshLib to add they're item into that code\n<br />\n<br />Building example\n<br />Put RshLib.dll into BepInEx/plugins/\n<br />In RshLibExample.csproj replace all /home/rushell/Documents/CU/ to your path to game\n<br />then `dotnet build`\n<br />Put RshLibExample.dll from bin/Debug/netstandard2.1/ to BepInEx/plugins/\n<br />And put neuraldestroyer.png to BepInEx/plugins/ too\n<br />\n<br />Writing plugin for custom item:\n<br />There's source code of example, you might wanna check it\n<br />Firstly add reference to RshLib.dll into csproj\n<br />Add com.rushellxyz.rshlib to BepInExDependency\n<br />Create new ItemInfo, you can see how it works in game's code\n<br />Give your item fullname, description\n<br />ALWAYS call SetTags() for every ItemInfo\n<br />And call RshLib.Plugin.RegisterItem(itemId, new RshItem\n<br />{\n<br />  sprite = Sprite,\n<br />  info = ItemInfo\n<br />})\n<br />There's also onSpawn option in case if you wanna add component to item and baseItem if you wanna fix to shitty colliders\n<br />\n<br />P.S. The thumbnail is supposed to be like a gears, but im not an artist to draw &gt;&lt; if someone could upload something better i will make it a thumbnail[/spoiler]\n<br />\n<br />",
         "Author": "RushellXYZ",
         "Links": {
             "Icon": "https://staticdelivery.nexusmods.com/mods/8391/images/32/32-1777285860-206331044.png",
             "NexusMods": "https://www.nexusmods.com/scavprototype/mods/32"
         },
-        "DownloadUrl": "nexus://scavprototype/32/1043",
+        "DownloadUrl": "nexus://scavprototype/32/1062",
         "NexusGameDomain": "scavprototype",
         "NexusModId": 32,
         "SourceName": "Nexus",
         "dllNames": [
             "RshLib.dll"
         ],
-        "dllVersion": "3.1.0",
+        "dllVersion": "3.1.1",
         "dllVersions": {
-            "RshLib.dll": "3.1.0"
+            "RshLib.dll": "3.1.1"
         },
         "Statistics": {
-            "Endorsements": 145,
-            "UniqueDownloads": 4659,
-            "TotalDownloads": 8140,
+            "Endorsements": 151,
+            "UniqueDownloads": 4767,
+            "TotalDownloads": 8410,
             "TotalViews": null
         },
         "Images": [
